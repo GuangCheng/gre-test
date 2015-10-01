@@ -59,7 +59,11 @@ r   =   REPEAT_QUESTION
 u   =   USAGE_EXAMPLES
 uu  =   USAGE_WORD_EXAMPLES
 
+TRUE    =   1
+FALSE   =   0
+
 NEW_WORDS_PER_SESSION   =   10
+ENABLE_SENTENCES_SEARCH =   FALSE
 
 class newWord:
     def __init__(self,newDataEntry,state=None,viewed=None,avg_time=None):
@@ -894,14 +898,14 @@ class MyTest:
         if countLearned+countLearning>countNew:
             if countLearned>countLearning:#Case A
                 if wordState==STATUS_LEARNED:
-                    Probabilities=[0,5,10,72]
+                    Probabilities=[0,5,10,72*ENABLE_SENTENCES_SEARCH]
                 elif wordState==STATUS_LEARNING:
-                    Probabilities=[0,30,75,10]
+                    Probabilities=[0,30,75,10*ENABLE_SENTENCES_SEARCH]
                 else:
-                    Probabilities=[0,15,65,5]
+                    Probabilities=[0,15,65,5*ENABLE_SENTENCES_SEARCH]
             else:#Case B
                 if wordState==STATUS_LEARNED:
-                    Probabilities=[5,30,75,10]
+                    Probabilities=[5,30,75,10*ENABLE_SENTENCES_SEARCH]
                 elif wordState==STATUS_LEARNING:
                     Probabilities=[5,15,65,0]
                 else:
