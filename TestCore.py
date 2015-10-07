@@ -242,6 +242,69 @@ class MyTest:
             text_file.close()
         self.wordList.extend(newWordList)
         print CM.ATTENTION+"# Imported",len(newWordList),"words from barron17th (http://www.vocabulary.com/)"
+    def removeTags(self,text):
+        text=text.encode('ascii','ignore')
+        #Remove HTML tags
+        newText=''
+        iniTag=text.find('<')
+        while iniTag>=0:
+            newText+=text[:iniTag]
+            endTag=text.find('>')
+            text=text[endTag+1:]
+            iniTag=text.find('<')
+        #Remove &nbsp; tags
+        text=newText
+        iniTag=text.find('&')
+        caseT=False
+        if iniTag>=0:
+            caseT=True
+        while iniTag>=0:
+            text=text[:iniTag]+text[(iniTag+6):]
+            iniTag=text.find('&')
+        if caseT:
+            print text
+        newText=text
+        #Remove space trails
+        while newText[0]==' ':
+            newText=newText[1:]
+        while newText[-1]==' ':
+            newText=newText[:-1]
+        return newText
+    def getWordsList_flashCard180_web(self):
+        page = requests.get("http://www.flashcardmachine.com/gre-180-frequentlyusedwords.html")
+        newWordListDef=page.text.split("<tr valign=\"top\">")[2:]
+        print len(newWordListDef)
+        newWordList=[]
+        for each in newWordListDef:
+            definition=each.split("<td align=\"center\"><b><p>")[1:3]
+            try:
+                label=definition[0].split("\n")[0]
+                definition=definition[1].split("\n")[0]
+                label=self.removeTags(label)
+                definition=self.removeTags(definition)
+            except:
+                print "ERROR"#each
+            newWordList.append([label,definition])
+        return newWordList
+    def getWordsList_flashCard180(self):
+        label="getWordsList_flashCard180"
+        filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".txt"
+        path = os.path.dirname(filename)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        if os.path.isfile(filename)==False:
+            #WEB method
+            newWordList=self.getWordsList_flashCard180_web()
+            text_file = open(filename, "w")
+            text_file.write(json.dumps(newWordList))
+            text_file.close()
+        else:
+            #FILE method
+            text_file = open(filename, "r")
+            newWordList=json.loads(text_file.read())
+            text_file.close()
+        self.wordList.extend(newWordList)
+        print CM.ATTENTION+"# Imported",len(newWordList),"words from flashCard180 (http://www.flashcardmachine.com/)"
     def getWordsList_top1000_web(self):
         page = requests.get("http://www.vocabulary.com/lists/52473#view=notes")
         newWordListDef=page.text.split("<a class=\"word dynamictext\" href=\"/dictionary/")[1:]
@@ -733,6 +796,7 @@ class MyTest:
                 self.wordListLearning[self.wordList[i][0]].addMeaning(self.wordList[i])
             else:
                 self.wordListNew[self.wordList[i][0]]=newWord(self.wordList[i])
+        print "There are",len(self.wordListNew),"new words from those sources"
     def limitNewWords(self):
         self.totalNewNotLimited=len(self.wordListNew)
         if self.totalNewNotLimited>self.limitWordsPerSession:
@@ -756,18 +820,23 @@ class MyTest:
         self.loadLearningWordsByWord()
         ##Select which list to load
         self.getWordsList_crunchprep101()
-        self.getWordsList_barron17th()
-        self.getWordsList_barron333()
-        self.getWordsList_barron800()
-        self.getWordsList_top1000()
+        self.getWordsList_flashCard180()
+##        self.getWordsList_barron17th()
+##        self.getWordsList_barron333()
+##        self.getWordsList_barron800()
+##        self.getWordsList_top1000()
+        
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
 ##        self.getWordsList_wordsinasentence()
 ##        self.getWordsList_barron4k()
+        
         ##Sort, give format and check new words
         self.standardFormat_sortWords()
+        
         ##Special request of new words
-        self.specialWordFilter('a')
+##        self.specialWordFilter('c')
+        
         ##Limit the number of new words per session
         self.limitNewWords()
         self.separatingLine()
