@@ -63,6 +63,7 @@ TRUE    =   1
 FALSE   =   0
 
 NEW_WORDS_PER_SESSION   =   10
+OPTIONS_PER_QUESTION    =   5
 ENABLE_SENTENCES_SEARCH =   FALSE
 
 class newWord:
@@ -146,7 +147,7 @@ class MyTest:
         self.limitWordsPerSession   =   NEW_WORDS_PER_SESSION
         self.quizMode               =   None
         self.Intents                =   1       
-        self.options                =   5
+        self.options                =   OPTIONS_PER_QUESTION
         self.prob_test_new          =   0.5
         self.prob_learned           =   0.3
         self.prob_learning          =   0.2
