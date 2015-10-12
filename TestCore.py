@@ -822,8 +822,8 @@ class MyTest:
         ##Select which list to load
         self.getWordsList_crunchprep101()
         self.getWordsList_flashCard180()
-##        self.getWordsList_barron17th()
-##        self.getWordsList_barron333()
+        self.getWordsList_barron17th()
+        self.getWordsList_barron333()
 ##        self.getWordsList_barron800()
 ##        self.getWordsList_top1000()
         
