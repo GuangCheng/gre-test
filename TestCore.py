@@ -18,13 +18,17 @@
 
 import json
 import urllib
-import requests   
+import requests
+
+from PyPDF2 import PdfFileWriter, PdfFileReader
 
 import random
 from datetime import datetime
 
 import os
 import time
+
+from StringIO import StringIO
 
 import ColorMessage as CM
 
@@ -1031,9 +1035,79 @@ class MyTest:
                         print CM.INCORRECT+"You didn't even try..."
         print CM.CORRECT+"Saving Progress..."
         self.saveProgress()
+##    def getPDFContent(self,path):
+##        content = ""
+##        num_pages = 10
+##        p = file(path, "rb")
+##        pdf = pyPdf.PdfFileReader(p)
+##        for i in range(0, num_pages):
+##            content += pdf.getPage(i).extractText() + "\n"
+##        content = " ".join(content.replace(u"\xa0", " ").strip().split())
+##        return content
+    def readPdf(self):
+        # Read each line of the PDF
+        label="magoosh-gre-1000-words_oct01"
+        filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".pdf"
+        inputRaw = PdfFileReader(open(filename, "rb"))
+
+        # print how many pages input1 has:
+        num_pages=inputRaw.getNumPages()
+
+        #70 on 1st page to get the first useful line
+        #30 after 1st page to get the first useful line
+        text=''
+        pageRaw=inputRaw.getPage(88).extractText().encode('ascii','ignore')+'\n'
+        pageRaw=pageRaw[70:]
+        for line in pageRaw:
+            text+=line
+##        for i in range(1,num_pages):
+##            pageRaw=inputRaw.getPage(i).extractText().encode('ascii','ignore')+'\n'
+##            pageRaw=pageRaw[30:]
+##            for line in pageRaw:
+##                text+=line
+##            print "Finished",i
+        text=text.split('\n')
+        for i in range(len(text))[::-1]:
+            if text[i]==' ' or text[i]=='':
+                del(text[i])
+        print text
+        for i in range(len(text))[::-1]:
+            if text[i]=='(':
+                text[i]="#("
+                text[i+2]=")#"
+                j=i+4
+                search=True
+                while search:
+                    if text[j][0].isupper():
+                        text[j]='#'+text[j]
+                        search=False
+                    else:
+                        j+=1
+                j=i-1
+                search=True
+                while search:
+                    if text[j][-1]=='.':
+                        search=False
+                        text[j]='#'+text[j]
+                    else:
+                        j-=1
+        newText=''
+        for each in text:
+            newText+=each
+        text=newText.split('#')[1:]
+        data=[]
+        for i in range(len(text)/4):
+            data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
+        print (data)
+        
+##        pdfContent = StringIO(getPDFContent(filename).encode("ascii", "ignore"))
+##        for line in pdfContent:
+##            print line.strip()
+        
 
 ##Simple application
 thisTest=MyTest()
+##thisTest.readPdf()
 thisTest.quickTest()
 
 ##thisTest.quickTestWord()
