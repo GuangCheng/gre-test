@@ -1,3 +1,5 @@
+##Changes for V1.5 include
+##- Test to write word
 ##Changes for V1.4 include
 ##- Special request of words (by alphabet)
 ##Changes for V1.3 include
@@ -20,7 +22,7 @@ import json
 import urllib
 import requests
 
-from PyPDF2 import PdfFileWriter, PdfFileReader
+##from PyPDF2 import PdfFileWriter, PdfFileReader
 
 import random
 from datetime import datetime
@@ -39,6 +41,7 @@ SKIP_QUESTION       =   -4
 USAGE_EXAMPLES      =   -5
 USAGE_WORD_EXAMPLES =   -6
 REPEAT_QUESTION     =   -7
+STRING_SOLUTION     =   -8
 
 STATUS_NEW      =   1
 STATUS_MISTAKEN =   2
@@ -52,8 +55,9 @@ TEST_LEARNING   =   3
 
 QUIZ_SHOW       =   0
 QUIZ_WORD       =   1
-QUIZ_MEANING    =   2
-QUIZ_SENTENCE   =   3
+QUIZ_WRITE_WORD =   2
+QUIZ_MEANING    =   3
+QUIZ_SENTENCE   =   4
 
 q   =   QUIT_TEST
 c   =   CHANGE_SENTENCE
@@ -68,7 +72,7 @@ FALSE   =   0
 
 NEW_WORDS_PER_SESSION   =   10
 OPTIONS_PER_QUESTION    =   5
-ENABLE_SENTENCES_SEARCH =   FALSE
+ENABLE_SENTENCES_SEARCH =   0.1#FALSE
 
 class newWord:
     def __init__(self,newDataEntry,state=None,viewed=None,avg_time=None):
@@ -612,7 +616,12 @@ class MyTest:
     def showSolution(self,userSolution=None):
         if userSolution!=None:
             self.total+=1
-            if self.word==self.mappingAnswer[userSolution]:
+            veredict=False
+            if type(userSolution)==str:
+                veredict=(userSolution==self.word)
+            else:
+                veredict=(self.word==self.mappingAnswer[userSolution])
+            if veredict:
                 self.currentWordDetailts.addNewAnswer(True)
                 print CM.CORRECT+"Correct.",CM.QUESTION+self.word,CM.CORRECT+"::",CM.OPTIONS+self.currentWordDetailts.getMeaning()
                 self.reintegrateQuizWords()
@@ -651,13 +660,17 @@ class MyTest:
         start = time.time()
         while incomplete==True:
             try:
-                userSolution = int(input(CM.NORMAL+"Write your solution: "+CM.USER))
+                userSolutionRaw=input(CM.NORMAL+"Write your solution: "+CM.USER)
+                if type(userSolutionRaw)==int:
+                    userSolution = int(userSolutionRaw)
+                else:
+                    userSolution = userSolutionRaw
             except:
                 print CM.NORMAL+"Wrong command, please try again, or press (q) to exit"
                 self.separatingLine()
                 continue
             if userSolution==0:
-                #TASK: check all the cases Word, Meaning, Sentence
+                #TASK: check all the different cases Word, Meaning, Sentence
                 self.showDefinition()
             elif userSolution==USAGE_WORD_EXAMPLES:
                 word=""
@@ -695,15 +708,25 @@ class MyTest:
             elif userSolution==SHOW_DEFINITIONS:
                 self.showOptionsDefinitions()
             else:
-                if userSolution>self.options:
-                    print "Wrong selection, please try again"
-                    self.separatingLine()
-                    continue
+                if type(userSolution)==int:
+                    if userSolution>self.options:
+                        print "Wrong selection, please try again"
+                        self.separatingLine()
+                        continue
                 if self.showSolution(userSolution):
                     delta=round(time.time()-start,1)
                     print CM.TIME+"Spend time:",delta,"seconds"+CM.END
                     self.currentWordDetailts.addNewTime(delta)
                     incomplete=False
+    def shuffleWord(self):
+        tmp=[]
+        word=self.word[:(len(self.word)/3)]
+        for each in self.word[(len(self.word)/3):]:
+            tmp.append(each)
+        random.shuffle(tmp)
+        for each in tmp:
+            word+=each
+        return word
     def emptyExamples(self):
         self.sentenceExamples=[]
     def showQuizSentence(self):
@@ -718,6 +741,11 @@ class MyTest:
         print CM.QUESTION+self.word
         self.separatingLine()
         self.showOptionsMeanings()
+    def showQuizWriteWord(self):
+        print CM.QUESTION+self.currentWordDetailts.getMeaning()
+        print CM.OPTIONS+self.shuffleWord()
+        self.separatingLine()
+        
     def showQuizShow(self):
         self.showOptionsDefinitions()
 
@@ -828,7 +856,7 @@ class MyTest:
         self.getWordsList_flashCard180()
         self.getWordsList_barron17th()
         self.getWordsList_barron333()
-##        self.getWordsList_barron800()
+        self.getWordsList_barron800()
 ##        self.getWordsList_top1000()
         
 ##        self.getWordsList_graduateshotline()
@@ -911,7 +939,9 @@ class MyTest:
         text_file.close()
     def selectWordTest(self):
         x=random.random()
-        if x<self.prob_test_new:
+        #No need to search for new words when we enter the quiz to write the word
+        #would only need to search the words learned and under learning
+        if x<self.prob_test_new and self.quizMode!=QUIZ_WRITE_WORD:
             return TEST_NEW
         elif x<(1-self.prob_learning):
             return TEST_LEARNED
@@ -972,7 +1002,7 @@ class MyTest:
         if countLearned+countLearning>countNew:
             if countLearned>countLearning:#Case A
                 if wordState==STATUS_LEARNED:
-                    Probabilities=[0,5,10,72*ENABLE_SENTENCES_SEARCH]
+                    Probabilities=[0,8,25,72*ENABLE_SENTENCES_SEARCH]
                 elif wordState==STATUS_LEARNING:
                     Probabilities=[0,30,75,10*ENABLE_SENTENCES_SEARCH]
                 else:
@@ -1004,6 +1034,9 @@ class MyTest:
         if value<Probabilities[1]:
             return QUIZ_MEANING
         if value<Probabilities[2]:
+            value=random.random()
+            if value<0.5:
+                return QUIZ_WRITE_WORD
             return QUIZ_WORD
         return QUIZ_SENTENCE
     def quickTest(self,quizType=None):
@@ -1012,11 +1045,16 @@ class MyTest:
         self.initQuizConditions()
         while self.incompleteTest:
             self.emptyExamples()
+##            if quizType==QUIZ_WRITE_WORD:
+##                self.getRandomQuiz()
+##            else:
             quizType=self.getRandomQuiz()
             if quizType==QUIZ_SHOW:
                 self.thisquiz=self.showQuizShow
             elif quizType==QUIZ_WORD:
                 self.thisquiz=self.showQuizWord
+            elif quizType==QUIZ_WRITE_WORD:
+                self.thisquiz=self.showQuizWriteWord
             elif quizType==QUIZ_MEANING:
                 self.thisquiz=self.showQuizMeaning
             elif quizType==QUIZ_SENTENCE:
@@ -1108,7 +1146,7 @@ class MyTest:
 ##Simple application
 thisTest=MyTest()
 ##thisTest.readPdf()
-thisTest.quickTest()
+thisTest.quickTest()#QUIZ_WRITE_WORD
 
 ##thisTest.quickTestWord()
 time.sleep(1.5)
