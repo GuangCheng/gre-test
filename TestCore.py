@@ -59,6 +59,9 @@ QUIZ_WRITE_WORD =   2
 QUIZ_MEANING    =   3
 QUIZ_SENTENCE   =   4
 
+TRUE    =   1
+FALSE   =   0
+
 q   =   QUIT_TEST
 c   =   CHANGE_SENTENCE
 d   =   SHOW_DEFINITIONS
@@ -66,10 +69,10 @@ s   =   SKIP_QUESTION
 r   =   REPEAT_QUESTION
 u   =   USAGE_EXAMPLES
 uu  =   USAGE_WORD_EXAMPLES
+y   =   TRUE
+n   =   FALSE
 
-TRUE    =   1
-FALSE   =   0
-
+TOP_HARD_WORDS_PRIORITY =   10
 NEW_WORDS_PER_SESSION   =   10
 OPTIONS_PER_QUESTION    =   5
 ENABLE_SENTENCES_SEARCH =   0.1#FALSE
@@ -805,8 +808,8 @@ class MyTest:
         #Separate which are learned and which are learning
         self.wordListLearned={}
         self.wordListLearning={}
-        self.loadProgress()
         self.wordListNew={}
+        self.loadProgress()
     def standardFormat_sortWords(self):        
         for i in range(len(self.wordList)):
             #only lowercase word
@@ -961,7 +964,10 @@ class MyTest:
                 typeWord=self.selectWordTest()
                 if typeWord==TEST_LEARNED:
                     if len(self.wordListLearned)>0:
-                        selectedWord=random.choice(self.wordListLearned.keys())
+                        if random.random()<0.5:
+                            selectedWord=random.choice(self.wordListLearned.keys())
+                        else:
+                            selectedWord=random.choice(self.getTopHardLearnedWords())
                         selectedObject=self.wordListLearned[selectedWord]
                         countLearned+=1
                         del(self.wordListLearned[selectedWord])
@@ -1039,6 +1045,15 @@ class MyTest:
                 return QUIZ_WRITE_WORD
             return QUIZ_WORD
         return QUIZ_SENTENCE
+    def getTopHardLearnedWords(self):
+        topHard=[]
+        for each in self.wordListLearned:
+            topHard.append([self.wordListLearned[each].avg_time,self.wordListLearned[each].word])
+        topHard.sort()
+        del(topHard[:-TOP_HARD_WORDS_PRIORITY])
+        for i in range(len(topHard)):
+            topHard[i]=topHard[i][1]
+        return topHard
     def quickTest(self,quizType=None):
         #Shows a word, have to search the meaning of the word
         self.quizMode=quizType
