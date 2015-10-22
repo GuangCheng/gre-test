@@ -860,7 +860,7 @@ class MyTest:
         self.getWordsList_barron17th()
         self.getWordsList_barron333()
         self.getWordsList_barron800()
-##        self.getWordsList_top1000()
+        self.getWordsList_top1000()
         
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
@@ -1109,8 +1109,12 @@ class MyTest:
         #70 on 1st page to get the first useful line
         #30 after 1st page to get the first useful line
         text=''
-        pageRaw=inputRaw.getPage(88).extractText().encode('ascii','ignore')+'\n'
-        pageRaw=pageRaw[70:]
+        page=7
+        pageRaw=inputRaw.getPage(page).extractText().encode('ascii','ignore')+'\n'
+        if page==0:
+            pageRaw=pageRaw[70:]
+        else:
+            pageRaw=pageRaw[35:]
         for line in pageRaw:
             text+=line
 ##        for i in range(1,num_pages):
@@ -1119,11 +1123,12 @@ class MyTest:
 ##            for line in pageRaw:
 ##                text+=line
 ##            print "Finished",i
+        print text
         text=text.split('\n')
         for i in range(len(text))[::-1]:
             if text[i]==' ' or text[i]=='':
                 del(text[i])
-        print text
+##        print text
         for i in range(len(text))[::-1]:
             if text[i]=='(':
                 text[i]="#("
@@ -1151,7 +1156,7 @@ class MyTest:
         data=[]
         for i in range(len(text)/4):
             data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
-        print (data)
+##        print len(data),(data)
         
 ##        pdfContent = StringIO(getPDFContent(filename).encode("ascii", "ignore"))
 ##        for line in pdfContent:
