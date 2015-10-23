@@ -1109,54 +1109,70 @@ class MyTest:
         #70 on 1st page to get the first useful line
         #30 after 1st page to get the first useful line
         text=''
-        page=7
-        pageRaw=inputRaw.getPage(page).extractText().encode('ascii','ignore')+'\n'
-        if page==0:
-            pageRaw=pageRaw[70:]
-        else:
-            pageRaw=pageRaw[35:]
-        for line in pageRaw:
-            text+=line
-##        for i in range(1,num_pages):
-##            pageRaw=inputRaw.getPage(i).extractText().encode('ascii','ignore')+'\n'
-##            pageRaw=pageRaw[30:]
-##            for line in pageRaw:
-##                text+=line
-##            print "Finished",i
-        print text
+        print "Finished pages:",
+        for page in range(0,num_pages):            
+            pageRaw=inputRaw.getPage(page).extractText().encode('ascii','ignore')+'\n'
+            if page==0:
+                pageRaw=pageRaw[70:]
+            else:
+                pageRaw=pageRaw[35:]
+            for line in pageRaw:
+                text+=line
+            print page+1,",",
+        print "\nFinished step A"
+##        print text
         text=text.split('\n')
         for i in range(len(text))[::-1]:
             if text[i]==' ' or text[i]=='':
                 del(text[i])
+        for i in range(len(text)):
+            if text[i]=="unflappable":
+                print "location of unflappable at ",i
+                break
+        print "Finished step B"
+##        print text[8250:8300]
 ##        print text
+##        enable=False
         for i in range(len(text))[::-1]:
+##            if i==8268:
+##                enable=True
+##            else:
+##                enable=False
             if text[i]=='(':
                 text[i]="#("
                 text[i+2]=")#"
                 j=i+4
                 search=True
                 while search:
-                    if text[j][0].isupper():
-                        text[j]='#'+text[j]
-                        search=False
-                    else:
-                        j+=1
+                    try:
+##                        if enable:
+##                            print "+"+text[j]+"+"
+                        if text[j][0].isupper():
+                            text[j]='#'+text[j]
+                            search=False
+                        else:
+                            j+=1
+                    except:
+                        print "ERROR",j,text[i-1],text[i],text[i+1],text[i+2],text[i+3],text[i+4]
                 j=i-1
                 search=True
                 while search:
-                    if text[j][-1]=='.':
+                    if text[j-1][-1]=='.':
                         search=False
                         text[j]='#'+text[j]
                     else:
                         j-=1
+        print "Finished step C"
         newText=''
         for each in text:
             newText+=each
         text=newText.split('#')[1:]
         data=[]
+        print "Finished step D"
         for i in range(len(text)/4):
             data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
-##        print len(data),(data)
+        print "Finished step E"
+        print data
         
 ##        pdfContent = StringIO(getPDFContent(filename).encode("ascii", "ignore"))
 ##        for line in pdfContent:
