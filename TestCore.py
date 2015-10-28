@@ -73,6 +73,7 @@ y   =   TRUE
 n   =   FALSE
 
 TOP_HARD_WORDS_PRIORITY =   10
+TOP_LESS_SEEN_WORDS     =   10
 NEW_WORDS_PER_SESSION   =   10
 OPTIONS_PER_QUESTION    =   5
 ENABLE_SENTENCES_SEARCH =   0.1#FALSE
@@ -602,7 +603,7 @@ class MyTest:
         self.separatingLine()
     def showOptionsDefinitions(self):
         for each in self.randomQuiz:
-            print str(self.randomQuiz[each].tag)+")",self.randomQuiz[each].word,":",self.randomQuiz[each].getMeaning()
+            print CM.NORMAL+str(self.randomQuiz[each].tag)+")",self.randomQuiz[each].word,":",self.randomQuiz[each].getMeaning()
         self.separatingLine()
     def showCurrentStatus(self):
         print "STATUS:",len(self.wordListLearned),"learned,",len(self.wordListLearning),"learning and",len(self.wordListNew),"to be learned now out of",self.totalNewNotLimited
@@ -955,6 +956,18 @@ class MyTest:
         countNew=0
         countLearned=0
         countLearning=0
+        selectedMethod=None
+        #Random kind of selection
+        if random.random()<0.4:
+            print CM.ATTENTION+"From normal set of learned words"
+            selectedMethod=self.wordListLearned.keys
+        else:
+            if random.random()<0.5:
+                print CM.ATTENTION+"From top less seen words"
+                selectedMethod=self.getTopLessSeenLearnedWords
+            else:
+                print CM.ATTENTION+"From top hard words"
+                selectedMethod=self.getTopHardLearnedWords
         #Get random elements with some probability
         for i in range(self.options):
             incomplete=True
@@ -964,10 +977,7 @@ class MyTest:
                 typeWord=self.selectWordTest()
                 if typeWord==TEST_LEARNED:
                     if len(self.wordListLearned)>0:
-                        if random.random()<0.5:
-                            selectedWord=random.choice(self.wordListLearned.keys())
-                        else:
-                            selectedWord=random.choice(self.getTopHardLearnedWords())
+                        selectedWord=random.choice(selectedMethod())
                         selectedObject=self.wordListLearned[selectedWord]
                         countLearned+=1
                         del(self.wordListLearned[selectedWord])
@@ -1054,6 +1064,15 @@ class MyTest:
         for i in range(len(topHard)):
             topHard[i]=topHard[i][1]
         return topHard
+    def getTopLessSeenLearnedWords(self):
+        topLessSeen=[]
+        for each in self.wordListLearned:
+            topLessSeen.append([self.wordListLearned[each].viewed,self.wordListLearned[each].word])
+        topLessSeen.sort()
+        del(topLessSeen[TOP_LESS_SEEN_WORDS:])
+        for i in range(len(topLessSeen)):
+            topLessSeen[i]=topLessSeen[i][1]
+        return topLessSeen
     def quickTest(self,quizType=None):
         #Shows a word, have to search the meaning of the word
         self.quizMode=quizType
