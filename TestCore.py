@@ -345,6 +345,26 @@ class MyTest:
             text_file.close()
         self.wordList.extend(newWordList)
         print CM.ATTENTION+"# Imported",len(newWordList),"words from Top1000 (http://www.vocabulary.com/)"
+    def getWordsList_magooshFlashcards(self,level='easy'):
+        label="getWordsList_magooshFlashcards_"+level
+        filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".txt"
+        path = os.path.dirname(filename)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        if os.path.isfile(filename)==False:
+            #WEB method
+##            newWordList=self.getWordsList_top1000_web()
+##            text_file = open(filename, "w")
+##            text_file.write(json.dumps(newWordList))
+##            text_file.close()
+            print "There should be an error, this is done manually"
+        else:
+            #FILE method
+            text_file = open(filename, "r")
+            newWordList=json.loads(text_file.read())
+            text_file.close()
+        self.wordList.extend(newWordList)
+        print CM.ATTENTION+"# Imported",len(newWordList),"words from Magoosh Flashcards"
     def getWordsList_barron4k_web_page(self,page):
         page = requests.get(page)
         newWordListDef=page.text.split("<a class=\"word dynamictext\" href=\"/dictionary/")[1:]
@@ -826,7 +846,7 @@ class MyTest:
                     self.wordList[i][1]=self.wordList[i][1][:-1]
             #ignore unicode
             self.wordList[i][1]=self.wordList[i][1].encode('ascii','ignore')
-            #sort into pre-established groups
+            #sort into pre-established groups (will check if meaning is repeated)
             if self.wordList[i][0] in self.wordListLearned.keys():
                 self.wordListLearned[self.wordList[i][0]].addMeaning(self.wordList[i])
             elif self.wordList[i][0] in self.wordListLearning:
@@ -856,15 +876,23 @@ class MyTest:
     def loadVocabulary(self):
         self.loadLearningWordsByWord()
         ##Select which list to load
+
+        #Easy
         self.getWordsList_crunchprep101()
         self.getWordsList_flashCard180()
         self.getWordsList_barron17th()
         self.getWordsList_barron333()
         self.getWordsList_barron800()
         self.getWordsList_top1000()
-        
+
+        #Medium
+        self.getWordsList_magooshFlashcards("easy")
+##        self.getWordsList_magooshFlashcards("medium")
+##        self.getWordsList_magooshFlashcards("hard")
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
+
+        #Hard
 ##        self.getWordsList_wordsinasentence()
 ##        self.getWordsList_barron4k()
         
@@ -1079,9 +1107,7 @@ class MyTest:
         self.initQuizConditions()
         while self.incompleteTest:
             self.emptyExamples()
-##            if quizType==QUIZ_WRITE_WORD:
-##                self.getRandomQuiz()
-##            else:
+            #Auto select quick according to defined status
             quizType=self.getRandomQuiz()
             if quizType==QUIZ_SHOW:
                 self.thisquiz=self.showQuizShow
@@ -1107,15 +1133,6 @@ class MyTest:
                         print CM.INCORRECT+"You didn't even try..."
         print CM.CORRECT+"Saving Progress..."
         self.saveProgress()
-##    def getPDFContent(self,path):
-##        content = ""
-##        num_pages = 10
-##        p = file(path, "rb")
-##        pdf = pyPdf.PdfFileReader(p)
-##        for i in range(0, num_pages):
-##            content += pdf.getPage(i).extractText() + "\n"
-##        content = " ".join(content.replace(u"\xa0", " ").strip().split())
-##        return content
     def readPdf(self):
         # Read each line of the PDF
         label="magoosh-gre-1000-words_oct01"
@@ -1126,7 +1143,7 @@ class MyTest:
         num_pages=inputRaw.getNumPages()
 
         #70 on 1st page to get the first useful line
-        #30 after 1st page to get the first useful line
+        #35 after 1st page to get the first useful line
         text=''
         print "Finished pages:",
         for page in range(0,num_pages):            
@@ -1139,7 +1156,6 @@ class MyTest:
                 text+=line
             print page+1,",",
         print "\nFinished step A"
-##        print text
         text=text.split('\n')
         for i in range(len(text))[::-1]:
             if text[i]==' ' or text[i]=='':
@@ -1149,14 +1165,7 @@ class MyTest:
                 print "location of unflappable at ",i
                 break
         print "Finished step B"
-##        print text[8250:8300]
-##        print text
-##        enable=False
         for i in range(len(text))[::-1]:
-##            if i==8268:
-##                enable=True
-##            else:
-##                enable=False
             if text[i]=='(':
                 text[i]="#("
                 text[i+2]=")#"
@@ -1164,8 +1173,6 @@ class MyTest:
                 search=True
                 while search:
                     try:
-##                        if enable:
-##                            print "+"+text[j]+"+"
                         if text[j][0].isupper():
                             text[j]='#'+text[j]
                             search=False
@@ -1191,16 +1198,10 @@ class MyTest:
         for i in range(len(text)/4):
             data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
         print "Finished step E"
-        print data
-        
-##        pdfContent = StringIO(getPDFContent(filename).encode("ascii", "ignore"))
-##        for line in pdfContent:
-##            print line.strip()
-        
 
 ##Simple application
 thisTest=MyTest()
-##thisTest.readPdf()
+##thisTest.readPdf()##Only to extract words (inside various cases, done by hand)
 thisTest.quickTest()#QUIZ_WRITE_WORD
 
 ##thisTest.quickTestWord()
