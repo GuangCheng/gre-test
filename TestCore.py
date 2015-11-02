@@ -887,7 +887,7 @@ class MyTest:
 
         #Medium
         self.getWordsList_magooshFlashcards("easy")
-##        self.getWordsList_magooshFlashcards("medium")
+        self.getWordsList_magooshFlashcards("medium")
 ##        self.getWordsList_magooshFlashcards("hard")
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
