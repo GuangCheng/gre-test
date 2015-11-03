@@ -228,6 +228,36 @@ class MyTest:
             text_file.close()
         self.wordList.extend(newWordList)
         print CM.ATTENTION+"# Imported",len(newWordList),"words from crunchprep101"
+    def getWordsList_kaplan200_web(self):
+        page = requests.get("https://quizlet.com/7586859/kaplan-revised-gre-top-200-words-mnemonicsimages-flash-cards/")
+        newWordListDef=page.text.split("<span class='TermText qWord lang-en'>")[1:-19]
+        newWordList=[]
+        for i in range(len(newWordListDef)):
+            newWordListDef[i]=newWordListDef[i].split("<span class='TermText qDef lang-en'>")
+            newWordListDef[i][0]=newWordListDef[i][0].split('<')[0]
+            newWordListDef[i][1]=newWordListDef[i][1].split('<')[0]
+            newWordList.append([newWordListDef[i][0],newWordListDef[i][1]])
+            #newWordList.append([newWordListDef[i][0],newWordListDef[i][1].split("</p><p>")[0]+" Ex.:"+newWordListDef[i][1].split("</p><p>")[1][:-5]])
+        return newWordList
+    def getWordsList_kaplan200(self):
+        label="getWordsList_kaplan200"
+        filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".txt"
+        path = os.path.dirname(filename)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        if os.path.isfile(filename)==False:
+            #WEB method
+            newWordList=self.getWordsList_kaplan200_web()
+            text_file = open(filename, "w")
+            text_file.write(json.dumps(newWordList))
+            text_file.close()
+        else:
+            #FILE method
+            text_file = open(filename, "r")
+            newWordList=json.loads(text_file.read())
+            text_file.close()
+        self.wordList.extend(newWordList)
+        print CM.ATTENTION+"# Imported",len(newWordList),"words from Kaplan 200"
     def getWordsList_barron17th_web(self):
         page = requests.get("http://www.vocabulary.com/lists/194479#view=notes")
         newWordListDef=page.text.split("<a class=\"word dynamictext\" href=\"/dictionary/")[1:]
@@ -255,6 +285,22 @@ class MyTest:
             text_file.close()
         self.wordList.extend(newWordList)
         print CM.ATTENTION+"# Imported",len(newWordList),"words from barron17th (http://www.vocabulary.com/)"
+    def correctAscii(self,text):
+        text=text.encode('ascii','ignore')
+        text=text.split("&quot;")
+        newText=""
+        for each in text:
+            newText+="\""+each
+        newText=newText[1:]
+        return newText
+    def removeBlanks(self,text):
+        text=text.encode('ascii','ignore')
+        text=text.split()
+        newText=""
+        for each in text:
+            newText+=" "+each
+        newText=newText[1:]
+        return newText
     def removeTags(self,text):
         text=text.encode('ascii','ignore')
         #Remove HTML tags
@@ -286,7 +332,6 @@ class MyTest:
     def getWordsList_flashCard180_web(self):
         page = requests.get("http://www.flashcardmachine.com/gre-180-frequentlyusedwords.html")
         newWordListDef=page.text.split("<tr valign=\"top\">")[2:]
-        print len(newWordListDef)
         newWordList=[]
         for each in newWordListDef:
             definition=each.split("<td align=\"center\"><b><p>")[1:3]
@@ -344,7 +389,41 @@ class MyTest:
             newWordList=json.loads(text_file.read())
             text_file.close()
         self.wordList.extend(newWordList)
-        print CM.ATTENTION+"# Imported",len(newWordList),"words from Top1000 (http://www.vocabulary.com/)"
+        print CM.ATTENTION+"# Imported",len(newWordList),"words from Top1000 (http://www.vocabulary.com/)"        
+    def getWordsList_michiganStateUniversity_web(self):
+        page = requests.get("https://msu.edu/~defores1/gre/vocab/gre_vocab.htm")
+        newWordListDef=page.text.split("</span></p>")[:-1]
+        lenList = len(newWordListDef)/3
+        newWordList=[]
+        for i in range(lenList):
+            label=newWordListDef[3*i].split('>')[-1]
+            kind=newWordListDef[3*i+1].split('>')[-1]
+            definition=newWordListDef[3*i+2].split('>')[-1]
+            definition=self.correctAscii(self.removeBlanks(definition))
+            try:                
+                newWordList.append([label,"("+kind+") "+definition])
+            except:
+                print "ERROR",i#each
+        return newWordList
+    def getWordsList_michiganStateUniversity(self):
+        label="getWordsList_michiganStateUniversity"
+        filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".txt"
+        path = os.path.dirname(filename)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        if os.path.isfile(filename)==False:
+            #WEB method
+            newWordList=self.getWordsList_michiganStateUniversity_web()
+            text_file = open(filename, "w")
+            text_file.write(json.dumps(newWordList))
+            text_file.close()
+        else:
+            #FILE method
+            text_file = open(filename, "r")
+            newWordList=json.loads(text_file.read())
+            text_file.close()
+        self.wordList.extend(newWordList)
+        print CM.ATTENTION+"# Imported",len(newWordList),"words from Michigan State University (https://msu.edu/)"
     def getWordsList_magooshFlashcards(self,level='easy'):
         label="getWordsList_magooshFlashcards_"+level
         filename = os.path.dirname(os.path.realpath(__file__))+self.wordListPath+label+".txt"
@@ -876,18 +955,20 @@ class MyTest:
     def loadVocabulary(self):
         self.loadLearningWordsByWord()
         ##Select which list to load
-
+       
         #Easy
         self.getWordsList_crunchprep101()
+        self.getWordsList_michiganStateUniversity()
         self.getWordsList_flashCard180()
-        self.getWordsList_barron17th()
+        self.getWordsList_kaplan200()
         self.getWordsList_barron333()
+        self.getWordsList_barron17th()        
         self.getWordsList_barron800()
-        self.getWordsList_top1000()
+        self.getWordsList_top1000()      
 
         #Medium
-        self.getWordsList_magooshFlashcards("easy")
-        self.getWordsList_magooshFlashcards("medium")
+##        self.getWordsList_magooshFlashcards("easy")
+##        self.getWordsList_magooshFlashcards("medium")
 ##        self.getWordsList_magooshFlashcards("hard")
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
