@@ -1,3 +1,7 @@
+##Changes for V1.6 include
+##- Add new deck libraries (Includes reading a PDF file [finished by hand])
+##- Get Statistics (thinking)
+##- New categorization of words to review faster (thinking)
 ##Changes for V1.5 include
 ##- Test to write word
 ##Changes for V1.4 include
@@ -143,7 +147,7 @@ class newWord:
 class MyTest:
     def __init__(self):
         self.name                   =   "Get Sample test for GRE by J.Sanchez"
-        self.version                =   "v1.4"
+        self.version                =   "v1.6"
         self.wordListPath           =   "\\data\\wordlist\\"
         self.sentencesPath          =   "\\data\\sentences\\"
         self.saveProgressPath       =   "\\data\\progress\\"
@@ -952,6 +956,8 @@ class MyTest:
                 newList[each]=self.wordListNew[each]
         self.wordListNew=newList
         print len(self.wordListNew)
+    def showStatistics(self):
+        print "showStatistics UNDER DEVELOPMENT"
     def loadVocabulary(self):
         self.loadLearningWordsByWord()
         ##Select which list to load
@@ -988,6 +994,7 @@ class MyTest:
         self.separatingLine()
     def initQuizConditions(self):
         self.loadVocabulary()
+        self.showStatistics()
         self.correct=0
         self.total=0
         self.skipped=0
@@ -1182,38 +1189,6 @@ class MyTest:
         for i in range(len(topLessSeen)):
             topLessSeen[i]=topLessSeen[i][1]
         return topLessSeen
-    def quickTest(self,quizType=None):
-        #Shows a word, have to search the meaning of the word
-        self.quizMode=quizType
-        self.initQuizConditions()
-        while self.incompleteTest:
-            self.emptyExamples()
-            #Auto select quick according to defined status
-            quizType=self.getRandomQuiz()
-            if quizType==QUIZ_SHOW:
-                self.thisquiz=self.showQuizShow
-            elif quizType==QUIZ_WORD:
-                self.thisquiz=self.showQuizWord
-            elif quizType==QUIZ_WRITE_WORD:
-                self.thisquiz=self.showQuizWriteWord
-            elif quizType==QUIZ_MEANING:
-                self.thisquiz=self.showQuizMeaning
-            elif quizType==QUIZ_SENTENCE:
-                self.addSentences()
-                self.thisquiz=self.showQuizSentence
-            self.thisquiz()
-            if quizType==QUIZ_SHOW:
-                self.verifyUnderstanding()
-            else:
-                self.verifyAnswer()
-                self.saveProgress()
-                if self.total>0:
-                    self.printResult()
-                else:
-                    if self.incompleteTest==False:
-                        print CM.INCORRECT+"You didn't even try..."
-        print CM.CORRECT+"Saving Progress..."
-        self.saveProgress()
     def readPdf(self):
         # Read each line of the PDF
         label="magoosh-gre-1000-words_oct01"
@@ -1279,6 +1254,38 @@ class MyTest:
         for i in range(len(text)/4):
             data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
         print "Finished step E"
+    def quickTest(self,quizType=None):
+        #Shows a word, have to search the meaning of the word
+        self.quizMode=quizType
+        self.initQuizConditions()
+        while self.incompleteTest:
+            self.emptyExamples()
+            #Auto select quick according to defined status
+            quizType=self.getRandomQuiz()
+            if quizType==QUIZ_SHOW:
+                self.thisquiz=self.showQuizShow
+            elif quizType==QUIZ_WORD:
+                self.thisquiz=self.showQuizWord
+            elif quizType==QUIZ_WRITE_WORD:
+                self.thisquiz=self.showQuizWriteWord
+            elif quizType==QUIZ_MEANING:
+                self.thisquiz=self.showQuizMeaning
+            elif quizType==QUIZ_SENTENCE:
+                self.addSentences()
+                self.thisquiz=self.showQuizSentence
+            self.thisquiz()
+            if quizType==QUIZ_SHOW:
+                self.verifyUnderstanding()
+            else:
+                self.verifyAnswer()
+                self.saveProgress()
+                if self.total>0:
+                    self.printResult()
+                else:
+                    if self.incompleteTest==False:
+                        print CM.INCORRECT+"You didn't even try..."
+        print CM.CORRECT+"Saving Progress..."
+        self.saveProgress()
 
 ##Simple application
 thisTest=MyTest()
