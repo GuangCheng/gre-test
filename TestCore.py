@@ -1,8 +1,14 @@
+##2015-11-06
+##J. Sanchez (jesussanchez85@gmail.com)
+
 ##Changes for V1.6 include
-##- Add new deck libraries (Includes reading a PDF file [finished by hand])
-##- Get Statistics (thinking)
+##- Reorganize old stats (state, view, average time)
 ##- New categorization of words to review faster (thinking)
+##- Get Statistics (from old stats)
+##- Get new status per kind of task (shown, testWord,testMeaning,testSentence)
+##- Add new deck libraries (Includes reading a PDF file [finished by hand])
 ##Changes for V1.5 include
+##- Color messages
 ##- Test to write word
 ##Changes for V1.4 include
 ##- Special request of words (by alphabet)
@@ -14,7 +20,7 @@
 ##Changes for V1.2 include
 ##- Words are used as classes
 
-##Requires:
+##Requires py:
 ##- ColorMessage
 
 ##Generates:
@@ -82,8 +88,17 @@ NEW_WORDS_PER_SESSION   =   10
 OPTIONS_PER_QUESTION    =   5
 ENABLE_SENTENCES_SEARCH =   0.1#FALSE
 
+OLD_STATS_STATE         =   0
+OLD_STATS_VIEW          =   1
+OLD_STATS_TIME          =   2
+
+FAIL_COUNT      =   0
+FAIL_AVG_TIME   =   1
+GOOD_COUNT      =   2
+GOOD_AVG_TIME   =   3
+
 class newWord:
-    def __init__(self,newDataEntry,state=None,viewed=None,avg_time=None):
+    def __init__(self,newDataEntry,old_stats=None,new_stats=None):
         self.word=newDataEntry[0].lower()
         self.meaning=[]
         if type(newDataEntry[1])==str:
@@ -93,18 +108,20 @@ class newWord:
             #list type
             for each in newDataEntry[1]:
                 self.meaning.append(each)
-        if state==None:
+        if old_stats==None:
             self.state=STATUS_NEW
-        else:
-            self.state=state
-        if viewed==None:
             self.viewed=0
-        else:
-            self.viewed=viewed
-        if avg_time==None:
             self.avg_time=0
+            self.newStats=[0,[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
         else:
-            self.avg_time=avg_time
+            self.state=old_stats[OLD_STATS_STATE]
+            self.viewed=old_stats[OLD_STATS_VIEW]
+            self.avg_time=old_stats[OLD_STATS_TIME]
+            #The structure of the new stats is:
+            ##newStats=[show quiz seens,word quiz stats,]
+            #apart from 'show quiz' seens that is only a counter, the other quizes have:
+            ##quizStat=[fail times, fail average time, pass times, pass average time]
+            self.newStats=[new_stats[QUIZ_SHOW],new_stats[QUIZ_WORD],new_stats[QUIZ_WRITE_WORD],new_stats[QUIZ_MEANING],new_stats[QUIZ_SENTENCE]]
     def setTag(self,tag):
         self.tag=tag
     def addMeaning(self,newDataEntry):
@@ -120,7 +137,7 @@ class newWord:
             #TASK: find a way that the user input new meaning
             return "No avaiable meaning"
     def convertArray(self):
-        return [[self.word,self.meaning],self.state,self.viewed,round(self.avg_time,2)]
+        return [[self.word,self.meaning],[self.state,self.viewed,round(self.avg_time,2)],self.newStats]
     def addNewAnswer(self,newAnswer):
         if newAnswer:
             if self.state==STATUS_NEW:
@@ -143,6 +160,20 @@ class newWord:
         self.addNewAnswer(Answer)
         if Answer:
             self.addNewTime(Time)
+    def addNewUserEntry(self,quizMode,result=None,time=None):
+        if quizMode==QUIZ_SHOW:
+            self.newStats[quizMode]+=1
+        else:
+            if result:
+                cnt=self.newStats[quizMode][GOOD_COUNT]
+                tme=self.newStats[quizMode][GOOD_AVG_TIME]
+                self.newStats[quizMode][GOOD_COUNT]=cnt+1
+                self.newStats[quizMode][GOOD_AVG_TIME]=(1.0*cnt*tme+time)/(cnt+1)
+            else:
+                cnt=self.newStats[quizMode][FAIL_COUNT]
+                tme=self.newStats[quizMode][FAIL_AVG_TIME]
+                self.newStats[quizMode][FAIL_COUNT]=cnt+1
+                self.newStats[quizMode][FAIL_AVG_TIME]=(1.0*cnt*tme+time)/(cnt+1)
         
 class MyTest:
     def __init__(self):
@@ -745,8 +776,8 @@ class MyTest:
                     print CM.INCORRECT+"Incorrect. Still",self.Intents-self.tries,"oportunities."
                 return False
         else:
+            print "This case is really strange"+'\n'*30
             print "Solution:",self.word
-            return True
     def verifyUnderstanding(self):
         incomplete=True
         while incomplete==True:
@@ -820,11 +851,16 @@ class MyTest:
                         print "Wrong selection, please try again"
                         self.separatingLine()
                         continue
-                if self.showSolution(userSolution):
-                    delta=round(time.time()-start,1)
-                    print CM.TIME+"Spend time:",delta,"seconds"+CM.END
-                    self.currentWordDetailts.addNewTime(delta)
+                userSelectResult=self.showSolution(userSolution)
+                userSelectTime=round(time.time()-start,1)
+                #New statistics
+                self.currentWordDetailts.addNewUserEntry(self.quizMode,userSelectResult,userSelectTime)
+                #Keep for old statistics
+                if userSelectResult:
+                    print CM.TIME+"Spend time:",userSelectTime,"seconds"+CM.END
+                    self.currentWordDetailts.addNewTime(userSelectTime)
                     incomplete=False
+                
     def shuffleWord(self):
         tmp=[]
         word=self.word[:(len(self.word)/3)]
@@ -854,33 +890,12 @@ class MyTest:
         self.separatingLine()
         
     def showQuizShow(self):
+        #In the new stats have to count the number of times the word was seen
+        for each in self.randomQuiz:
+            if each in self.randomQuiz.keys():
+                self.randomQuiz[each].addNewUserEntry(QUIZ_SHOW)
         self.showOptionsDefinitions()
 
-    def loadProgressLearning(self):
-        label="wordListLearning"
-        filename = os.path.dirname(os.path.realpath(__file__))+self.saveProgressPath+label+".txt"
-        path = os.path.dirname(filename)
-        if os.path.exists(path):
-            if os.path.isfile(filename):
-                text_file = open(filename, "r")
-                dataDump=json.loads(text_file.read())
-                text_file.close()
-                for each in dataDump:
-                    self.wordListLearning[each[0][0]]=newWord(each[0],each[1],each[2],each[3])
-                print "Loading",len(dataDump),"learning word"
-    def saveProgressLearned(self):
-        label="wordListLearned"
-        filename = os.path.dirname(os.path.realpath(__file__))+self.saveProgressPath+label+".txt"
-        path = os.path.dirname(filename)
-        dataDump=[]
-        for each in self.wordListLearned.keys():
-            dataDump.append(self.wordListLearned[each].convertArray())
-        if not os.path.exists(path):
-            os.makedirs(path)
-        text_file = open(filename, "w")
-        text_file.write(json.dumps(dataDump))
-        text_file.close()
-        
     def addSentences(self,word=None):
         self.emptyExamples()
         if word!=None:
@@ -932,7 +947,7 @@ class MyTest:
             #sort into pre-established groups (will check if meaning is repeated)
             if self.wordList[i][0] in self.wordListLearned.keys():
                 self.wordListLearned[self.wordList[i][0]].addMeaning(self.wordList[i])
-            elif self.wordList[i][0] in self.wordListLearning:
+            elif self.wordList[i][0] in self.wordListLearning.keys():
                 self.wordListLearning[self.wordList[i][0]].addMeaning(self.wordList[i])
             else:
                 self.wordListNew[self.wordList[i][0]]=newWord(self.wordList[i])
@@ -957,7 +972,40 @@ class MyTest:
         self.wordListNew=newList
         print len(self.wordListNew)
     def showStatistics(self):
-        print "showStatistics UNDER DEVELOPMENT"
+        print "Learned Words Statistics: (UNDER DEVELOPMENT)"
+        times=[]
+        avg_times=[]
+        for each in self.wordListLearned:
+            times.append(self.wordListLearned[each].viewed)
+            avg_times.append(self.wordListLearned[each].avg_time)
+        times.sort()
+        avg_times.sort()
+        if len(times)>0:
+            print "Average times seen a word: ",round(float(sum(times))/len(times),2)
+        else:
+            print "Average times seen a word: This is empty!"
+        if len(avg_times)>0:    
+            print "Average of average times: ",round(sum(avg_times)/len(avg_times),2),"seconds"
+        else:
+            print "Average of average times: This is empty!"
+        self.separatingLine()
+        print "Learning Words Statistics: (UNDER DEVELOPMENT)"
+        times=[]
+        avg_times=[]
+        for each in self.wordListLearning:
+            times.append(self.wordListLearning[each].viewed)
+            avg_times.append(self.wordListLearning[each].avg_time)
+        times.sort()
+        avg_times.sort()
+        if len(times)>0:
+            print "Average times seen a word: ",round(float(sum(times))/len(times),2)
+        else:
+            print "Average times seen a word: This is empty!"
+        if len(avg_times)>0:    
+            print "Average of average times: ",round(sum(avg_times)/len(avg_times),2),"seconds"
+        else:
+            print "Average of average times: This is empty!"
+        self.separatingLine()
     def loadVocabulary(self):
         self.loadLearningWordsByWord()
         ##Select which list to load
@@ -973,8 +1021,8 @@ class MyTest:
         self.getWordsList_top1000()      
 
         #Medium
-##        self.getWordsList_magooshFlashcards("easy")
-##        self.getWordsList_magooshFlashcards("medium")
+        self.getWordsList_magooshFlashcards("easy")
+        self.getWordsList_magooshFlashcards("medium")
 ##        self.getWordsList_magooshFlashcards("hard")
 ##        self.getWordsList_graduateshotline()
 ##        self.getWordsList_majortests()
@@ -1019,7 +1067,7 @@ class MyTest:
                 dataDump=json.loads(text_file.read())
                 text_file.close()
                 for each in dataDump:
-                    self.wordListLearned[each[0][0]]=newWord(each[0],each[1],each[2],each[3])
+                    self.wordListLearned[each[0][0]]=newWord(each[0],each[1],each[2])
                 print "Loading",len(dataDump),"learned word"
     def loadProgressLearning(self):
         label="wordListLearning"
@@ -1031,7 +1079,7 @@ class MyTest:
                 dataDump=json.loads(text_file.read())
                 text_file.close()
                 for each in dataDump:
-                    self.wordListLearning[each[0][0]]=newWord(each[0],each[1],each[2],each[3])
+                    self.wordListLearning[each[0][0]]=newWord(each[0],each[1],each[2])
                 print "Loading",len(dataDump),"learning word"
     def saveProgressLearned(self):
         label="wordListLearned"
@@ -1256,27 +1304,30 @@ class MyTest:
         print "Finished step E"
     def quickTest(self,quizType=None):
         #Shows a word, have to search the meaning of the word
-        self.quizMode=quizType
         self.initQuizConditions()
         while self.incompleteTest:
             self.emptyExamples()
             #Auto select quick according to defined status
-            quizType=self.getRandomQuiz()
-            if quizType==QUIZ_SHOW:
+            self.quizMode=self.getRandomQuiz()
+            if quizType!=None:
+                self.quizMode=quizType
+            #Perform the quiz
+            if self.quizMode==QUIZ_SHOW:
                 self.thisquiz=self.showQuizShow
-            elif quizType==QUIZ_WORD:
+            elif self.quizMode==QUIZ_WORD:
                 self.thisquiz=self.showQuizWord
-            elif quizType==QUIZ_WRITE_WORD:
+            elif self.quizMode==QUIZ_WRITE_WORD:
                 self.thisquiz=self.showQuizWriteWord
-            elif quizType==QUIZ_MEANING:
+            elif self.quizMode==QUIZ_MEANING:
                 self.thisquiz=self.showQuizMeaning
-            elif quizType==QUIZ_SENTENCE:
+            elif self.quizMode==QUIZ_SENTENCE:
                 self.addSentences()
                 self.thisquiz=self.showQuizSentence
             self.thisquiz()
-            if quizType==QUIZ_SHOW:
+            if self.quizMode==QUIZ_SHOW:
                 self.verifyUnderstanding()
             else:
+                #Revise the answer
                 self.verifyAnswer()
                 self.saveProgress()
                 if self.total>0:
