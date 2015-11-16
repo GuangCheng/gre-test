@@ -1,0 +1,80 @@
+0	amuck         : (adverb) in a frenzied or uncontrolled state
+0	demean        : (verb) to insult; to cause someone to lose dignity or respect
+0	derisive      : (adjective) abusing vocally; expressing contempt or ridicule
+0	dregs         : sediment that has settled at the bottom of a liquid
+0	enclave       : an enclosed territory that is culturally distinct
+0	fawn          : to grovel
+0	fickle        : (adjective) liable to sudden unpredictable change, esp. in affections or attachments
+0	finagle       : (verb) achieve something by means of trickery or devious methods
+0	fray          : a noisy fight
+0	garble        : make false by mutilation or addition
+0	harrowing     : extremely distressing; terrifying
+0	screed        : (noun) an abusive rant (often tedious)
+0	spurn         : (ver) ): reject with contempt
+0	stymie        : (verb) hinder or prevent the progress or accomplishment of
+1	aphoristic    : (adjective) something that is a concise and instructive of a general truth or principle
+1	apprehension  : (noun) fearful expectation
+1	behooves      : (verb) to be one's duty or obligation
+1	destitute     : (adjective) completely wanting or lacking (usually "destitute of")
+1	froward       : stubbornly contrary; obstinately disobedient
+1	gentry        : the most powerful members of a society
+1	halcyon       : calm and peaceful; happy; golden; prosperous
+1	halting       : fragmentary or broken from emotional strain
+1	imprecation   : curse; damnation
+1	incense       : (verb) make furious
+1	larder        : a small storeroom for storing foods or wines
+1	obloquy       : a false accusation of an offense
+1	plodding      : (adjective) (of movement) slow and laborious
+1	redolent      : serving to bring to mind
+1	reprise       : repetition, especially of a piece of music
+1	taxing        : (adjective) use to the limit; exhaust
+1	temperate     : (adj.) exercising moderation and self-denial; calm or mild (n: temperance)
+1	tenable       : based on sound reasoning or evidence
+2	commendable   : (adjective) worthy of high praise
+2	detraction    : the act of taking away
+2	expostulation : the act of expressing earnest opposition or protest
+2	ford          : cross a river where it's shallow
+2	impregnable   : (adjective) immune to attack; incapable of being tampered with
+2	inarticulate  : (adjective) without or deprived of the use of speech or words
+2	recalcitrant  :  (adj)  disobedient, uncontrollable
+2	vindictive    : vengeful, unforgiving
+3	appoint       : assign a duty, responsibility or obligation to
+3	enmity        : (noun) a state of deep-seated ill-will
+3	floundering   : (adj.) struggling: "we tried to save the floundering business."
+3	gaunt         : very thin especially from disease or hunger or cold
+3	germane       : (adjective) relevant and appropriate
+3	redress       : (noun) an act of making something right
+3	reproof       : (n.) the act of censuring, scolding, or rebuking. (v. reprove).
+3	threadbare    : thin and tattered with age
+4	bard          : poet
+4	brusquely     : (adverb) in a blunt, direct manner
+4	castigation   : verbal punishment
+4	depict        : (v.) to show, create a picture of.
+4	depredation   : a destructive action
+4	indelible     : (adj.) permanent; unerasable; strong: "the queen made an indelible impression on her subjects."
+4	martial       : (adjective) suggesting war or military life
+4	monolithic    : solid and uniform; constituing a single, unified whole
+4	obliging      : (a) ): showing a cheerful willingness to do favors for others
+4	presumption   : (noun) audacious (even arrogant) behavior that you have no right to
+4	robust        : (adjective) sturdy and strong in form, constitution, or construction
+4	stock         : capital raised by a corporation through the issue of shares
+4	tyro          : someone new to a field or activity
+4	virago        : (noun) an ill-tempered or violent woman
+4	wistful       : vaguely longing, sadly thoughtful
+5	attenuate     : to weaken
+5	bacchanalian  : pertaining to riotous or drunken festivity; pertaining to revelry
+5	censor        : (verb) to examine and remove objectionable material
+5	chaos         : great disorder or confusion
+5	chivalrous    : (adjective) being attentive to women like an ideal knight
+5	compliant     : disposed to act in accordance with someone's wishes
+5	constraint    : (noun) something that limits or restricts
+5	credulity     : (noun) tendency to believe readily
+5	culpable      : (adj.) deserving of blame (n: culpability)
+5	genial        : (adjective) agreeable, conducive to comfort
+5	impeccable    : (adjective) without fault or error
+5	inadvertent   : (adjective) happening by chance or unexpectedly or unintentionally
+5	ineffable     : (adj.) undescribable; inexpressible in words; unspeakable
+5	intermittent  : (adjective) stopping and starting at irregular intervals
+5	provisional   : (adjective) under terms not final or fully worked out or agreed upon
+5	travesty      : parody, exaggerated imitation, caricature
+5	veracity      : filled with truth and accuracy

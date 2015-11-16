@@ -1302,6 +1302,101 @@ class MyTest:
         for i in range(len(text)/4):
             data.append([text[4*i],text[4*i+1]+' '+text[4*i+2]])
         print "Finished step E"
+    def sortTestList(self):
+        nn=[]
+        err=[]
+        category=[[],[],[],[],[],[]]
+        text_file = open("learning.txt", "r")
+        line=text_file.readline()
+        while len(line)!=0:
+            if line[0]=='*':
+                err.append(line)
+            elif line[0]!=' ':
+                category[int(line[0])].append(line)
+            else:
+                nn.append(line)
+            line=text_file.readline()
+        text_file.close()
+        text_file = open("learning.txt", "w")
+        print "Learning Status"
+        for i in range(len(category)):
+            print len(category[i]),"\tin category",i
+            category[i].sort()
+            for cada in category[i]:
+                text_file.write(cada)
+        nn.sort()
+        print len(nn),"\tin category not-seen"
+        for each in nn:
+            text_file.write(each)
+        err.sort()
+        print len(err),"\tin category error"
+        for each in err:
+            text_file.write(each)
+        text_file.close()
+        self.separatingLine()
+        nn=[]
+        err=[]
+        category=[[],[],[],[],[],[]]
+        text_file = open("learned.txt", "r")
+        line=text_file.readline()
+        while len(line)!=0:
+            if line[0]=='*':
+                err.append(line)
+            elif line[0]!='\t':
+                try:
+                    category[int(line[0])].append(line)
+                except:
+                    print line
+            else:
+                nn.append(line)
+            line=text_file.readline()
+        text_file.close()        
+        text_file = open("learned.txt", "w")
+        print "Learned Status"
+        for i in range(len(category)):
+            print len(category[i]),"\tin category",i
+            category[i].sort()
+            for cada in category[i]:
+                text_file.write(cada)
+        nn.sort()
+        print len(nn),"\tin category not-seen"
+        for each in nn:
+            text_file.write(each)
+        err.sort()
+        print len(err),"\tin category error"
+        for each in err:
+            text_file.write(each)
+        text_file.close()
+        self.separatingLine()
+    def getTestList(self):
+        #Shows a word, have to search the meaning of the word
+        self.initQuizConditions()
+        learnedList=self.wordListLearned.keys()
+        learningList=self.wordListLearning.keys()
+        learnedList.sort()
+        learningList.sort()
+        text_file = open("learned.txt", "w")
+        print "Learned:",len(learnedList)
+        maxLen=0
+        for each in learnedList:
+            if len(each)>maxLen:
+                maxLen=len(each)
+        for each in learnedList:
+            thisLen=len(each)
+            thisLen=maxLen+1-thisLen
+            text_file.write("\t"+self.correctAscii(each)+' '*thisLen+": "+self.correctAscii(self.wordListLearned[each].meaning[0])+"\n")
+        text_file.close()
+        text_file = open("learning.txt", "w")
+        print "Learning:",len(learningList)
+        maxLen=0
+        for each in learningList:
+            if len(each)>maxLen:
+                maxLen=len(each)
+        for each in learningList:
+            thisLen=len(each)
+            thisLen=maxLen+1-thisLen
+            text_file.write("\t"+self.correctAscii(each)+' '*thisLen+": "+self.correctAscii(self.wordListLearning[each].meaning[0])+"\n")
+        text_file.close()
     def quickTest(self,quizType=None):
         #Shows a word, have to search the meaning of the word
         self.initQuizConditions()
@@ -1341,7 +1436,9 @@ class MyTest:
 ##Simple application
 thisTest=MyTest()
 ##thisTest.readPdf()##Only to extract words (inside various cases, done by hand)
-thisTest.quickTest()#QUIZ_WRITE_WORD
+##thisTest.quickTest()#QUIZ_WRITE_WORD
+##thisTest.getTestList()
+thisTest.sortTestList()
 
 ##thisTest.quickTestWord()
 time.sleep(1.5)
