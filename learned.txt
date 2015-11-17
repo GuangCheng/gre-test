@@ -15,6 +15,36 @@
 0	badinage          : frivolous banter
 0	balk              : (verb) refuse tocomply
 0	bauble            : cheap showy jewelry or ornament on clothing
+0	blase             : bored because of frequent indulgence; unconcerned
+0	bluster           : act in an arrogant, overly self-assured, or conceited manner
+0	brazen            : bold; shameless
+0	buck              : (verb) resist
+0	bulwark           : a protective structure of stone or concrete
+0	buttress          : to reinforce; support
+0	buxom             : healthily plump and vigorous
+0	cadge             : to beg; sponge
+0	cajole            : influence or urge by gentle urging, caressing, or flattering
+0	canard            : false; deliberately misleading story
+0	cantankerous      : irritable; ill-humored
+0	careen            : pitching dangerously to one side
+0	carrion           : the dead and rotting body of an animal; unfit for human food
+0	caucus            : meet to select a candidate or promote a policy
+0	tenet             : belief, doctrine
+0	waffle            : pause or hold back in uncertainty or unwillingness
+0	waive             : do without or cease to hold or adhere to
+0	wanton            : occurring without motivation or provocation
+0	warble            : sing or play with trills
+0	waver             : to fluctuate between choices
+0	weigh             : to be oppressive or burdensome
+0	wheedle           : influence or urge by gentle urging, caressing, or flattering
+0	whet              : make keen or more acute
+0	whittle           : cut small bits or pare shavings from
+0	whorl             : a round shape formed by a series of concentric circles
+0	wizened           : lean and wrinkled by shrinkage as from age or illness
+0	wont              : an established custom
+0	wrangle           : to quarrel noisily, angrily or disruptively
+0	wretched          : (adj.) extremely pitiful or unfortunate (n: wretch)
+0	wry               : humorously sarcastic or mocking
 1	abjure            : formally reject or disavow a formerly held belief
 1	acerbic           : bitter or sour in taste or manner
 1	acquiesce         : to agree or express agreement
@@ -43,6 +73,25 @@
 1	begrudge          : (verb) to give reluctantly
 1	beguile           : influence by slyness
 1	beleaguer         : annoy persistently
+1	bent              : fixed in your purpose
+1	bequeath          : leave or give by will after one's death
+1	bestow            : present
+1	bilious           : irritable as if suffering from indigestion
+1	blatant           : without any attempt at concealment; completely obvious
+1	boon              : (adjective) very close and convivial
+1	broach            : to mention for the first time
+1	brooch            : a decorative pin worn by women
+1	bumbling          : (adjective) lacking physical movement skills, especially with the hands
+1	canon             : an established set of principles; a basis or standard for judgment; a group of literary works
+1	cant              : insincere talk about religion or morals
+1	captious          : tending to find and call attention to faults
+1	conscript         : a person compulsorily enrolled for military service
+1	crone             : an ugly evil-looking old woman
+1	debase            : corrupt morally or by intemperance or sensuality
+1	ornithologist     : scientist who studies birds
+1	wax               : increase in phase
+1	willful           : habitually disposed to disobedience and opposition
+1	wraith            : a mental representation of some haunting experience
 2	actuate           : give an incentive for doing something
 2	adage             : a condensed but memorable saying embodying an important fact
 2	admonitory        : (adjective) serving to warn; expressing reproof or reproachespecially as a corrective
@@ -51,6 +100,17 @@
 2	atavism           : a reappearance of an earlier characteristic
 2	axiomatic         : taken for granted; self-evident truth
 2	banter            : light teasing repartee
+2	blanch            : turn pale, as if in fear
+2	blighted          : affected by something that prevents growth or prosperity
+2	bouillon          : a clear seasoned broth
+2	capitulate        : surrender under agreed conditions
+2	caustic           : burning; stinging; causing corrosion
+2	derogative        : (adjective) expressed as worthless or in negative terms
+2	exacerbate        :  (v.)  infuriate, make worse
+2	tender            : (verb) offer up something formally
+2	waylay            : wait in hiding to attack
+2	welt              : a raised mark on the skin 
+2	wreak             : cause to happen or to occur as a consequence
 3	abscond           : to depart secretly
 3	advocate          :  (noun)  person supporting an idea or cause publicly
 3	affected          : pretentious; phony
@@ -63,6 +123,53 @@
 3	astringent        : sour or bitter in taste
 3	badger            : (verb) to pester
 3	barefaced         : (adj.) unconcealed, shameless, or brazen
+3	besmirch          : (verb) damage the good name and reputation of someone
+3	bleak             : (adjective) having a depressing or gloomy outlook
+3	bolt              : run away
+3	bombast           : pompous speech; pretentious words(n)
+3	boorish           : ill-mannered and coarse in behavior or appearance
+3	brook             : a natural stream of water smaller than a river
+3	bullion           : gold or silver in bars or ingots
+3	chaff             : material consisting of seed coverings and pieces of stem
+3	checkered         : marked by changeable fortune
+3	cloister          : to confine; seclude
+3	contrite          : feeling or expressing pain or sorrow for sins or offenses
+3	contrition        : (noun) the feeling of remorse or guilt that comes from doing something bad
+3	covert            : hidden; secret
+3	defame            : to malign; harm someone&#39;s reputation
+3	deign             : do something that one considers to be below one's dignity
+3	desultory         : marked by lack of definite plan or regularity or purpose; jumping from one thing to another
+3	devolve           : grow worse
+3	diadem            : an ornamental jeweled headdress signifying sovereignty
+3	dint              : force or effort
+3	disposition       : your usual mood
+3	ellipsis          : omission of words that would make the meaning clear(n)
+3	elucidate         : to make clear; to explain
+3	emolument         : compensation received by virtue of holding an office
+3	enduring          : unceasing
+3	enervate          :  (verb)  weaken, wear out
+3	entice            : (verb) get someone to do something through (often false or exaggerated) promises
+3	equivocal         : (adjective) confusing or ambiguous
+3	equivocate        :  (verb)  to avoid giving a clear or direct answer to a question
+3	esteem            : the condition of being honored
+3	evasive           : (adjective) deliberately vague or ambiguous
+3	extenuate         : lessen or to try to lessen the seriousness or extent of
+3	fiasco            : a sudden and violent collapse
+3	flounder          : (verb) behave awkwardly; have difficulties
+3	frivolous         :  (adj)  trivial, silly
+3	grovel            : show submission or fear
+3	homily            : sermon; tedious moralizing lecture
+3	inconsequential   : lacking worth or importance
+3	irresolute        : uncertain how to act or proceed
+3	oratorio          : a musical composition for voices and orchestra
+3	parity            : functional equality
+3	pellucid          :  (adj.)  translucently clear
+3	sate              : fill to contentment
+3	stigma            : mark of disgrace or inferiority
+3	telltale          : (adjective) revealing
+3	vie               : (verb) compete for something
+3	viscid            : having the sticky properties of an adhesive
+3	vituperative      : using or containing harsh, abusive censure
 4	abeyance          : temporary cessation or suspension
 4	aboveboard        : (adjective) open and honest
 4	abstain           : (verb) choose not to consume or take part in (particularly something enjoyable)
@@ -106,6 +213,130 @@
 4	avid              : (adjective) marked by active interest and enthusiasm
 4	bane              : something causing misery or death
 4	beatific          : marked by utter benignity
+4	belittle          : (verb) lessen the importance, dignity, or reputation of
+4	belligerent       :  (adj.)  hostile and aggressive
+4	bemuse            : cause to be confused emotionally
+4	beseech           : ask for or request earnestly
+4	besiege           : harass, as with questions or requests
+4	betrothed         : pledged to be married
+4	blandishment      : flattery
+4	bombastic         : pompous; using inflated language
+4	brawn             : possessing muscular strength
+4	bucolic           : idyllically rustic
+4	clarion           : loud and clear
+4	cohesive          : (adjective) well integrated, forming a united whole
+4	collage           : artistic composition of materials pasted over a surface; an assemblage of diverse elements
+4	commensurate      : proportional
+4	conjure           : summon into action or bring into existence
+4	continence        : self-control; abstention from sexual activity
+4	convention        : a large formal assembly
+4	countermand       : cancel officially
+4	cower             : crouch or curl up
+4	craven            : lacking even the rudiments of courage; abjectly fearful
+4	demure            : (adjective) to be modest and shy
+4	descry            : catch sight of
+4	diffident         : timid; lacking self-confidence(adj)
+4	dilatory          : (adjective) wasting time
+4	dilettante        : showing frivolous or superficial interest; amateurish
+4	dirge             : a song or hymn of mourning composed or performed as a memorial to a dead person
+4	disputatious      : arguementative
+4	diverge           : move or draw apart
+4	divest            : to strip of clothing, ornament, etc.
+4	doctrinaire       : dogmatic; unyielding
+4	dulcet            : pleasing to the ear
+4	ebullience        : an overflowing of high spirits; bubbly; efferevescence(n)
+4	ebullient         : joyously unrestrained
+4	elaborate         : marked by complexity and richness of detail
+4	elicit            : call forth (emotions, feelings, and responses)
+4	elysian           : delightful; blissful
+4	emaciated         : thin and wasted
+4	emend             : make corrections to
+4	enamor            : attract
+4	endow             : furnish with a capital fund
+4	engender          :  (verb)  cause or give rise to
+4	errant            : mistaken; straying from the proper course
+4	eschew            : avoid and stay away from deliberately
+4	eugenic           : causing improvement in the offspring produced
+4	eugenics          : study of factors that influence the hereditary qualities of the human race and ways to improve those qualities
+4	evanescent        : vanashing quickly; dissipating like a vapor
+4	evenhanded        : (adje) ): without partiality
+4	exasperate        : irritate
+4	exhort            : to urge by strong appeals
+4	exploitation      : an act that victimizes someone 
+4	facetious         : cleverly amusing in tone
+4	faction           : a dissenting clique
+4	filibuster        : use of obstructive tactics in a legislature to block passage of a law
+4	gravity           : the force of attraction between all masses in the universe
+4	guile             : deceit or trickery
+4	guileless         : free of deceit
+4	guise             : outward appearance; false appearance
+4	hallowed          : holy; sacred
+4	hew               : make or shape as with an axe
+4	hirsute           : covered with hair
+4	ignominious       : deserving or bringing disgrace or shame
+4	ignominy          : a state of dishonor
+4	immaterial        : (adjective) not relevant
+4	indignant         : (adjective) feeling anger over a perceived injustice
+4	inflammatory      : arousing to action or rebellion
+4	ingenuous         : lacking in sophistication or worldliness
+4	inherent          : part of the essential character; intrinsic
+4	inkling           : (noun) a slight suggestion or vague understanding
+4	irrevocable       : (adjective) incapable of being retracted or revoked
+4	jaundiced         : having a yellowish discoloration of the skin; affected by envy
+4	juggernaut        : huge froce destroying everything in its path
+4	keen              : demonstrating ability to recognize or draw fine distinctions
+4	liberal           : tolerant; broad-minded
+4	libertine         : one without moral restraint
+4	maculate          : to stain, spot, defile
+4	maintain          : (verb) to assert
+4	malady            : (noun) a disease or sickness
+4	malevolent        : wishing evil(adj)
+4	malice            : feeling a need to see others suffer
+4	maul              : injure badly
+4	mawkish           : (adjective) overly sentimentalto the point that it is disgusting
+4	minutia           : petty details
+4	multifarious      : diverse
+4	nonplus           : be a mystery or bewildering to
+4	nonplussed        : bewildered
+4	nostrum           : patent medicine whose efficacy is questionable
+4	novel             : an extended fictional work in prose
+4	nuance            : a subtle difference in meaning or opinion or attitude
+4	obdurate          :  (adj.)  refuse to change one&#8217;s opinion; stubborn
+4	obsequious        :  (adj.)  obedient or attentive to an excessive degree
+4	obtuse            : lacking in insight or discernment
+4	olfactory         : concerning the sense of smell
+4	opprobrium        : a state of extreme dishonor
+4	ordain            : invest with ministerial or priestly authority
+4	orthodox          :  (adj.)  conforming to all the traditional beliefs, and religious practices
+4	ostracize         : (verb) exclude from a community or group
+4	outskirts         : outlying areas, as of a city or town
+4	parable           : a short moral story 
+4	paraphernalia     : equipment consisting of miscellaneous articles
+4	parochial         : narrowly restricted in outlook or scope
+4	partial           : being or affecting only a segment
+4	partiality        : a predisposition to like something
+4	pastoral          : idyllically rustic
+4	patronize         : treat condescendingly
+4	paucity           : an insufficient quantity or number
+4	pedagogue         : someone who educates young people
+4	pedestrian        : (adjective) lacking imagination
+4	penury            : extreme poverty
+4	perennial         : lasting three seasons or more
+4	perfidious        : tending to betray; especially having a treacherous character as attributed to the carthaginians by the romans
+4	perfidy           : (noun) an act of deliberate betrayal; a breach of a trust
+4	perfunctory       : done in a routine, mechanical way, without interest
+4	sardonic          : cynical, scornfully mocking
+4	sensuous          : relating to the senses
+4	serendipity       : (noun) the instance in which an accidental, fortunate discovery is made
+4	solicitous        : full of anxiety and concern
+4	stipend           : (noun) a regular allowance (of money)
+4	stipulate         : specify as a condition or requirement in a contract or agreement; make an express demand or provision in an agreement
+4	stratum           : people having the same social or economic status
+4	tarnish           : (verb) make dirty or spotty, as by exposure to air; also used metaphorically
+4	temporize         : draw out a discussion or process in order to gain time
+4	testator          : a person who makes a will
+4	thespian          : an actor or actress
+4	wary              : marked by keen caution and watchful prudence
 5	abdicate          : to give up a position, right, or power
 5	aberrant          : deviating from what is normal
 5	aberration        : (noun) a deviation from what is normal or expected
@@ -206,658 +437,896 @@
 5	becoming          : (adjective) appropriate, and matches nicely
 5	behemoth          : huge creature; anything very large and powerful
 5	belie             :  (v.)  disguise or contradict
+5	bellicose         : (adjective) warlike; inclined to quarrel
+5	bemused           : perplexed by many conflicting situations or statements
+5	beneficent        : kindly; doing good
+5	benighted         : lacking enlightenment or knowledge or culture
+5	benign            :  (adj.)  gentle, kindly
+5	betoken           : be a signal for or a symptom of
+5	betray            : (verb) to reveal or make known something, usually unintentionally
+5	bifurcate         : to divide into two parts
+5	bilateral         : pertaining to or affecting both sides; having two sides
+5	bland             : lacking stimulating characteristics; uninteresting
+5	boast             : show off
 5	bolster           :  (v.)  support or strengthen
-	belittle          : (verb) lessen the importance, dignity, or reputation of
-	bellicose         : (adjective) warlike; inclined to quarrel
-	belligerent       :  (adj.)  hostile and aggressive
-	bemuse            : cause to be confused emotionally
-	bemused           : perplexed by many conflicting situations or statements
-	beneficent        : kindly; doing good
-	beneficient       : conferring benefits; kindly, doing good
-	benighted         : lacking enlightenment or knowledge or culture
-	benign            :  (adj.)  gentle, kindly
-	bent              : fixed in your purpose
-	bequeath          : leave or give by will after one's death
-	beseech           : ask for or request earnestly
-	besiege           : harass, as with questions or requests
-	besmirch          : (verb) damage the good name and reputation of someone
-	bestow            : present
-	betoken           : be a signal for or a symptom of
-	betray            : (verb) to reveal or make known something, usually unintentionally
-	betrothed         : pledged to be married
-	bifurcate         : to divide into two parts
-	bilateral         : pertaining to or affecting both sides; having two sides
-	bilious           : irritable as if suffering from indigestion
-	blanch            : turn pale, as if in fear
-	bland             : lacking stimulating characteristics; uninteresting
-	blandishment      : flattery
-	blase             : bored because of frequent indulgence; unconcerned
-	blatant           : without any attempt at concealment; completely obvious
-	bleak             : (adjective) having a depressing or gloomy outlook
-	blighted          : affected by something that prevents growth or prosperity
-	bluster           : act in an arrogant, overly self-assured, or conceited manner
-	boast             : show off
-	bolt              : run away
-	bombast           : pompous speech; pretentious words(n)
-	bombastic         : pompous; using inflated language
-	boon              : (adjective) very close and convivial
-	boorish           : ill-mannered and coarse in behavior or appearance
-	bouillon          : a clear seasoned broth
-	bovine            : cowlike
-	brawn             : possessing muscular strength
-	brazen            : bold; shameless
-	breach            : (n., v.) a lapse, gap or break, as in a fortress wall. to break or break through.ex: unfortunately, the club members never forgot his breach of ettiquette.
-	broach            : to mention for the first time
-	brooch            : a decorative pin worn by women
-	brook             : a natural stream of water smaller than a river
-	buck              : (verb) resist
-	bucolic           : idyllically rustic
-	bullion           : gold or silver in bars or ingots
-	bulwark           : a protective structure of stone or concrete
-	bumbling          : (adjective) lacking physical movement skills, especially with the hands
-	burgeon           : grow and flourish
-	burnish           : polish and make shiny
-	buttress          : to reinforce; support
-	buxom             : healthily plump and vigorous
-	cabal             : a clique that seeks power usually through intrigue
-	cacophany         : a harsh, inharmonious collection of sounds;dissonance
-	cacophonous       : unpleasant or harsh-sounding
-	cacophony         :  (noun) &#8211; a harsh, discordant mixture of sounds
-	cadaverous        : very thin especially from disease or hunger or cold
-	cadge             : to beg; sponge
-	cajole            : influence or urge by gentle urging, caressing, or flattering
-	callous           : thick-skinned; insensitive
-	calumny           : false and malicious accusation; slander
-	cameo             : engraving or carving in low relief on a stone
-	campaign          : a race between candidates for elective office
-	canard            : false; deliberately misleading story
-	candid            : openly straightforward and direct without secretiveness
-	candidness        : (noun) the quality of being honest and straightforward in attitude and speech
-	canon             : an established set of principles; a basis or standard for judgment; a group of literary works
-	cant              : insincere talk about religion or morals
-	cantankerous      : irritable; ill-humored
-	canto             : a major division of a long poem
-	capitulate        : surrender under agreed conditions
-	caprice           : a sudden unpredictable or whimsical change(n)
-	capricious        :  (adj.)  given to sudden behavior change
-	captious          : tending to find and call attention to faults
-	cardinal          : of foremost importance
-	careen            : pitching dangerously to one side
-	carnal            : of the flesh or body; related to physical appetites
-	carping           : to find fault; complain
-	carrion           : the dead and rotting body of an animal; unfit for human food
-	cartography       : science of making maps
-	caste             : any of the hereditary social classes in hindu society; social stratification
-	castigate         : (verb) to reprimand harshly
-	cataclysm         : a violent upheaval that causes great destruction and change
-	catalyst          : something that causes change
-	categorical       : absolute; without exception
-	catharsis         : a purging or relieving of the body or soul
-	caucus            : meet to select a candidate or promote a policy
-	causal            : involving a cause
-	caustic           : burning; stinging; causing corrosion
+5	bovine            : cowlike
+5	breach            : (n., v.) a lapse, gap or break, as in a fortress wall. to break or break through.ex: unfortunately, the club members never forgot his breach of ettiquette.
+5	burgeon           : grow and flourish
+5	burnish           : polish and make shiny
+5	cabal             : a clique that seeks power usually through intrigue
+5	cacophonous       : unpleasant or harsh-sounding
+5	cacophony         :  (noun) &#8211; a harsh, discordant mixture of sounds
+5	cadaverous        : very thin especially from disease or hunger or cold
+5	callous           : thick-skinned; insensitive
+5	calumny           : false and malicious accusation; slander
+5	cameo             : engraving or carving in low relief on a stone
+5	campaign          : a race between candidates for elective office
+5	candid            : openly straightforward and direct without secretiveness
+5	candidness        : (noun) the quality of being honest and straightforward in attitude and speech
+5	canto             : a major division of a long poem
+5	caprice           : a sudden unpredictable or whimsical change(n)
+5	capricious        :  (adj.)  given to sudden behavior change
+5	cardinal          : of foremost importance
+5	carnal            : of the flesh or body; related to physical appetites
+5	carping           : to find fault; complain
+5	cartography       : science of making maps
+5	caste             : any of the hereditary social classes in hindu society; social stratification
+5	castigate         : (verb) to reprimand harshly
+5	cataclysm         : a violent upheaval that causes great destruction and change
+5	catalyst          : something that causes change
+5	categorical       : absolute; without exception
+5	catharsis         : a purging or relieving of the body or soul
+5	causal            : involving a cause
+5	cede              : relinquish possession or control over
+5	celestial         : concerned with sky or heavens; sublime
+5	censure           : (verb) to express strong disapproval
+5	centrifugal       : moving away from a center
+5	centripetal       : moving or directed toward a center
+5	cerebral          : (adjective) involving intelligence rather than emotions or instinct
+5	chamber           : a natural or artificial enclosed space
+5	champion          : to defend or support
+5	chary             : characterized by great caution
+5	chastise          : censure severely
+5	chauvinist        : someone prejudiced in favor of a group to which he or she belongs
+5	check             : (noun) the condition of being held back or limited
+5	chicanery         :  (noun)  deception, trickery
+5	chivalry          : the qualities idealized by knighthood such as bravery and gallantry toward women
+5	choleric          : characterized by anger
+5	chortle           : (verb) to chuckle, laugh merrily
+5	churlish          : rude; boorish
+5	churlishness      : crude or surly behavior; behavior of a peasant
+5	circumlocution    : a roundabout or indirect way of speaking; not to the point
+5	circumstances     : one's overall condition in life 
+5	cite              : make reference to
+5	clairvoyant       : one who can predict the future; psychic
+5	clamor            : noisy outcry
+5	clandestine       : conducted with or marked by hidden aims or methods
+5	cleave            : separate or cut with a tool, such as a sharp instrument
+5	clemency          : (noun) leniency and compassion shown toward offenders by a person or agency charged with administering justice
+5	cloture           : a parlimentary procedure to end debate and begin to vote(n)
+5	coagulate         : thicken; congeal
+5	coalesce          : to cause to become one
+5	coast             : the shore of a sea or ocean
+5	coax              : influence or urge by gentle urging, caressing, or flattering
+5	coda              : concluding part of a literary or musical composition; something that summarizes or concludes
+5	codicil           : a supplement to a will
+5	codify            : to systematize
+5	cognitive         : possessing the power to think or meditate; meditateive; capable of perception(adj)
+5	cognizant         : aware of; perceptive
+5	coherent          : connected; logical; consistent
+5	cohesion          : the act of sticking together(n)
+5	colossal          : (adjective) so great in size or force or extent as to elicit awe
+5	comeliness        : beauty; attractiveness in appearance or behavior(n)
+5	commission        : a special group delegated to consider some matter
+5	commit            : perform an act, usually with a negative connotation
+5	compendium        : brief, comprehensive summary
+5	complacent        : self-satisfied
+5	complaisance      : the inclination to comply willingly with the wishes of others; amiability (n)
+5	complaisant       : overly polite; willingness to comply with the wishes of others
+5	complement        : something that completes or makes up a whole
+5	complementary     : (adjective) enhancing each other's qualities (for two things or more).
+5	comport           : behave in a certain manner
+5	comprehensive     : broad in scope
+5	concave           : curving inward
+5	concede           : (verb) give over; surrender or relinquish to the physical control of another
+5	concept           : an abstract or general idea inferred from specific instances
+5	concern           : something that interests you because it is important
+5	conciliatory      : overcoming distrust or hostility
+5	condone           : to overlook voluntarily; forgive
+5	conduct           : direct the course of; manage or control
+5	confer            : have a meeting in order to talk something over
+5	conflagration     : (n.) a great fire
+5	congeal           : become gelatinous
+5	congenial         : similar in tastes and habits; friendly; suited to
+5	conjugal          : pertaining to marriage agreement
+5	connoisseur       : expert in matters of taste; expert knowledge or training
+5	connotation       : an idea that is implied or suggested
+5	connotative       : containing associated meanings in addition to the primary one.(adj)
+5	conscientious     : characterized by extreme care and great effort
+5	consecrate        : render holy by means of religious rites
+5	conservatory      : a schoolhouse with special facilities for fine arts
+5	consider          : deem to be
+5	conspicuous       :  (adj.)  obvious, easily seen
+5	constant          : a quantity that does not vary
+5	constituency      : the body of voters who elect a representative for their area
+5	constituent       : (noun) an abstract part of something
+5	constitute        : to compose or represent
+5	constrain         : to force, compel; restrain
+5	construe          : make sense of; assign a meaning to
+5	consummate        : (verb) to make perfect and complete in every respect
+5	contempt          : lack of respect accompanied by a feeling of intense dislike
+5	contemptuous      : (adjective) scornful, looking down atothers with a sneering attitude
+5	contention        : a struggling together in opposition; strife
+5	contentious       : quarrelsome
+5	contiguous        : touching; neighboring; connecting without a break
+5	contract          : a binding agreement that is enforceable by law
+5	contravene        : to act contrary to (like a law); to contradict in argument, gainsay
+5	contumacious      : disobedient; rebellious
+5	contusion         : an injury in which the skin is not broken
+5	conundrum         : a difficult problem
+5	convalesce        : get over an illness or shock
+5	converge          : to approach; come together; tend to meet
+5	convex            : curved outward
+5	convince          : make realize the truth or validity of something
+5	convivial         : sociable
+5	copious           :  (adj.)  abundant in supply or quantity
+5	coquette          : woman who flirts
+5	cornucopia        : horn overflowing with fruit and grain; state of abundance
+5	corporal          : (adj.) of the body: "corporal punishment." a non-commissioned officer ranked between a sergeant and a private.
+5	corporeal         : (adj.) having material or physical form or substance
+5	corpulent         : excessively fat
+5	corroborate       :  (v.)  confirm or give support to
+5	cosmology         : study of the universe as a totality; theory of the origin and structure of the universe
+5	cosmopolitan      : (adjec) ): comprising many cultures; global in reach and outlook
+5	coterie           : a clique; a group who meet frequently, usually socially
+5	court             : an assembly to conduct judicial business
+5	credence          : acceptance of something as true
+5	credible          : appearing to merit belief or acceptance
+5	creditable        : (adjective) deserving of praise but not that amazing
+5	credo             : any system of principles or beliefs
+5	credulous         : too trusting; gullible
+5	crew              : the men and women who man a vehicle
+5	cryptic           : of an obscure nature
+5	culminate         : (verb) reach the highest or most decisive point
+5	culpability       : (noun) a state of guilt
+5	cupidity          : extreme greed for material wealth
+5	daunt             : cause to lose courage
+5	debilitate        : to enfeeble; to wear out
+5	debunk            : (verb) expose as false ideas and claims, especially while ridiculing
+5	decadence         : the state of being degenerate in mental or moral qualities
+5	decimation        : (noun) destroying or killing a large part of the population
+5	decorous          : characterized by or exhibiting decorum; proper
+5	decorum           : propriety in manners and conduct
+5	decree            : a legally binding command or decision
+5	deduce            : reason from the general to the particular
+5	default           : an option that is selected automatically unless an alternative is specified
+5	deference         : courteous regard for people&#39;s feelings
+5	deferential       : (adjective) showing respect
+5	degrade           : (verb) reduce in worth or character, usually verbally
+5	delegate          : (verb) give an assignment to (a person)
+5	deleterious       : harmful; hurful; noxious
+5	deliberate        : (verb) think about carefully; weigh the pros and cons of an issue
+5	delicacy          : the quality of being exquisitely fine in appearance
+5	delineate         : describe or portray (something) precisely
+5	demographic       : related to population balance
+5	demonstrable      : capable of being proved
+5	demoralize        : lower someone's spirits; make downhearted
+5	denigrate         : to attack the character or reputation of; to speak ill of; defame
+5	denote            : (verb) be a sign or indication of; have as a meaning
+5	dense             : permitting little if any light to pass through
+5	deprave           : corrupt morally or by intemperance or sensuality
+5	deride            :  (adj.)  make fun of; insult
+5	derision          : the act of mocking, mockery
+5	derivative        : a compound obtained from another compound
+5	derive            : (verb) reason by deduction; establish by deduction
+5	derived           : formed or developed from something else; not original
+5	desecrate         : (verb) to willfully violate or destroy a sacred place
+5	despair           : a state in which all hope is lost or absent
+5	desuetude         : state of disuse
+5	device            : an instrumentality invented for a particular purpose
+5	diabolical        : (adjective) to be extremely wicked like the devil
+5	dichotomy         : a division into two parts
+5	dictatorial       : (adjective) expecting unquestioning obedience; characteristic of an absolute ruler
+5	dictum            : an authoritative declaration
+5	didactic          :  (adj.)  intended to teach, educational
+5	differentiate     : (verb) evolve so as to lead to a new species or develop in a way most suited to the environment
+5	diffuse           : to spread or scatter widely
+5	dilate            : to make larger; to expand
+5	diligent          : (adjective) characterized by care and perseverance in carrying out tasks
+5	disapprobation    : pronouncing as wrong or morally culpable
+5	discern           : to perceive; to recognize
+5	discerning        : having or revealing keen insight and good judgment
+5	discomfit         : to make uneasy; disconcert
+5	disconcert        : cause to lose one's composure
+5	disconsolate      : sad beyond comforting; incapable of being consoled
+5	discordant        : not in agreement or harmony
+5	discourse         : to converse; to communicate in orderly fasion
+5	discredit         : to injure the credit or reputation of
+5	discreet          : marked by prudence or modesty and wise self-restraint
+5	discrepancy       : a difference between conflicting facts or claims or opinions
+5	discrete          : constituting a separate entity or part
+5	discretion        : quality of showing self-restraint in speech or actions
+5	discriminating    : showing or indicating careful judgment and discernment
+5	disembark         : go ashore
+5	disingenuous      : not frank or candid; deceivingly simple(adj)(opposite: ingenuous)
+5	disinterested     : neutral; unbiased
+5	dismiss           : stop associating with
+5	disparate         :  (adj.)  essentially different in kind, not allowing comparison
+5	dispassionate     :  (adj.)  unfeeling, impartial
+5	dispatch          : send away towards a designated goal
+5	disseminate       : spread or disperse (something, esp. information) widely
+5	dissimulate       : hide feelings from other people
+5	dissolution       : separation into component parts
+5	dissonance        :  (noun)  lack of harmony, disagreement
+5	dissonant         : not in harmony; in dissagreement(adj)
+5	distinction       : a discrimination between things as different
+5	distrait          : inattentive; preoccupied
+5	diversified       : having variety of character or form or components
+5	divulge           : to make known something that is secret
+5	docile            :  (adj.)  compliant, submissive
+5	document          : a representation of a person's thinking with symbolic marks
+5	dogged            : stubbornly unyielding
+5	dogma             : a firmly held opinion, often a religious belief
+5	dogmatic          :  (adj.)  dictatorial, opinionated
+5	dormant           : inactive but capable of becoming active
+5	dross             : waste; worthless matter
+5	dupe              : fool or hoax
+5	dutiful           : willingly obedient out of a sense of respect
+5	earnest           : characterized by a firm, humorless belief in one's opinions
+5	eccentric         : (adjective) highly unconventional or usual (usually describes a person)
+5	eclectic          : deriving ideas, style, or taste from a broad and diverse range of sources
+5	economical        : (adjective) avoiding waste, efficient
+5	edict             : a formal or authoritative proclamation
+5	edifice           : a structure that has a roof and walls
+5	edifying          : (adjective) enlightening or upliftingso as to encourage intellectual or moral improvement
+5	effervescence     : the property of giving off bubbles
+5	efficacious       : (adjective) producing the intended result
+5	efficacy          : capacity or power to produce a desired effect
+5	effluvium         : a foul-smelling outflow or vapor
+5	effrontery        : audacious (even arrogant) behavior that you have no right to
+5	egoism            : the tendency to see things in relation to oneself; self-centeredness
+5	egotist           : (noun) a conceited and self-centered person
+5	egotistical       : excessively self-centered; conceited
+5	egregious         : conspicuously and outrageously bad or reprehensible
+5	elegy             : a mournful poem; a lament for the dead
+5	elixir            : a sustance believed to have the power to cure ills
+5	eloquent          : persuasive and moving, especially in speech
+5	elude             : escape, either physically or mentally
+5	elusive           : (adjective) difficult to capture or difficult to remember
+5	embellish         : make more attractive by adding ornament, colour, etc.
+5	embroil           : force into some kind of situation or course of action
+5	embroiled         : (adjective) involved in argument or contention
+5	eminent           : (adjective) standing above others in quality or position
+5	emollient         : softening or soothing to the skin; having power to soften or relax living tissues(adj)
+5	empathetic        : (adjective) showing understanding and ready comprehension of other peoples' states and emotions
+5	empirical         : derived from experiment and observation rather than theory
+5	emulate           : to imitate; copy
+5	endemic           : native to a particular area or people(adj)
+5	enhance           : increase
+5	enigma            :  (adj.)  difficult to interpret or understand; mysterious
+5	entertain         : provide amusement for
+5	entomology        : the scientific study of insects
+5	enumerate         : (verb) specify individually, one by one
+5	enunciate         : to pronounce clearly
+5	ephemeral         :  (adj.)  momentary, passing
+5	equanimity        : steadiness of mind under stress
+5	eradicate         : (verb) to completely destroy
+5	erode             : become ground down or deteriorate
+5	err               : (verb) to make an error
+5	erratic           : (adjective) unpredictable; strange and unconventional
+5	erudite           :  (adj.)  well-educated, cultured
+5	esoteric          :  (adj.)  mysterious, obscure
+5	espouse           : choose and follow
+5	essay             : to make an attempt; subject to a test
+5	establish         : set up or found
+5	estimable         : admirable; possible to estimate
+5	euphoria          : feeling of extreme happiness
+5	euphoric          :  (adj.)  intense excitement and happiness
+5	euthanasia        : mercy killing
+5	evident           : clearly revealed to the mind or the senses or judgment
+5	evocative         : tending to call to mind or produce a reaction
+5	exact             : to force the payment of; demand and obtain by authority
+5	exacting          : (adjective) requiring and demanding accuracy
+5	exemplify         : (verb) clarify by giving an example of
+5	exigency          : a pressing or urgent situation
+5	exigent           : requiring immediate action; urgent(adj)
+5	existential       : having to do with existence
+5	exonerate         : (verb) pronounce not guilty of criminal charges
+5	exorbitant        : greatly exceeding bounds of reason or moderation
+5	exorcise          : to expel evil spirits; free from bad influences
+5	expatriate        : to send into exile
+5	explicate         : to explain;interpret;clarify
+5	explicit          : clearly stated or shown; forthright in expression
+5	exploit           : draw from; make good use of
+5	expository        : explanatory
+5	extirpate         : to root up; to destroy
+5	extrapolate       : to estimate the value of something beyond the scale; to infer what is unkown from something known
+5	extrapolation     : an inference about the future (or about some hypothetical situation) based on known facts and observations
+5	extravagant       : recklessly wasteful
+5	extrinsic         : not inherent or essential
+5	facilitate        : make easier
+5	fallacious        : based on a false idea or fact; misleading
+5	fanatical         : acting excessively enthusiastic; filled with extreme, unquestioned devotion
+5	fauna             : animals of a period o region
+5	fawning           : attempting to win favor by flattery
+5	feign             : pretend
+5	felicitous        : exhibiting an agreeably appropriate manner or style
+5	feral             : existing in a wild or untamed state
+5	fervid            :  (adj.)  intensely enthusiastic or passionate
+5	fervid, fervent   : (adj.) highly emotional; hot: "the partisans displayed a fervent patriotism." (n: fervor)
+5	fervor            : feelings of great warmth and intensity
+5	fervour           : the state of being emotionally aroused and worked up
+5	fetid             : having a bad smell
+5	fidelity          : loyalty; exact correspondence
+5	financial         : involving fiscal matters
+5	firebrand         : someone who deliberately foments trouble
+5	fissure           : crevice
+5	flag              : emblem usually consisting of a rectangular piece of cloth of distinctive design
+5	fledgling         : young bird that has just fledged or become capable of flying
+5	flora             : plants of a region or era
+5	florid            : ruddy; reddish; flowery
+5	flotilla          : a fleet of small craft
+5	flourish          : grow vigorously
+5	foment            : try to stir up public opinion
+5	formal            : characteristic of or befitting a person in authority
+5	formidable        : menacing; threatening
+5	forsake           : leave someone who needs or counts on you; leave in the lurch
+5	forswear          : renounce; repudiate
+5	fortitude         : strength of mind that enables one to endure adversity
+5	fortuitous        :  (adj.)  happening by accident or chance
+5	fracas            : noisy quarrel
+5	fresco            : a painting done on plaster
+5	frontier          : a wilderness at the edge of a settled area of a country
+5	fructify          : become productive or fruitful
+5	gregarious        : outgoing; sociable
+5	grudging          : petty or reluctant in giving or spending
+5	gullible          : naive and easily deceived or tricked
+5	gustatory         : affecting the sense of taste
+5	gusto             : vigorous and enthusiastic enjoyment
+5	harangue          : a lengthy and aggressive speech
+5	harried           : (adjective) troubled persistently especially with petty annoyances
+5	harry             : annoy continually or chronically
+5	hegemony          : (adjective) dominance over a certain area
+5	herbivorous       : an animal that feeds mainly on plants
+5	herculean         : displaying superhuman strength or power
+5	heretic           : (noun) a person who holds unorthodox opinions in any field (not merely religion)
+5	hermetic          : tighly sealed; magical
+5	hermitage         : the abode of a recluse
+5	heyday            : the period of greatest prosperity or productivity
+5	hieroglyphics     : a system of writing in which pictorial symbols represent meanings or sounds; wirting or symbols that are difficult to decipher
+5	histrionic        : relating to exaggerated emotional behavior calculated for effect; theatrical acts or performances
+5	hodgepodge        : (noun) a confusing mixture or jumble
+5	homogeneous       : all of the same or similar kind or nature
+5	homogenous        : of a similar kind
+5	horde             : a moving crowd
+5	hound             : (verb) to pursue relentlessly
+5	humble            : marked by meekness or modesty; not arrogant or prideful
+5	humiliate         : cause to feel shame
+5	husbandry         : the practice of cultivating the land or raising stock
+5	iconoclast        :  (noun)  someone who attacks cherished beliefs or institutions
+5	iconoclastic      : characterized by attack on established beliefs
+5	ideology          : an orientation that characterizes the thinking of a group
+5	idiosyncrasy      :  (noun)  a way of thought peculiar to an individual
+5	idolatry          : the worship of idols or images that are not god
+5	ignoble           : (adjective) dishonorable
+5	illicit           : (adj) ): contrary to or forbidden by law
+5	imbroglio         : complicated situation; an entanglement
+5	imminent          :  (adj.)  about to happen
+5	immutable         : not subject or susceptible to change or variation in form or quality or nature
+5	impair            : weaken or damage (esp. a human faculty or function)
+5	impart            : transmit, as knowledge or a skill
+5	impartial         : (adjective) free from undue bias or preconceived opinions
+5	impassive         : having or revealing little emotion or sensibility
+5	impede            : be a hindrance or obstacle to
+5	impel             : cause to move forward with force
+5	impermeable       : preventing especially liquids to pass or diffuse through
+5	impertinent       : improperly forward or bold
+5	imperturbable     : marked by extreme calm and composure
+5	implacable        : unwilling to be pacified or appeased
+5	implausible       : unlikely; unbelievable
+5	implicate         : (verb) to indicate in wrongdoing, usually a crime
+5	implication       : (n.) insinuation or connotation (v. implicate)
+5	implicit          : implied though not directly expressed; inherent in the nature of something
+5	implode           : burst inward
+5	imply             : (v.) "she implied she didn't believe his story." (n: implication)
+5	inclined          : at an angle to the horizontal or vertical position
+5	inclusive         : encompassing much or everything
+5	incongruity       : the quality of disagreeing; being unsuitable and inappropriate
+5	incongruous       : (adjective) lacking in harmony or compatibility or appropriateness
+5	incorporate       : make into a whole or make part of a whole
+5	incorrigible      : impervious to correction by punishment
+5	incredulous       : skeptical or unbelieving
+5	inculcate         : teach and impress by frequent repetitions or admonitions
+5	inculpate         :  (verb)  accuse or blame
+5	indecorous        : (adjective) not in keeping with accepted standards of what is right or proper in polite society
+5	indemnify         : make amends for; pay compensation for
+5	indeterminate     : uncertain; indefinite
+5	indication        : something that serves to suggest
+5	indifference      : (noun) the trait of seeming not to care
+5	indigence         : a state of extreme poverty or destitution
+5	indigenous        : native to a region, inborn or innate
+5	indolent          : disinclined to work or exertion
+5	industrious       : (adjective) characterized by hard work and perseverance
+5	inept             : incompetent; clumsy
+5	inert             : lacking power
+5	inexorable        : (adjective) impossible to stop or prevent
+5	infallible        : incapable of failure or error
+5	infer             : (v.) to deduce: "new genetic evidence led some zoologists to infer that the red wolf is actually a hybrid of the coyote and the gray wolf."
+5	infest            : occupy in large numbers or live on a host
+5	inflammable       : (adjective) extremely controversial, incendiary
+5	ingenious         :  (adj.)  clever, original, and inventive
+5	ingenuity         : (noun) the power of creative imagination
+5	ingratiate        : gain favor with somebody by deliberate efforts
+5	inhibit           : (v.) to hold back, prohibit, forbid, or restrain (n: inhibition, adj: inhibited)
+5	inimitable        : matchless
+5	innate            : not established by conditioning or learning
+5	insensate         : devoid of feeling and consciousness and animation
+5	insensible        : barely able to be perceived
+5	insidious         : (adjective) working in a subtle but destructive way
+5	insinuate         : suggest or hint (something negative) in an indirect and unpleasant way
+5	insipid           :  (adj.)  lacking taste or flavor
+5	insist            : be emphatic or resolute and refuse to budge
+5	insolent          : (adjectiv) ): rude and arrogant
+5	insolvent         : (adjective) unable to pay one's bills; bankrupt
+5	inspire           : serve as the inciting cause of
+5	instance          : an occurrence of something
+5	institute         : set up or lay the groundwork for
+5	insular           : (adj.) of or pertaining to an island, thus, excessively exclusive: "newcomers found it difficult to make friends in the insular community."
+5	insularity        : the state of being isolated or detached
+5	insuperable       : insurmountable; unconquerable
+5	intangible        : not material
+5	intend            : have in mind as a purpose
+5	interminable      : tiresomely long; seemingly without end
+5	interpolate       : to insert; change by adding new words or material
+5	interregnum       : interval between reigns; gap in continuity
+5	intimate          : marked by close acquaintance
+5	intractable       : stubborn or obstinate; not easily taught or disciplined
+5	intransigence     : the trait of being intransigent; stubbornly refusing to compromise
+5	intransigent      : refusing to agree or compromise; uncompromising; inflexible
+5	intrepid          : fearless or bold
+5	intrigue          : cause to be interested or curious
+5	introspective     : contemplating one&#39;s own thoughts and feelings
+5	inundate          : fill or cover completely, usually with water
+5	inured            : made tough by habitual exposure
+5	invidious         : likely to provoke ill will
+5	invocation        : the act of appealing for help
+5	involved          : (adjective) complicated, and difficult to comprehend
+5	irascible         : prone to anger, easily angered
+5	issue             : some situation or event that is thought about
+5	itinerant         : wandering from place to place; unsettled
+5	itinerary         : an established line of travel or access
+5	jargon            : (noun) a characteristic language of a particular group
+5	jet               : an airplane powered by gas turbines
+5	jocose            : fond of joking; jocular
+5	jocund            : full of or showing high-spirited merriment
+5	jovial            : (adjective) full of or showing high-spirited merriment
+5	jubilant          : (adjective) full of high-spirited delight because of triumph or success
+5	junta             : group of people united in political intrigue
+5	justify           : show to be reasonable or provide adequate ground for
+5	juxtapose         : place side by side
+5	knight            : a person of noble birth trained to arms and chivalry
+5	kudos             : fame; glory; honor
+5	labor             : any piece of work that is undertaken or attempted
+5	laborious         : (adjectiv) ): characterized by effort to the point of exhaustion; especially physical effort
+5	laconic           :  (adj.)  brief and to the point; effectively cut short
+5	lament            : to express sorrow; to grieve
+5	largess           : (noun) extreme generosity and giving
+5	largesse          : liberality in bestowing gifts
+5	latent            : potentially existing but not presently evident or realized
+5	laud              : praise, glorify, or honor
+5	laudable          : (adjective) worthy of high praise
+5	league            : an association of sports teams that organizes matches
+5	lethargic         :  (adj.)  lazy, sluggish
+5	level             : a relative position or degree of value in a graded group
+5	leviathan         : (n.) giant whale, therefore, something very large
+5	libido            : sexual desire
+5	lilliputian       : extremely small
+5	linguistic        : pertaining to language
+5	lionize           :  (verb)  treat someone as a celebrity
+5	literati          : scholarly or learned persons
+5	litigation        : legal proceedings
+5	log               : any of various records, made in rough or finished form, concerning a trip made by a ship or aircraft and dealing with particulars of navigation, weather, engine performance, discipline, and other pertinent details
+5	loquacious        :  (adj.)  tending to talk a great deal; talkative
+5	lucid             : transparently clear; easily understandable
+5	lustrous          : shining
+5	macabre           : (adjective) suggesting the horror of death and decay; gruesome
+5	macerate          : to soften by steeping in liquid (including stomach juices)
+5	machination       : a crafty and involved plot to achieve your ends
+5	machinations      : plots or schemes
+5	majority          :  more than half of the votes in an election
+5	maladroit         : (adjective) clumsy
+5	malign            :  (adj.)  hurtful, injurious
+5	malleable         : easy to shape or form
+5	malodorous        : (adjective) having an unpleasant smell
+5	manifest          : reveal its presence or make an appearance
+5	manifestation     : a clear appearance
+5	masticate         : bite and grind with the teeth
+5	maverick          : someone who exhibits independence in thought and action
+5	maxim             : a saying that is widely accepted on its own merits
+5	melancholy        : (noun) a deep, long-lasting sadness
+5	melee             : (noun) a wild, confusing fight or struggle
+5	mendacity         : (noun) the tendency to be untruthful
+5	mendicant         : beggar
+5	mercurial         :  (adj.)  subject to sudden or unpredictable changes of mood, temperamental
+5	merit             : any admirable quality or attribute
+5	mesmerize         : to hypnotize
+5	metamorphosis     : striking change in appearance or character or circumstances
+5	metaphor          : a figure of speech comparing two different things; a symbol
+5	metaphysics       : a branch of philosophy tha tinvestigates the ultimate nature of reality
+5	meteorological    : concerned with the weather
+5	meticulous        :  (adj.)  very careful and precise
+5	microcosm         : a miniature model of something
+5	minuscule         : very small
+5	minute            : infinitely or immeasurably small
+5	monetary          : relating to or involving money
+5	monotony          : lack of variation
+5	moribund          : not growing or changing; without force or vitality
+5	morph             : (verb) to undergo dramatic change in a seamless and barely noticeable fashion.
+5	mortify           : cause to feel shame
+5	multitude         : a large indefinite number
+5	mundane           : found in the ordinary course of events
+5	muse              : reflect deeply on a subject
+5	myopic            : (adjective) lacking foresight or imagination
+5	myriad            : (noun) a large indefinite number
+5	natty             : marked by up-to-dateness in dress and manners
+5	necromancy        : black magic
+5	negate            : make ineffective by counterbalancing the effect of
+5	neologism         : new word or expression
+5	neophyte          : any new participant in some activity
+5	nexus             : a means of connection; a center
+5	nicety            : conformity with some aesthetic standard of correctness
+5	nihilist          : someone who rejects all theories of morality
+5	nonentity         : a person of no influence
+5	nostalgia         : sentimental longing for a past time
+5	notion            : a general inclusive concept
+5	objective         : the goal intended to be attained
+5	obscure           :  (adj.)  not discovered or known about; uncertain
+5	obstinate         : stubborn, unyielding
+5	obtain            : come into possession of
+5	obviate           : to make unnecessary
+5	occlude           : block passage through
+5	occult            : relating to practices connected with supernatural phenomena
+5	odyssey           : a long, adventurous voyage; a quest
+5	oligarchy         : form of government in which power belongs to only a few leaders
+5	onomatopoeia      : formation or use of words that imitate sounds of the actions they refer to
+5	opaque            : (adjective) not clearly understood or expressed
+5	oppress           : come down on or keep down by unjust use of one's authority
+5	opulence          : (noun) wealth as evidenced by sumptuous living
+5	oscillate         : move or swing from side to side regularly
+5	ossified          : (adj.) turned to bone; hardened like bone; inflexible: "the ossified culture failed to adapt to new economic conditions and died out."
+5	ossify            : to turn to bone; harden
+5	ostentation       :  (adj.)  pretentious and vulgar display intended to impress, show off
+5	ostentatious      : intended to attract notice and impress others
+5	pacifist          : opposed to war
+5	pacify            : cause to be more favorably inclined
+5	palatable         : acceptable to the taste or mind
+5	paleontology      : study of past geological eras through fossil remains
+5	pallid            : lacking color or liveliness
+5	palpable          : touchable; clear, obvious
+5	palpitate         : beat rapidly
+5	paradigm          : a set of assumptions, concepts, values, and practices that constitutes a way of viewing realityalso- model, prototype, pattern
+5	paradox           : a tenet that is seemingly contradictory or false but is actually true
+5	paradoxical       : (adjective) seemingly contradictory but nonetheless possibly true
+5	paragon           : an ideal instance; a perfect embodiment of a concept
+5	parsimonious      : very frugal; unwilling to spend
+5	passage           : a section of text, particularly a section of medium length
+5	pathological      : of or relating to the practice of pathology
+5	peccadillo        : (n.) a small sin or fault
+5	pedant            :  (noun)  a person who overemphasizes rules or minor details
+5	pedantic          : ostentatious or showy in one's learning; emphasising minutae or form in scholarhsip or teaching
+5	peon              : a laborer who is obliged to do menial work
+5	perigee           : point in an orbit that is closest to the earth
+5	perish            : pass from physical life
+5	permeable         : allowing fluids or gases to pass or diffuse through
+5	permeate          : spread or diffuse through
+5	riposte           : a quick clever reply to an insult or criticism
+5	rococo            : excessively ornate
+5	rudimentary       : (adjective) being in the earliest stages of development; being or involving basic facts orprinciples
+5	rustic            : (adjective) characteristic of rural life; awkwardly simple and provincial
+5	sagacious         : wise
+5	sage              : a mentor in spiritual and philosophical topics
+5	salubrious        : promoting good health
+5	sanctimonious     : (adjective) making a show of being pious; holier-than-thou
+5	sanction          : official permission or approval
+5	sanguine          :  (adj.)  optimistic or positive
+5	satiate           : fill to satisfaction
+5	satire            : witty language used to convey insults or scorn
+5	saturate          : infuse or fill completely
+5	saturnine         : gloomy
+5	satyr             : a creature that is half-man, half beast, with the horns and legs of a goat
+5	savor             : the taste experience when a savoury condiment is taken into the mouth
+5	savvy             : (adjective) well-informed or perceptive
+5	scale             : relative magnitude
+5	scarce            : deficient in quantity or number compared with the demand
+5	schematic         : relating to or in the form of an outline or diagram
+5	scheme            : an elaborate and systematic plan of action
+5	scrupulous        :  (adj.)  diligent, thorough, and extremely careful
+5	scrutinize        : to look at critically or searchingly, or in minute detail
+5	secrete           : generate and separate from cells or bodily fluids
+5	seismic           : relating to earthquakes
+5	semblance         : an outward appearance that is deliberately misleading
+5	sensual           : relating to the senses, gratifying the physical (sexual) senses
+5	serene            : (adjective) calm and peaceful
+5	servile           : submissive, obedient
+5	sextant           : navigation tool that determines latitude and longitude
+5	sidereal          : relating to the stars
+5	simian            : apelike, relating to apes
+5	simile            : comparison of one thing with another using "like" or "as"
+5	singular          : unique, extraordinary, odd
+5	sinuous           : full of curves; twisting and turning
+5	skeptic           : someone who habitually doubts accepted beliefs
+5	skill             : an ability that has been acquired by training
+5	slay              : kill intentionally and with premeditation
+5	sob               : weep convulsively
+5	sobriety          : seriousness
+5	solvent           : able to meet financial obligations
+5	sonorous          : full and loud and deep
+5	soporific         :  (adj.)  tending to induce drowsiness or sleep
+5	sordid            : filthy, contemptible and corrupt
+5	spectral          : resembling or characteristic of a phantom
+5	spectrum          : a broad range of related objects or values or qualities
+5	sporadic          :  (adj.)  occurring at irregular intervals; scattered or isolated
+5	spurious          : false; bogus
+5	start             : (verb) to suddenly move in a particular direction
+5	stolid            : having or revealing little emotion or sensibility; not easily aroused or excited
+5	straight          : successive, without a break
+5	stratified        : arranged in layers
+5	striate           : marked with stripes
+5	striated          : marked with thin, narrow grooves or channels
+5	strident          : loud, harsh, unpleasantly noisy
+5	stupefy           : to dull the senses of, stun, astonish
+5	stupendous        : so great in size or force or extent as to elicit awe
+5	subpoena          : a writ issued by court authority to compel the attendance of a witness at a judicial proceeding; disobedience may be punishable as a contempt of court
+5	tantamount        : (adjective) being essentially equal to something
+5	tautology         : unnecessary repetition
+5	taxonomy          : science of classification
+5	tenacious         : stubbornly unyielding
+5	tenuous           : thin, slim, delicate; weak
+5	terrestrial       : earthly, commonplace
+5	territory         : the geographical area under the jurisdiction of a state
+5	theocracy         : government by priests representing a god
+5	theory            : a well-substantiated explanation of some aspect of the world
+5	unfeigned         : not false, genuine
+5	unimpeachable     : beyond doubt or reproach
+5	unmitigated       : not diminished or moderated in intensity or severity
+5	unnerve           : (verb) to make nervous or upset
+5	unprecedented     : (adjective) having never been done or known before; novel
+5	untenable         : indefensible
+5	untoward          : not favorable, troublesome, unruly
+5	urbane            : showing a high degree of refinement
+5	usurp             : seize and take control without authority
+5	usury             : a practice of lending money at exorbitant rates
+5	vacate            : leave behind empty; move out of
+5	vacillate         :  (verb)  go back and forth, be indecisive
+5	vacuous           : empty, void, lacking intelligence
+5	vain              : unproductive of success
+5	variance          : (noun) the quality of varying
+5	vehement          : (adjective) marked by extreme intensity of emotions or convictions
+5	venerable         : impressive by reason of age
+5	venerate          : regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of
+5	venture           : proceed somewhere despite the risk of possible dangers
+5	verbose           : using or containing too many words
+5	veritable         : being truly so called; real or genuine
+5	vertigo           : dizziness
+5	vestige           : an indication that something has been present
+5	vestment          : gown worn by the clergy
+5	vex               : disturb, especially by minor irritations
+5	vexation          : irritation, annoyance
+5	viable            : capable of life or normal growth and development
+5	vicarious         : (adjective) felt or undergone as if one were taking part in the experience or feelings of another
+5	vilify            : spread negative information about
+5	vindicate         : (verb) to clear of accusation, blame, suspicion, or doubt with supporting arguments or proof
+5	virtuoso          : someone with master skills, expert musician
+5	visage            : the human face
+5	viscous           : thick and sticky (said of fluids)
+5	vitiate           : to impair the quality of, corrupt morally
+5	vivisection       : dissection, surgery, or painful experiments performed on a living animal for the purpose of scientific research
+5	vociferous        :  (adj.)  loud and clamorous
+5	vogue             : prevailing fashion or practice
+5	volatile          : a volatile substance; a substance that changes readily from solid or liquid to a vapor
+5	volubility        : (noun) the quality of talking or writing easily and continuously
+5	voluble           : marked by a ready flow of speech
+5	voracious         : (adj.) craving or devouring large quantities of food, drink, or other things. she is a voracious reader.
+5	vortex            : whirpool, center of turbulence
+5	wander            : to move or cause to move in a sinuous or circular course
+5	wanting           : (adjective) lacking
+5	warrant           : show to be reasonable or provide adequate ground for
+5	warranted         : justified
+5	welter            : a confused multitude of things
+5	whimsical         : determined by chance or impulse or whim rather than by necessity or reason
+5	winsome           : (adjective) charming in a childlike or naive way
+5	yeoman            : a free man who cultivates his own land
+5	yield             : give or supply
+5	zeal              : passion, excitement
+5	zealot            : a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.
+5	zenith            : the point above the observer directly opposite the nadir
+5	zephyr            : a slight wind
 	cavalier          : given to haughty disregard of others
-	cede              : relinquish possession or control over
-	celestial         : concerned with sky or heavens; sublime
-	censure           : (verb) to express strong disapproval
-	centrifugal       : moving away from a center
-	centripetal       : moving or directed toward a center
-	cerebral          : (adjective) involving intelligence rather than emotions or instinct
-	chaff             : material consisting of seed coverings and pieces of stem
 	chagrin           : strong feelings of embarrassment
-	chamber           : a natural or artificial enclosed space
-	champion          : to defend or support
-	chary             : characterized by great caution
 	chasten           : to correct by punishment or reproof; to restrain or subdue
-	chastise          : censure severely
-	chauvinist        : someone prejudiced in favor of a group to which he or she belongs
-	check             : (noun) the condition of being held back or limited
-	checkered         : marked by changeable fortune
-	chicanery         :  (noun)  deception, trickery
 	chide             : censure severely or angrily
-	chivalry          : the qualities idealized by knighthood such as bravery and gallantry toward women
-	choleric          : characterized by anger
-	chortle           : (verb) to chuckle, laugh merrily
-	churlish          : rude; boorish
-	churlishness      : crude or surly behavior; behavior of a peasant
 	circuitous        : roundabout
-	circumlocution    : a roundabout or indirect way of speaking; not to the point
 	circumscribe      : (verb) restrict or confine
 	circumspect       : heedful of potential consequences
-	circumstances     : one's overall condition in life 
 	circumvent        : avoid or try to avoid fulfilling, answering, or performing
-	cite              : make reference to
 	clad              : wearing or provided with clothing
-	clairvoyant       : one who can predict the future; psychic
-	clamor            : noisy outcry
-	clandestine       : conducted with or marked by hidden aims or methods
-	clarion           : loud and clear
-	cleave            : separate or cut with a tool, such as a sharp instrument
-	clemency          : (noun) leniency and compassion shown toward offenders by a person or agency charged with administering justice
 	clique            : a small, exclusive group
-	cloister          : to confine; seclude
-	cloture           : a parlimentary procedure to end debate and begin to vote(n)
 	cloying           : too sugary; to sentimental or flattering(adj)
-	coagulate         : thicken; congeal
-	coalesce          : to cause to become one
-	coast             : the shore of a sea or ocean
-	coax              : influence or urge by gentle urging, caressing, or flattering
-	coda              : concluding part of a literary or musical composition; something that summarizes or concludes
-	codicil           : a supplement to a will
-	codify            : to systematize
 	cogent            : powerfully persuasive
 	cogitate          : to think hard, ponder, meditate(v)
 	cognate           : having the same ancestral language
-	cognitive         : possessing the power to think or meditate; meditateive; capable of perception(adj)
-	cognizant         : aware of; perceptive
 	cohere            : cause to form a united, orderly, and consistent whole
-	coherent          : connected; logical; consistent
-	cohesion          : the act of sticking together(n)
-	cohesive          : (adjective) well integrated, forming a united whole
 	cohort            : a group of people having approximately the same age
 	coiffure          : the arrangement of the hair
-	collage           : artistic composition of materials pasted over a surface; an assemblage of diverse elements
 	collation         : assembling in proper numerical or logical sequence
 	collusion         : (noun) agreement on a secret plot
-	colossal          : (adjective) so great in size or force or extent as to elicit awe
-	comeliness        : beauty; attractiveness in appearance or behavior(n)
-	commensurate      : proportional
 	commiserate       : to feel or express sympathy or compassion
-	commission        : a special group delegated to consider some matter
-	commit            : perform an act, usually with a negative connotation
 	commodious        : spacious, roomy(adj)
 	compel            : force somebody to do something
-	compendium        : brief, comprehensive summary
-	complacent        : self-satisfied
-	complaisance      : the inclination to comply willingly with the wishes of others; amiability (n)
-	complaisant       : overly polite; willingness to comply with the wishes of others
-	complement        : something that completes or makes up a whole
-	complementary     : (adjective) enhancing each other's qualities (for two things or more).
-	comport           : behave in a certain manner
 	compound          : (verb) make more intense, stronger, or more marked
-	comprehensive     : broad in scope
 	compunction       : uneasiness caused by guilt
-	concave           : curving inward
-	concede           : (verb) give over; surrender or relinquish to the physical control of another
 	conceit           : an artistic device or effect
-	concept           : an abstract or general idea inferred from specific instances
-	concern           : something that interests you because it is important
-	conciliatory      : overcoming distrust or hostility
 	concoct           : to invent
 	concomitant       : an event or situation that happens at the same time
-	condone           : to overlook voluntarily; forgive
 	conducive         : (adjective) making a situation or outcome more likely to happen
-	conduct           : direct the course of; manage or control
-	confer            : have a meeting in order to talk something over
-	conflagration     : (n.) a great fire
 	confluence        : a flowing together
 	confound          : to baffle; perplex; mix up
-	congeal           : become gelatinous
-	congenial         : similar in tastes and habits; friendly; suited to
-	conjugal          : pertaining to marriage agreement
-	conjure           : summon into action or bring into existence
 	conniving         : (verb) taking part in immoral and unethical plots
-	connoisseur       : expert in matters of taste; expert knowledge or training
-	connotation       : an idea that is implied or suggested
-	connotative       : containing associated meanings in addition to the primary one.(adj)
-	conscientious     : characterized by extreme care and great effort
-	conscript         : a person compulsorily enrolled for military service
-	consecrate        : render holy by means of religious rites
-	conservatory      : a schoolhouse with special facilities for fine arts
-	consider          : deem to be
-	conspicuous       :  (adj.)  obvious, easily seen
-	constant          : a quantity that does not vary
-	constituency      : the body of voters who elect a representative for their area
-	constituent       : (noun) an abstract part of something
-	constitute        : to compose or represent
-	constrain         : to force, compel; restrain
 	constrained       : lacking spontaneity; not natural
-	construe          : make sense of; assign a meaning to
-	consummate        : (verb) to make perfect and complete in every respect
-	contempt          : lack of respect accompanied by a feeling of intense dislike
-	contemptuous      : (adjective) scornful, looking down atothers with a sneering attitude
 	contend           : to assert
-	contention        : a struggling together in opposition; strife
-	contentious       : quarrelsome
-	contiguous        : touching; neighboring; connecting without a break
-	continence        : self-control; abstention from sexual activity
 	contingent        : (adjective) possible but not certain to occur
-	contract          : a binding agreement that is enforceable by law
-	contravene        : to act contrary to (like a law); to contradict in argument, gainsay
-	contrite          : feeling or expressing pain or sorrow for sins or offenses
-	contrition        : (noun) the feeling of remorse or guilt that comes from doing something bad
 	contrive          : make or work out a plan for; devise
 	contrived         : artificially formal
-	contumacious      : disobedient; rebellious
-	contusion         : an injury in which the skin is not broken
-	conundrum         : a difficult problem
-	convalesce        : get over an illness or shock
-	convention        : a large formal assembly
-	converge          : to approach; come together; tend to meet
-	convex            : curved outward
-	convince          : make realize the truth or validity of something
-	convivial         : sociable
 	convoluted        : twisted; complicated
-	copious           :  (adj.)  abundant in supply or quantity
-	coquette          : woman who flirts
-	cornucopia        : horn overflowing with fruit and grain; state of abundance
-	corporal          : (adj.) of the body: "corporal punishment." a non-commissioned officer ranked between a sergeant and a private.
-	corporeal         : (adj.) having material or physical form or substance
-	corpulent         : excessively fat
-	corroborate       :  (v.)  confirm or give support to
-	cosmology         : study of the universe as a totality; theory of the origin and structure of the universe
-	cosmopolitan      : (adjec) ): comprising many cultures; global in reach and outlook
-	coterie           : a clique; a group who meet frequently, usually socially
-	countermand       : cancel officially
-	court             : an assembly to conduct judicial business
-	covert            : hidden; secret
 	covetous          : desiring something owned by another
-	cower             : crouch or curl up
 	coy               : showing marked and often playful evasiveness or reluctance
 	cozen             : cheat or trick
 	crabbed           : annoyed and irritable
 	crass             : gross; stupid, unrefined
-	craven            : lacking even the rudiments of courage; abjectly fearful
-	credence          : acceptance of something as true
-	credible          : appearing to merit belief or acceptance
-	creditable        : (adjective) deserving of praise but not that amazing
-	credo             : any system of principles or beliefs
-	credulous         : too trusting; gullible
 	crescendo         : steadily increasing volume or force
 	crevice           : a long narrow opening
-	crew              : the men and women who man a vehicle
-	crone             : an ugly evil-looking old woman
-	cryptic           : of an obscure nature
-	culminate         : (verb) reach the highest or most decisive point
-	culpability       : (noun) a state of guilt
 	cumbersome        : (adjective) difficult to handle or use especially because of size or weight
-	cupidity          : extreme greed for material wealth
 	dais              : a platform raised above the surrounding level
 	dapper            : marked by up-to-dateness in dress and manners
-	daunt             : cause to lose courage
 	dearth            : scarcity
 	debacle           : disaster; collapse
-	debase            : corrupt morally or by intemperance or sensuality
 	debauchery        : corruption
-	debilitate        : to enfeeble; to wear out
-	debunk            : (verb) expose as false ideas and claims, especially while ridiculing
-	decadence         : the state of being degenerate in mental or moral qualities
-	decimation        : (noun) destroying or killing a large part of the population
 	declivity         : a downward slope or bend
-	decorous          : characterized by or exhibiting decorum; proper
-	decorum           : propriety in manners and conduct
-	decree            : a legally binding command or decision
-	deduce            : reason from the general to the particular
-	defame            : to malign; harm someone&#39;s reputation
-	default           : an option that is selected automatically unless an alternative is specified
-	deference         : courteous regard for people&#39;s feelings
-	deferential       : (adjective) showing respect
 	defray            : bear the expenses of
 	defunct           : no longer existing
-	degrade           : (verb) reduce in worth or character, usually verbally
-	deign             : do something that one considers to be below one's dignity
-	delegate          : (verb) give an assignment to (a person)
-	deleterious       : harmful; hurful; noxious
-	deliberate        : (verb) think about carefully; weigh the pros and cons of an issue
-	delicacy          : the quality of being exquisitely fine in appearance
-	delineate         : describe or portray (something) precisely
 	delve             : turn up, loosen, or remove earth
-	demographic       : related to population balance
-	demonstrable      : capable of being proved
-	demoralize        : lower someone's spirits; make downhearted
 	demotic           : pertaining to people
 	demur             : to express doubt; question or oppose
-	demure            : (adjective) to be modest and shy
-	denigrate         : to attack the character or reputation of; to speak ill of; defame
 	denizen           : an inhabitant; a regular visitor
-	denote            : (verb) be a sign or indication of; have as a meaning
 	denouement        : outcome; unraveling of the plot of a play or work of literature
-	dense             : permitting little if any light to pass through
 	depose            : force to leave an office
-	deprave           : corrupt morally or by intemperance or sensuality
 	deprecate         : to express disapproval of; to protest against
 	deprecation       : (n.) belittlement. (v. deprecate)
 	derelict          : in deplorable condition
-	deride            :  (adj.)  make fun of; insult
-	derision          : the act of mocking, mockery
-	derivative        : a compound obtained from another compound
-	derive            : (verb) reason by deduction; establish by deduction
-	derived           : formed or developed from something else; not original
-	derogative        : (adjective) expressed as worthless or in negative terms
-	descry            : catch sight of
-	desecrate         : (verb) to willfully violate or destroy a sacred place
 	desiccate         : lacking vitality or spirit; lifeless
-	despair           : a state in which all hope is lost or absent
 	despoil           : destroy and strip of its possession
-	desuetude         : state of disuse
-	desultory         : marked by lack of definite plan or regularity or purpose; jumping from one thing to another
 	deter             : (verb) try to prevent; show opposition to
 	deterrent         : something immaterial that interferes with or delays action or progress
 	detrimental       : (adjective) (sometimes followed by "to") causing harm or injury
-	device            : an instrumentality invented for a particular purpose
-	devolve           : grow worse
-	diabolical        : (adjective) to be extremely wicked like the devil
-	diadem            : an ornamental jeweled headdress signifying sovereignty
 	diaphanous        : transparent; vague; insubstancial
 	diatribe          : thunderous verbal attack
-	dichotomy         : a division into two parts
-	dictatorial       : (adjective) expecting unquestioning obedience; characteristic of an absolute ruler
-	dictum            : an authoritative declaration
-	didactic          :  (adj.)  intended to teach, educational
-	differentiate     : (verb) evolve so as to lead to a new species or develop in a way most suited to the environment
 	diffidence        :  (noun)  hesitancy; lack of confidence
-	diffident         : timid; lacking self-confidence(adj)
-	diffuse           : to spread or scatter widely
 	digression        : a turning aside (of your course or attention or concern)
 	dilapidated       : (adjective) in terrible condition
-	dilate            : to make larger; to expand
-	dilatory          : (adjective) wasting time
-	dilettante        : showing frivolous or superficial interest; amateurish
-	diligent          : (adjective) characterized by care and perseverance in carrying out tasks
 	dingy             : thickly covered with ingrained dirt or soot
-	dint              : force or effort
-	dirge             : a song or hymn of mourning composed or performed as a memorial to a dead person
 	disabuse          : free somebody (from an erroneous belief)
 	disaffected       : discontented as toward authority
-	disapprobation    : pronouncing as wrong or morally culpable
-	discern           : to perceive; to recognize
-	discerning        : having or revealing keen insight and good judgment
-	discomfit         : to make uneasy; disconcert
-	disconcert        : cause to lose one's composure
-	disconsolate      : sad beyond comforting; incapable of being consoled
-	discordant        : not in agreement or harmony
-	discourse         : to converse; to communicate in orderly fasion
-	discredit         : to injure the credit or reputation of
-	discreet          : marked by prudence or modesty and wise self-restraint
-	discrepancy       : a difference between conflicting facts or claims or opinions
-	discrete          : constituting a separate entity or part
-	discretion        : quality of showing self-restraint in speech or actions
 	discretionary     : not earmarked; available for use as needed
-	discriminating    : showing or indicating careful judgment and discernment
 	discursive        : tending to cover a wide range of subjects
-	disembark         : go ashore
 	disgorge          : cause or allow to flow or run out or over
-	disingenuous      : not frank or candid; deceivingly simple(adj)(opposite: ingenuous)
-	disinterested     : neutral; unbiased
 	disjointed        : lacking order or coherence; dislocated
-	dismiss           : stop associating with
 	disparage         : to belittle
 	disparaging       : (adj.) belittling (n: disparagement. v. disparage)
-	disparate         :  (adj.)  essentially different in kind, not allowing comparison
-	dispassionate     :  (adj.)  unfeeling, impartial
-	dispatch          : send away towards a designated goal
 	disport           : occupy in an agreeable, entertaining or pleasant fashion
-	disposition       : your usual mood
-	disputatious      : arguementative
 	disquisition      : an elaborate analytical or explanatory essay or discussion
 	dissemble         : behave unnaturally or affectedly
-	disseminate       : spread or disperse (something, esp. information) widely
 	dissident         : person who disagrees about beliefs
-	dissimulate       : hide feelings from other people
-	dissolution       : separation into component parts
-	dissonance        :  (noun)  lack of harmony, disagreement
-	dissonant         : not in harmony; in dissagreement(adj)
 	distend           : cause to expand as it by internal pressure
 	distill           : undergo condensation; change from a gaseous to a liquid state and fall in drops
-	distinction       : a discrimination between things as different
-	distrait          : inattentive; preoccupied
-	diverge           : move or draw apart
-	diversified       : having variety of character or form or components
-	divest            : to strip of clothing, ornament, etc.
-	divulge           : to make known something that is secret
-	docile            :  (adj.)  compliant, submissive
-	doctrinaire       : dogmatic; unyielding
-	document          : a representation of a person's thinking with symbolic marks
-	dogged            : stubbornly unyielding
 	doggerel          : poor verse
-	dogma             : a firmly held opinion, often a religious belief
-	dogmatic          :  (adj.)  dictatorial, opinionated
-	dormant           : inactive but capable of becoming active
 	dormer            : a gabled extension built out from a sloping roof
 	dotage            : mental infirmity as a consequence of old age
 	dote              : shower with love; show excessive affection for
-	dross             : waste; worthless matter
-	dulcet            : pleasing to the ear
-	dupe              : fool or hoax
 	duress            : (noun) compulsory force or threat
-	dutiful           : willingly obedient out of a sense of respect
 	dwell             : think moodily or anxiously about something
 	dyspeptic         : irritable as if suffering from indigestion
-	earnest           : characterized by a firm, humorless belief in one's opinions
 	ebb               : fall away or decline
-	ebullience        : an overflowing of high spirits; bubbly; efferevescence(n)
-	ebullient         : joyously unrestrained
-	eccentric         : (adjective) highly unconventional or usual (usually describes a person)
-	eclectic          : deriving ideas, style, or taste from a broad and diverse range of sources
-	economical        : (adjective) avoiding waste, efficient
-	edict             : a formal or authoritative proclamation
-	edifice           : a structure that has a roof and walls
-	edifying          : (adjective) enlightening or upliftingso as to encourage intellectual or moral improvement
-	effervescence     : the property of giving off bubbles
 	effete            : depleted of vitality; overrefined; decadent
-	efficacious       : (adjective) producing the intended result
-	efficacy          : capacity or power to produce a desired effect
 	effluent          : (adj., n) the quality of flowing out. something that flows out, such as a stream from a river (n: effluence)
-	effluvium         : a foul-smelling outflow or vapor
-	effrontery        : audacious (even arrogant) behavior that you have no right to
 	effulgence        : the quality of being bright and sending out rays of light
-	egoism            : the tendency to see things in relation to oneself; self-centeredness
-	egotist           : (noun) a conceited and self-centered person
-	egotistical       : excessively self-centered; conceited
-	egregious         : conspicuously and outrageously bad or reprehensible
 	eke               : (verb) to live off meager resources, to scrape by
-	elaborate         : marked by complexity and richness of detail
-	elegy             : a mournful poem; a lament for the dead
-	elicit            : call forth (emotions, feelings, and responses)
-	elixir            : a sustance believed to have the power to cure ills
-	ellipsis          : omission of words that would make the meaning clear(n)
-	eloquent          : persuasive and moving, especially in speech
-	elucidate         : to make clear; to explain
-	elude             : escape, either physically or mentally
-	elusive           : (adjective) difficult to capture or difficult to remember
-	elysian           : delightful; blissful
-	emaciated         : thin and wasted
-	embellish         : make more attractive by adding ornament, colour, etc.
 	emblazon          : decorate with heraldic arms
 	emboss            : raise in a relief
-	embroil           : force into some kind of situation or course of action
-	embroiled         : (adjective) involved in argument or contention
-	emend             : make corrections to
 	emetic            : a medicine that induces nausea and vomiting
-	eminent           : (adjective) standing above others in quality or position
-	emollient         : softening or soothing to the skin; having power to soften or relax living tissues(adj)
-	emolument         : compensation received by virtue of holding an office
-	empathetic        : (adjective) showing understanding and ready comprehension of other peoples' states and emotions
-	empirical         : derived from experiment and observation rather than theory
-	emulate           : to imitate; copy
-	enamor            : attract
 	encomium          : warm, glowing praise; high praise(n)
 	encroachment      : entry to another's property without right or permission
 	encumber          : hold back
-	endemic           : native to a particular area or people(adj)
-	endow             : furnish with a capital fund
 	endue             : give qualities or abilities to
-	enduring          : unceasing
-	enervate          :  (verb)  weaken, wear out
 	engage            : consume all of one's attention or time
-	engender          :  (verb)  cause or give rise to
-	enhance           : increase
-	enigma            :  (adj.)  difficult to interpret or understand; mysterious
 	enjoin            : give instructions to or direct somebody to do something
 	enrapture         : hold spellbound
 	ensconce          : fix firmly
 	ensue             : issue or terminate in a specified way
-	entertain         : provide amusement for
-	entice            : (verb) get someone to do something through (often false or exaggerated) promises
-	entomology        : the scientific study of insects
 	entreat           : ask for or request earnestly
 	entrenched        : (adjective) fixed firmly or securely
-	enumerate         : (verb) specify individually, one by one
-	enunciate         : to pronounce clearly
-	ephemeral         :  (adj.)  momentary, passing
 	epistemology      : branch of philosophy tha examines the nature of knowledge
 	equable           : steady; unvarying; serene
-	equanimity        : steadiness of mind under stress
-	equivocal         : (adjective) confusing or ambiguous
-	equivocate        :  (verb)  to avoid giving a clear or direct answer to a question
-	eradicate         : (verb) to completely destroy
-	erode             : become ground down or deteriorate
-	err               : (verb) to make an error
-	errant            : mistaken; straying from the proper course
-	erratic           : (adjective) unpredictable; strange and unconventional
 	erstwhile         : belonging to some prior time
-	erudite           :  (adj.)  well-educated, cultured
-	eschew            : avoid and stay away from deliberately
-	esoteric          :  (adj.)  mysterious, obscure
-	espouse           : choose and follow
-	essay             : to make an attempt; subject to a test
-	establish         : set up or found
-	esteem            : the condition of being honored
-	estimable         : admirable; possible to estimate
 	estrange          : arouse hostility or indifference in
 	ethnocentric      : based on the attitude tha one&#39;s group is superior
 	etiology          : causes or origins
 	etymology         : origin and history of a word
-	eugenic           : causing improvement in the offspring produced
-	eugenics          : study of factors that influence the hereditary qualities of the human race and ways to improve those qualities
 	eulogy            :  (noun)  praise, exclamation
 	euphemism         : an inoffensive or indirect expression that is substituted for one that is considered offensive or too harsh
 	euphony           : any pleasing and harmonious sounds
-	euphoria          : feeling of extreme happiness
-	euphoric          :  (adj.)  intense excitement and happiness
-	euthanasia        : mercy killing
-	evanescent        : vanashing quickly; dissipating like a vapor
-	evasive           : (adjective) deliberately vague or ambiguous
-	evenhanded        : (adje) ): without partiality
-	evident           : clearly revealed to the mind or the senses or judgment
 	evince            : to show plainly; be an indication of
-	evocative         : tending to call to mind or produce a reaction
-	exacerbate        :  (v.)  infuriate, make worse
-	exact             : to force the payment of; demand and obtain by authority
-	exacting          : (adjective) requiring and demanding accuracy
 	exalt             : praise, glorify, or honor
-	exasperate        : irritate
 	excise            : remove by cutting
 	excruciating      : (adjective) extremely painful
 	exculpate         : pronounce not guilty of criminal charges
 	execrable         : extremely bad or unpleasant
 	execrate          : curse or declare to be evil or anathema
 	exegesis          : an explanation or critical interpretation
-	exemplify         : (verb) clarify by giving an example of
 	exert             : make a great effort at a mental or physical task
 	exertion          : use of physical or mental energy; hard work
-	exhort            : to urge by strong appeals
-	exigency          : a pressing or urgent situation
-	exigent           : requiring immediate action; urgent(adj)
-	existential       : having to do with existence
-	exonerate         : (verb) pronounce not guilty of criminal charges
-	exorbitant        : greatly exceeding bounds of reason or moderation
-	exorcise          : to expel evil spirits; free from bad influences
 	expatiate         : to speak or write at length
-	expatriate        : to send into exile
 	expiate           : to atone for
-	explicate         : to explain;interpret;clarify
-	explicit          : clearly stated or shown; forthright in expression
-	exploit           : draw from; make good use of
-	exploitation      : an act that victimizes someone 
-	expository        : explanatory
 	expound           : (verb) add details or explanation; clarify the meaning; state in depth
 	extant            :  (adj.)  in existence; surviving
 	extemporaneous    : unrehearsed
 	extemporize       : to improvise; to make it up as you go along
-	extenuate         : lessen or to try to lessen the seriousness or extent of
 	extenuating       : (adjective) making less guilty or more forgivable
-	extirpate         : to root up; to destroy
 	extol             : praise, glorify, or honor
 	extort            : obtain by coercion or intimidation
 	extraneous        : not essencial
-	extrapolate       : to estimate the value of something beyond the scale; to infer what is unkown from something known
-	extrapolation     : an inference about the future (or about some hypothetical situation) based on known facts and observations
-	extravagant       : recklessly wasteful
-	extrinsic         : not inherent or essential
-	facetious         : cleverly amusing in tone
 	facile            : arrived at without due care or effort; lacking depth
-	facilitate        : make easier
-	faction           : a dissenting clique
 	factious          : dissenting with the majority opinion
 	factitious        : not produced by natural forces
 	factotum          : a person who does all sorts of work; a handyman
 	fad               : an interest followed with exaggerated zeal
-	fallacious        : based on a false idea or fact; misleading
 	fallow            : plowed but not sowed; uncultivated
-	fanatical         : acting excessively enthusiastic; filled with extreme, unquestioned devotion
 	fancy             : imagine; conceive of; see in one's mind
 	fanfare           : a gaudy outward display
 	fare              : proceed or get along
 	fastidious        :  (adj.)  very careful and attentive
 	fathom            : come to understand
 	fatuous           : devoid of intelligence
-	fauna             : animals of a period o region
-	fawning           : attempting to win favor by flattery
-	feign             : pretend
-	felicitous        : exhibiting an agreeably appropriate manner or style
-	feral             : existing in a wild or untamed state
 	ferret            : (verb) to search for something persistently
 	fervent           : characterized by intense emotion
-	fervid            :  (adj.)  intensely enthusiastic or passionate
-	fervid, fervent   : (adj.) highly emotional; hot: "the partisans displayed a fervent patriotism." (n: fervor)
-	fervor            : feelings of great warmth and intensity
-	fervour           : the state of being emotionally aroused and worked up
 	fete              : (verb) to celebrate a person
-	fetid             : having a bad smell
 	fetter            : to bind; confine
-	fiasco            : a sudden and violent collapse
 	fiat              : an arbitrary order, a formal authorization or proposition
-	fidelity          : loyalty; exact correspondence
 	filch             : make off with belongings of others
-	filibuster        : use of obstructive tactics in a legislature to block passage of a law
-	financial         : involving fiscal matters
 	finesse           : to handle with a deceptive or evasive strategy; refined in performance
-	firebrand         : someone who deliberately foments trouble
-	fissure           : crevice
 	fitful            : occurring in spells and often abruptly
-	flag              : emblem usually consisting of a rectangular piece of cloth of distinctive design
 	flail             : thresh about
 	flair             : a natural talent
 	flay              : strip the skin off
-	fledgling         : young bird that has just fledged or become capable of flying
 	fleece            : (verb) to deceive
-	flora             : plants of a region or era
-	florid            : ruddy; reddish; flowery
-	flotilla          : a fleet of small craft
-	flounder          : (verb) behave awkwardly; have difficulties
-	flourish          : grow vigorously
 	flout             : to treat scornfully
 	flush             : (adjective) to be in abundance
 	flux              : flowing; a continuous moving
 	foible            : (noun) a behavioral attribute that is distinctive and peculiar to an individual
 	foil              : hinder or prevent, as an effort, plan, or desire
 	foist             : to force onto another
-	foment            : try to stir up public opinion
 	foolhardy         : marked by defiant disregard for danger or consequences
 	forbearance       : patience
 	forebear          : a person from whom you are descended
 	foreboding        : a feeling of evil to come
 	forestall         : keep from happening or arising; make impossible
 	forlorn           : (adjective) marked by or showing hopelessness
-	formal            : characteristic of or befitting a person in authority
-	formidable        : menacing; threatening
-	forsake           : leave someone who needs or counts on you; leave in the lurch
-	forswear          : renounce; repudiate
 	forthcoming       : (adjective) at easein talking to others
 	forthright        : (adjective) characterized by directness in manner or speech; without subtlety or evasion
-	fortitude         : strength of mind that enables one to endure adversity
-	fortuitous        :  (adj.)  happening by accident or chance
 	foster            : promote the growth of
 	founder           : to sink; fail; colapse
-	fracas            : noisy quarrel
 	fractious         :  (adj.)  irritable and quarrelsome
 	fraught           : filled with or attended with
-	fresco            : a painting done on plaster
 	frieze            : ornamental band on a wall
-	frivolous         :  (adj)  trivial, silly
-	frontier          : a wilderness at the edge of a settled area of a country
-	fructify          : become productive or fruitful
 	frugal            : (adjective) not spending much money (but spending wisely)
 	frugality         : prudence in avoiding waste
 	frustrate         : hinder or prevent, as an effort, plan, or desire
@@ -900,109 +1369,46 @@
 	grant             : allow to have
 	grapple           : come to terms with
 	gratis            : costing nothing
-	gravity           : the force of attraction between all masses in the universe
-	gregarious        : outgoing; sociable
 	gripe             : complain
 	grisly            : shockingly repellent; inspiring horror
 	grouse            : to complain
 	grove             : a small growth of trees without underbrush
-	grovel            : show submission or fear
-	grudging          : petty or reluctant in giving or spending
 	gruel             : a thin porridge
 	guffaw            : (verb) laugh boisterously
-	guile             : deceit or trickery
-	guileless         : free of deceit
-	guise             : outward appearance; false appearance
-	gullible          : naive and easily deceived or tricked
-	gustatory         : affecting the sense of taste
-	gusto             : vigorous and enthusiastic enjoyment
 	gusty             : blowing in puffs or short intermittent blasts
 	hackneyed         :  (adj.)  unoriginal and trite
 	haggle            : wrangle, as over a price or terms of an agreement
 	hale              : exhibiting or restored to vigorous good health
-	hallowed          : holy; sacred
 	hamper            : (verb) prevent the progress or free movement of
 	hamstrung         : (verb) made ineffective or powerless
 	haphazard         : (adjective) marked by great carelessness; dependent upon or characterized by chance
 	hapless           : (adj.) unfortunate
-	harangue          : a lengthy and aggressive speech
-	harried           : (adjective) troubled persistently especially with petty annoyances
-	harry             : annoy continually or chronically
 	haughty           : (adjective) having or showing arrogant superiority to and disdain of those one views as unworthy
 	headlong          : in a hasty and foolhardy manner
 	heed              : pay close attention to
-	hegemony          : (adjective) dominance over a certain area
-	herbivorous       : an animal that feeds mainly on plants
-	herculean         : displaying superhuman strength or power
-	heretic           : (noun) a person who holds unorthodox opinions in any field (not merely religion)
-	hermetic          : tighly sealed; magical
-	hermitage         : the abode of a recluse
 	heterodox         : not widely accepted
-	hew               : make or shape as with an axe
-	heyday            : the period of greatest prosperity or productivity
-	hieroglyphics     : a system of writing in which pictorial symbols represent meanings or sounds; wirting or symbols that are difficult to decipher
 	hireling          : a person who works only for money
-	hirsute           : covered with hair
-	histrionic        : relating to exaggerated emotional behavior calculated for effect; theatrical acts or performances
 	hoary             : ancient
-	hodgepodge        : (noun) a confusing mixture or jumble
 	homeostasis       : automatic maintenance by an organism in balance with itself
 	homespun          : characteristic of country life
-	homily            : sermon; tedious moralizing lecture
-	homogeneous       : all of the same or similar kind or nature
-	homogenous        : of a similar kind
 	hoodwink          : influence by slyness
-	horde             : a moving crowd
-	hound             : (verb) to pursue relentlessly
 	hubbub            : loud confused noise from many sources
-	humble            : marked by meekness or modesty; not arrogant or prideful
 	humdrum           : (adjective) dull and lacking excitement
-	humiliate         : cause to feel shame
 	hummock           : a small natural hill
 	hurtle            : move with or as if with a rushing sound
-	husbandry         : the practice of cultivating the land or raising stock
 	hyperbole         : extravagant exaggeration
-	iconoclast        :  (noun)  someone who attacks cherished beliefs or institutions
-	iconoclastic      : characterized by attack on established beliefs
-	ideology          : an orientation that characterizes the thinking of a group
-	idiosyncrasy      :  (noun)  a way of thought peculiar to an individual
-	idolatry          : the worship of idols or images that are not god
 	igneous           : produced by fire; volcanic
-	ignoble           : (adjective) dishonorable
-	ignominious       : deserving or bringing disgrace or shame
-	ignominy          : a state of dishonor
-	illicit           : (adj) ): contrary to or forbidden by law
 	illustrious       : widely known and esteemed
 	imbibe            : take in liquids
-	imbroglio         : complicated situation; an entanglement
-	immaterial        : (adjective) not relevant
-	imminent          :  (adj.)  about to happen
 	immure            : lock up or confine, in or as in a jail
-	immutable         : not subject or susceptible to change or variation in form or quality or nature
-	impair            : weaken or damage (esp. a human faculty or function)
-	impart            : transmit, as knowledge or a skill
-	impartial         : (adjective) free from undue bias or preconceived opinions
-	impassive         : having or revealing little emotion or sensibility
 	impecunious       : poor; having no money
-	impede            : be a hindrance or obstacle to
-	impel             : cause to move forward with force
 	impending         : (adjective) close in time; about to occur
 	imperious         : (adj.) commanding
-	impermeable       : preventing especially liquids to pass or diffuse through
-	impertinent       : improperly forward or bold
-	imperturbable     : marked by extreme calm and composure
 	impervious        : impenatrable; not allowing anything to pass through; unaffected
 	impetuous         :  (adj.)  acting or done quickly and without thought or care
 	impetus           : a force that moves something along
 	impiety           : unrighteousness by virtue of lacking respect for a god
 	impinge           : to strike; encroach
-	implacable        : unwilling to be pacified or appeased
-	implausible       : unlikely; unbelievable
-	implicate         : (verb) to indicate in wrongdoing, usually a crime
-	implication       : (n.) insinuation or connotation (v. implicate)
-	implicit          : implied though not directly expressed; inherent in the nature of something
-	implode           : burst inward
-	imply             : (v.) "she implied she didn't believe his story." (n: implication)
 	impolitic         : not marked by artful prudence
 	imponderable      : (adjective) impossible to estimate or figure out
 	importunate       : expressing earnest entreaty
@@ -1025,236 +1431,86 @@
 	incipient         : only partly in existence; imperfectly formed
 	incisive          : getting to the heart of things; to the point
 	inclement         : severe, of weather
-	inclined          : at an angle to the horizontal or vertical position
-	inclusive         : encompassing much or everything
-	incongruity       : the quality of disagreeing; being unsuitable and inappropriate
-	incongruous       : (adjective) lacking in harmony or compatibility or appropriateness
-	inconsequential   : lacking worth or importance
-	incorporate       : make into a whole or make part of a whole
-	incorrigible      : impervious to correction by punishment
-	incredulous       : skeptical or unbelieving
-	inculcate         : teach and impress by frequent repetitions or admonitions
-	inculpate         :  (verb)  accuse or blame
 	incumbent         : (ad) ): necessary (for someone) as a duty or responsibility
 	incursion         : sudden invasion
-	indecorous        : (adjective) not in keeping with accepted standards of what is right or proper in polite society
-	indemnify         : make amends for; pay compensation for
-	indeterminate     : uncertain; indefinite
-	indication        : something that serves to suggest
 	indict            : (verb) to formally charge or accuse of wrong-doing
-	indifference      : (noun) the trait of seeming not to care
-	indigence         : a state of extreme poverty or destitution
-	indigenous        : native to a region, inborn or innate
-	indignant         : (adjective) feeling anger over a perceived injustice
 	indite            : produce a literary work
-	indolent          : disinclined to work or exertion
-	industrious       : (adjective) characterized by hard work and perseverance
 	ineluctable       : not to be avoided or escaped; inevitable
-	inept             : incompetent; clumsy
-	inert             : lacking power
-	inexorable        : (adjective) impossible to stop or prevent
-	infallible        : incapable of failure or error
-	infer             : (v.) to deduce: "new genetic evidence led some zoologists to infer that the red wolf is actually a hybrid of the coyote and the gray wolf."
-	infest            : occupy in large numbers or live on a host
-	inflammable       : (adjective) extremely controversial, incendiary
-	inflammatory      : arousing to action or rebellion
-	ingenious         :  (adj.)  clever, original, and inventive
-	ingenuity         : (noun) the power of creative imagination
-	ingenuous         : lacking in sophistication or worldliness
 	ingrained         : deeply rooted; firmly fixed or held
-	ingratiate        : gain favor with somebody by deliberate efforts
-	inherent          : part of the essential character; intrinsic
-	inhibit           : (v.) to hold back, prohibit, forbid, or restrain (n: inhibition, adj: inhibited)
 	inimical          :  (adj.)  tending to obstruct or harm
-	inimitable        : matchless
 	iniquitous        : characterized by injustice or wickedness
-	inkling           : (noun) a slight suggestion or vague understanding
-	innate            : not established by conditioning or learning
 	innocuous         :  (adj.)  harmless and inoffensive
 	inscrutable       : of an obscure nature
-	insensate         : devoid of feeling and consciousness and animation
-	insensible        : barely able to be perceived
-	insidious         : (adjective) working in a subtle but destructive way
-	insinuate         : suggest or hint (something negative) in an indirect and unpleasant way
-	insipid           :  (adj.)  lacking taste or flavor
-	insist            : be emphatic or resolute and refuse to budge
-	insolent          : (adjectiv) ): rude and arrogant
-	insolvent         : (adjective) unable to pay one's bills; bankrupt
 	insouciant        : indifferent; lacking concern or care
-	inspire           : serve as the inciting cause of
-	instance          : an occurrence of something
-	institute         : set up or lay the groundwork for
-	insular           : (adj.) of or pertaining to an island, thus, excessively exclusive: "newcomers found it difficult to make friends in the insular community."
-	insularity        : the state of being isolated or detached
-	insuperable       : insurmountable; unconquerable
 	insurgent         : in opposition to a civil authority or government
-	intangible        : not material
-	intend            : have in mind as a purpose
 	interdict         : to forbid; prohibit
-	interminable      : tiresomely long; seemingly without end
 	internecine       : deadly to both sides
-	interpolate       : to insert; change by adding new words or material
-	interregnum       : interval between reigns; gap in continuity
-	intimate          : marked by close acquaintance
-	intractable       : stubborn or obstinate; not easily taught or disciplined
-	intransigence     : the trait of being intransigent; stubbornly refusing to compromise
-	intransigent      : refusing to agree or compromise; uncompromising; inflexible
-	intrepid          : fearless or bold
-	intrigue          : cause to be interested or curious
-	introspective     : contemplating one&#39;s own thoughts and feelings
-	inundate          : fill or cover completely, usually with water
-	inured            : made tough by habitual exposure
 	invective         : abusive language used to express blame or censure
 	inveigh           : to disapprove; protest vehemently
 	inveigle          : to win over by flattering or coaxing
 	inveterate        : confirmed; long standing
-	invidious         : likely to provoke ill will
-	invocation        : the act of appealing for help
-	involved          : (adjective) complicated, and difficult to comprehend
-	irascible         : prone to anger, easily angered
 	irk               : (verb) irritate or vex
 	irksome           : so lacking in interest as to cause mental weariness
-	irresolute        : uncertain how to act or proceed
-	irrevocable       : (adjective) incapable of being retracted or revoked
-	issue             : some situation or event that is thought about
-	itinerant         : wandering from place to place; unsettled
-	itinerary         : an established line of travel or access
-	jargon            : (noun) a characteristic language of a particular group
-	jaundiced         : having a yellowish discoloration of the skin; affected by envy
-	jet               : an airplane powered by gas turbines
 	jibe              : to be in agreement
 	jingoism          : (noun) fanatical patriotism
-	jocose            : fond of joking; jocular
 	jocular           : (adjective) characterized by jokes and good humor
-	jocund            : full of or showing high-spirited merriment
-	jovial            : (adjective) full of or showing high-spirited merriment
-	jubilant          : (adjective) full of high-spirited delight because of triumph or success
-	juggernaut        : huge froce destroying everything in its path
 	junket            : a trip taken by an official at public expense
-	junta             : group of people united in political intrigue
-	justify           : show to be reasonable or provide adequate ground for
-	juxtapose         : place side by side
-	keen              : demonstrating ability to recognize or draw fine distinctions
 	kindle            : catch fire
 	knack             : a special way of doing something
-	knight            : a person of noble birth trained to arms and chivalry
 	knoll             : a small natural hill
-	kudos             : fame; glory; honor
 	labile            : likely to change
-	labor             : any piece of work that is undertaken or attempted
-	laborious         : (adjectiv) ): characterized by effort to the point of exhaustion; especially physical effort
-	laconic           :  (adj.)  brief and to the point; effectively cut short
 	laggard           : someone who takes more time than necessary
 	lambast           : (verb) criticize severely or angrily
 	lambaste          : to trash verbally or physically
-	lament            : to express sorrow; to grieve
 	lancet            : a surgical knife with a pointed double-edged blade
 	languid           : lacking spirit or liveliness
-	largess           : (noun) extreme generosity and giving
-	largesse          : liberality in bestowing gifts
 	lascivious        : lustful
 	lassitude         : a feeling of lack of interest or energy
-	latent            : potentially existing but not presently evident or realized
 	latitude          : freedom from normal restraints in conduct
-	laud              : praise, glorify, or honor
-	laudable          : (adjective) worthy of high praise
 	lavish            : to give unsparingly; or extremely generous or extravagant
-	league            : an association of sports teams that organizes matches
 	leery             : (adjective) openly distrustful and unwilling to confide
-	lethargic         :  (adj.)  lazy, sluggish
 	levee             : a pier that provides a landing place on a river
-	level             : a relative position or degree of value in a graded group
-	leviathan         : (n.) giant whale, therefore, something very large
 	levity            : a manner lacking seriousness
-	liberal           : tolerant; broad-minded
-	libertine         : one without moral restraint
-	libido            : sexual desire
 	libretto          : the words of an opera or musical play
-	lilliputian       : extremely small
 	limn              : to draw, describe
 	limpid            : clear; transparent
 	lineament         : the characteristic parts of a person's face
-	linguistic        : pertaining to language
-	lionize           :  (verb)  treat someone as a celebrity
 	litany            : lengthy recitation; repetitive chant
-	literati          : scholarly or learned persons
-	litigation        : legal proceedings
 	livelihood        : the financial means whereby one lives
 	loath             : strongly opposed
 	lode              : a deposit of valuable ore
 	lofty             : of imposing height; especially standing out above others
-	log               : any of various records, made in rough or finished form, concerning a trip made by a ship or aircraft and dealing with particulars of navigation, weather, engine performance, discipline, and other pertinent details
-	loquacious        :  (adj.)  tending to talk a great deal; talkative
 	lout              : an awkward stupid person
-	lucid             : transparently clear; easily understandable
 	lucre             : money or profits
 	lugubrious        : (adj.) weighty, mournful, or gloomy, especially to an excessive degree: "jake's lugubrious monologues depressed his friends."
 	luminary          : a celebrity who is an inspiration to others
 	luminous          : emitting light; shining; also enlightened or intelligent
-	lustrous          : shining
 	luxuriant         : produced or growing in extreme abundance
-	macabre           : (adjective) suggesting the horror of death and decay; gruesome
-	macerate          : to soften by steeping in liquid (including stomach juices)
 	machiavellian     : crafty; double-dealing
-	machination       : a crafty and involved plot to achieve your ends
-	machinations      : plots or schemes
-	maculate          : to stain, spot, defile
 	madrigal          : an unaccompanied partsong for 2 or 3 voices
 	maelstrom         : whirlpool; turmoil
 	magisterial       : offensively self-assured or exercising unwarranted power
 	magnanimity       : liberality in bestowing gifts
 	magnanimous       :  (adj.)  very generous or forgiving
-	maintain          : (verb) to assert
-	majority          :  more than half of the votes in an election
 	makeshift         : done or made using whatever is available
-	maladroit         : (adjective) clumsy
-	malady            : (noun) a disease or sickness
 	malaise           : physical discomfort, as mild sickness or depression
 	malcontent        : a person who is unsatisfied or disgusted
-	malevolent        : wishing evil(adj)
-	malice            : feeling a need to see others suffer
-	malign            :  (adj.)  hurtful, injurious
 	malinger          : to feign illness to escape duty
 	malingerer        : someone shirking their duty by feigning illness or incapacity
-	malleable         : easy to shape or form
-	malodorous        : (adjective) having an unpleasant smell
-	manifest          : reveal its presence or make an appearance
-	manifestation     : a clear appearance
 	mannered          : having unnatural behavioral attributes
 	manumit           : free from slavery or servitude
 	maraud            : raid and rove in search of booty
-	masticate         : bite and grind with the teeth
-	maul              : injure badly
-	maverick          : someone who exhibits independence in thought and action
-	mawkish           : (adjective) overly sentimentalto the point that it is disgusting
-	maxim             : a saying that is widely accepted on its own merits
 	meander           : to move or cause to move in a sinuous or circular course
 	megalomania       : delusions of power or importance
-	melancholy        : (noun) a deep, long-lasting sadness
-	melee             : (noun) a wild, confusing fight or struggle
 	menagerie         : a variety of animals kept together
 	mendacious        : given to lying
-	mendacity         : (noun) the tendency to be untruthful
-	mendicant         : beggar
-	mercurial         :  (adj.)  subject to sudden or unpredictable changes of mood, temperamental
 	meretricious      : gaudy; specious; falsely attractive
-	merit             : any admirable quality or attribute
-	mesmerize         : to hypnotize
-	metamorphosis     : striking change in appearance or character or circumstances
-	metaphor          : a figure of speech comparing two different things; a symbol
-	metaphysics       : a branch of philosophy tha tinvestigates the ultimate nature of reality
-	meteorological    : concerned with the weather
-	meticulous        :  (adj.)  very careful and precise
 	mettle            : the courage to carry on
 	mettlesome        : full of courage and fortitude
-	microcosm         : a miniature model of something
 	mien              : dignified manner or conduct
 	militate          : to work against
 	minatory          : threatening; menacing
 	mincing           : affectedly dainty or refined
-	minuscule         : very small
-	minute            : infinitely or immeasurably small
-	minutia           : petty details
 	misanthrope       :  (noun)  person who hates others
 	miscellany        : mixture of writtings on various subjects
 	misconstrue       : (verb) interpret in the wrong way
@@ -1271,152 +1527,56 @@
 	modicum           : limited quantity
 	mollify           : to soothe
 	moment            : (noun) significant and important value
-	monetary          : relating to or involving money
-	monotony          : lack of variation
 	moot              : of no legal significance, as having been previously decided
 	morbid            : suggesting the horror of death and decay
 	mordant           : harshly ironic or sinister
-	moribund          : not growing or changing; without force or vitality
 	morose            : sullen and ill-tempered
-	morph             : (verb) to undergo dramatic change in a seamless and barely noticeable fashion.
-	mortify           : cause to feel shame
 	mote              : a tiny piece of anything
 	motley            : many colored; made up of many parts
 	mountebank        : a flamboyant deceiver
-	multifarious      : diverse
-	multitude         : a large indefinite number
-	mundane           : found in the ordinary course of events
 	munificent        : very generous
-	muse              : reflect deeply on a subject
 	muster            : gather or bring together
 	muted             : (adjective) softened, subdued
-	myopic            : (adjective) lacking foresight or imagination
-	myriad            : (noun) a large indefinite number
-	natty             : marked by up-to-dateness in dress and manners
 	nave             : lacking sophistication or experience
-	necromancy        : black magic
 	nefarious         : (adj.) wicked, evil: "a nefarious plot."
-	negate            : make ineffective by counterbalancing the effect of
 	negligible        : (adjective) so small as to be meaningless; insignificant
-	neologism         : new word or expression
-	neophyte          : any new participant in some activity
 	nettle            : disturb, especially by minor irritations
-	nexus             : a means of connection; a center
-	nicety            : conformity with some aesthetic standard of correctness
-	nihilist          : someone who rejects all theories of morality
 	noisome           : (adj.) harmful, offensive, destructive: "the noisome odor of the dump carried for miles."
 	nominal           : insignificantly small; a matter of form only
-	nonentity         : a person of no influence
-	nonplus           : be a mystery or bewildering to
-	nonplussed        : bewildered
-	nostalgia         : sentimental longing for a past time
-	nostrum           : patent medicine whose efficacy is questionable
-	notion            : a general inclusive concept
 	notwithstanding   : despite anything to the contrary
-	novel             : an extended fictional work in prose
-	nuance            : a subtle difference in meaning or opinion or attitude
 	nugatory          : trifling; invalid
-	obdurate          :  (adj.)  refuse to change one&#8217;s opinion; stubborn
-	objective         : the goal intended to be attained
-	obscure           :  (adj.)  not discovered or known about; uncertain
-	obsequious        :  (adj.)  obedient or attentive to an excessive degree
-	obsequiuos        : servilely attentive; fawning(adj)
 	obsequy           : funeral ceremony
-	obstinate         : stubborn, unyielding
-	obtain            : come into possession of
 	obtrude           : thrust oneself in as if by force
-	obtuse            : lacking in insight or discernment
-	obviate           : to make unnecessary
-	occlude           : block passage through
-	occult            : relating to practices connected with supernatural phenomena
 	odium             : state of disgrace resulting from detestable behavior
-	odyssey           : a long, adventurous voyage; a quest
 	officious         : intrusive in a meddling or offensive manner
-	olfactory         : concerning the sense of smell
-	oligarchy         : form of government in which power belongs to only a few leaders
 	ominous           : threatening or foreshadowing evil or tragic developments
 	omniscient        : infinitely wise
 	onerous           : not easily borne; wearing
-	onomatopoeia      : formation or use of words that imitate sounds of the actions they refer to
 	onset             : the beginning or early stages
-	opaque            : (adjective) not clearly understood or expressed
-	oppress           : come down on or keep down by unjust use of one's authority
-	opprobrium        : a state of extreme dishonor
-	opulence          : (noun) wealth as evidenced by sumptuous living
-	oratorio          : a musical composition for voices and orchestra
-	ordain            : invest with ministerial or priestly authority
 	ornate            : marked by complexity and richness of detail
-	ornithologist     : scientist who studies birds
-	orthodox          :  (adj.)  conforming to all the traditional beliefs, and religious practices
-	oscillate         : move or swing from side to side regularly
-	ossified          : (adj.) turned to bone; hardened like bone; inflexible: "the ossified culture failed to adapt to new economic conditions and died out."
-	ossify            : to turn to bone; harden
 	ostensible        : appearing as such but not necessarily so
-	ostentation       :  (adj.)  pretentious and vulgar display intended to impress, show off
-	ostentatious      : intended to attract notice and impress others
-	ostracize         : (verb) exclude from a community or group
-	outskirts         : outlying areas, as of a city or town
 	overbearing       : having or showing arrogant superiority to
 	overweening       : presumptuous; arrogant
-	pacifist          : opposed to war
-	pacify            : cause to be more favorably inclined
 	paean             : song of joy or triumph; a fervent expression of joy
-	palatable         : acceptable to the taste or mind
 	palatial          : suitable for or like a large and stately mansion
-	paleontology      : study of past geological eras through fossil remains
 	palimpsest        : (noun) something that has been changed numerous times but on which traces of former iterations can still be seen
 	pall              : a sudden numbing dread
 	palliate          : lessen or to try to lessen the seriousness or extent of
-	pallid            : lacking color or liveliness
-	palpable          : touchable; clear, obvious
-	palpitate         : beat rapidly
 	panache           : (noun) distinctive and stylish elegance
 	panegyric         : high praise
-	parable           : a short moral story 
-	paradigm          : a set of assumptions, concepts, values, and practices that constitutes a way of viewing realityalso- model, prototype, pattern
-	paradox           : a tenet that is seemingly contradictory or false but is actually true
-	paradoxical       : (adjective) seemingly contradictory but nonetheless possibly true
-	paragon           : an ideal instance; a perfect embodiment of a concept
-	paraphernalia     : equipment consisting of miscellaneous articles
-	parity            : functional equality
-	parochial         : narrowly restricted in outlook or scope
 	parry             : avoid or try to avoid fulfilling, answering, or performing
-	parsimonious      : very frugal; unwilling to spend
-	partial           : being or affecting only a segment
-	partiality        : a predisposition to like something
 	partisan          : a fervent and even militant proponent of something
-	passage           : a section of text, particularly a section of medium length
 	passe             : out of fashion
-	pastoral          : idyllically rustic
 	pate              : liver or meat or fowl finely minced or ground and variously seasoned
-	pathological      : of or relating to the practice of pathology
 	patois            : jargon; a regional dialect
 	patrician         : characteristic of the nobility or aristocracy
-	patronize         : treat condescendingly
-	paucity           : an insufficient quantity or number
-	peccadillo        : (n.) a small sin or fault
-	pedagogue         : someone who educates young people
-	pedant            :  (noun)  a person who overemphasizes rules or minor details
-	pedantic          : ostentatious or showy in one's learning; emphasising minutae or form in scholarhsip or teaching
-	pedestrian        : (adjective) lacking imagination
 	peevish           : (adjective) easily irritated or annoyed
 	pejorative        : (adjective) expressing disapproval (usu. refers to a term)
-	pellucid          :  (adj.)  translucently clear
 	penchant          : a strong liking
 	pendulous         : having branches or flower heads that bend downward
 	penurious         : stingy, miserly(adj)
-	penury            : extreme poverty
-	peon              : a laborer who is obliged to do menial work
 	peregrination     : wandering from place to place
 	peremptory        : imperative; leaving no choice
-	perennial         : lasting three seasons or more
-	perfidious        : tending to betray; especially having a treacherous character as attributed to the carthaginians by the romans
-	perfidy           : (noun) an act of deliberate betrayal; a breach of a trust
-	perfunctory       : done in a routine, mechanical way, without interest
-	perigee           : point in an orbit that is closest to the earth
-	perish            : pass from physical life
-	permeable         : allowing fluids or gases to pass or diffuse through
-	permeate          : spread or diffuse through
 	pernicious        : (adjective) exceedingly harmful; working or spreading in a hidden and injurious way
 	peroration        : a flowery and highly rhetorical address
 	perpetrate        : perform an act, usually with a negative connotation
@@ -1666,79 +1826,37 @@
 	rhetoric          : using language effectively to please or persuade
 	rider             : a traveler who actively sits and travels on an animal
 	rile              : disturb, especially by minor irritations
-	riposte           : a quick clever reply to an insult or criticism
 	ripple            : stir up so as to form small waves
-	rococo            : excessively ornate
 	roil              : be agitated
 	roseate           : of something having a dusty purplish pink color
 	rout              : an overwhelming defeat
 	rubric            : protocol, title or heading
 	rudiment          : the elementary stage of any subject
-	rudimentary       : (adjective) being in the earliest stages of development; being or involving basic facts orprinciples
 	rue               : regret
 	ruse              : trick, crafty stratagem
-	rustic            : (adjective) characteristic of rural life; awkwardly simple and provincial
-	sagacious         : wise
-	sage              : a mentor in spiritual and philosophical topics
 	salacious         : lascivious, lustful
 	salient           : having a quality that thrusts itself into attention
-	salubrious        : promoting good health
 	salutary          : expecting an improvement, favorable to health
-	sanctimonious     : (adjective) making a show of being pious; holier-than-thou
-	sanction          : official permission or approval
-	sanguine          :  (adj.)  optimistic or positive
-	sardonic          : cynical, scornfully mocking
 	sartorial         : pertaining to tailors
-	sate              : fill to contentment
-	satiate           : fill to satisfaction
-	satire            : witty language used to convey insults or scorn
-	saturate          : infuse or fill completely
-	saturnine         : gloomy
-	satyr             : a creature that is half-man, half beast, with the horns and legs of a goat
 	savant            : someone who has been admitted to membership in a field
-	savor             : the taste experience when a savoury condiment is taken into the mouth
-	savvy             : (adjective) well-informed or perceptive
 	scabbard          : a sheath for a sword or dagger or bayonet
-	scale             : relative magnitude
-	scarce            : deficient in quantity or number compared with the demand
-	schematic         : relating to or in the form of an outline or diagram
-	scheme            : an elaborate and systematic plan of action
 	scintilla         : a tiny or scarcely detectable amount
 	scintillating     : (adjective) describes someone who is brilliant and lively
-	scrupulous        :  (adj.)  diligent, thorough, and extremely careful
-	scrutinize        : to look at critically or searchingly, or in minute detail
-	secrete           : generate and separate from cells or bodily fluids
 	sedition          : behaviour prompting rebellion
 	sedulous          : diligent, assiduous
 	seemly            : according with custom or propriety
 	seethe            : be in an agitated emotional state
-	seismic           : relating to earthquakes
-	semblance         : an outward appearance that is deliberately misleading
-	sensual           : relating to the senses, gratifying the physical (sexual) senses
-	sensuous          : relating to the senses
 	sententious       : abounding in or given to pompous or aphoristic moralizing
 	sentient          : aware, concious, able to perceive
 	sentimental       : (adjective) effusively or insincerely emotional, especially in art, music, and literature
 	sentinel          : a person employed to keep watch for some anticipated event
-	serendipity       : (noun) the instance in which an accidental, fortunate discovery is made
-	serene            : (adjective) calm and peaceful
-	servile           : submissive, obedient
-	sextant           : navigation tool that determines latitude and longitude
 	shard             : a broken piece of a brittle artifact
 	sherbet           : a frozen dessert made primarily of fruit juice and sugar
-	sidereal          : relating to the stars
 	siege             : an action of an armed force that surrounds a fortified place
-	simian            : apelike, relating to apes
-	simile            : comparison of one thing with another using "like" or "as"
 	simper            : smile affectedly or derisively
 	sinecure          : an office that involves minimal duties
-	singular          : unique, extraordinary, odd
-	sinuous           : full of curves; twisting and turning
-	skeptic           : someone who habitually doubts accepted beliefs
-	skill             : an ability that has been acquired by training
 	skittish          : unpredictably excitable, especially of horses
 	slapdash          : (adjective) carelessly and hastily put together
-	slay              : kill intentionally and with premeditation
 	sleight           : adroitness in using the hands
 	slew              : a large number or amount or extent
 	sluice            : pour as if from a conduit that carries a rapid flow of water
@@ -1746,25 +1864,14 @@
 	smug              : (adjective) marked by excessive complacency or self-satisfaction
 	snide             : (adjective) expressive of contempt; derogatory or mocking in an indirect way
 	snub              : (verb) refuse to acknowledge; reject outright and bluntly
-	sob               : weep convulsively
-	sobriety          : seriousness
 	sodden            : thoroughly soaked, saturated
-	solicitous        : full of anxiety and concern
 	soliloquy         : literary or dramatic speech by one character, not adressed to others
-	solvent           : able to meet financial obligations
 	somatic           : relating to or affecting the body, corporeal
-	sonorous          : full and loud and deep
-	soporific         :  (adj.)  tending to induce drowsiness or sleep
-	sordid            : filthy, contemptible and corrupt
 	spangle           : adornment consisting of a small piece of shiny material
 	spat              : a quarrel about petty points
 	spate             : a large number or amount or extent
 	specious          : plausible, but deceptive
-	spectral          : resembling or characteristic of a phantom
-	spectrum          : a broad range of related objects or values or qualities
 	spendthrift       : person who spends money recklessly
-	sporadic          :  (adj.)  occurring at irregular intervals; scattered or isolated
-	spurious          : false; bogus
 	squalid           : filthy; wretched
 	squalor           : filthy, wretched condition
 	squander          : (verb) spend thoughtlessly; waste time, money, or an opportunity
@@ -1773,38 +1880,24 @@
 	staid             : characterized by dignity and propriety
 	stake             : a strong wooden or metal post driven into the ground
 	stanch            : to stop or check the flow of
-	start             : (verb) to suddenly move in a particular direction
 	staunch           : (adjective) firm and dependable especially in loyalty
 	steadfast         : (adjective) marked by firm determination or resolution; not shakable
 	steep             : having a sharp inclination
 	stem              : (verb) to hold back or limit the flow or growth of something
 	stentorian        : extremely loud
-	stigma            : mark of disgrace or inferiority
 	stilted           : artificially formal
 	stint             : supply sparingly and with restricted quantities
-	stipend           : (noun) a regular allowance (of money)
-	stipulate         : specify as a condition or requirement in a contract or agreement; make an express demand or provision in an agreement
-	stolid            : having or revealing little emotion or sensibility; not easily aroused or excited
-	straight          : successive, without a break
-	stratified        : arranged in layers
-	stratum           : people having the same social or economic status
-	striate           : marked with stripes
-	striated          : marked with thin, narrow grooves or channels
 	stricture         : something that restrains, negative criticism
-	strident          : loud, harsh, unpleasantly noisy
 	stringent         : (adjective) demanding strict attention to rules and procedures
 	strut             : to walk with a lofty proud gait
 	stultify          : to impair or reduce to uselessness
 	stump             : cause to be perplexed or confounded
-	stupefy           : to dull the senses of, stun, astonish
-	stupendous        : so great in size or force or extent as to elicit awe
 	stygian           : dark and gloomy, hellish
 	suavity           : the quality of being bland and gracious in manner
 	subaltern         : inferior in rank or status
 	subjugate         : to dominate or enslave
 	sublimate         : direct energy or urges into useful activities
 	sublime           : of high moral or intellectual value
-	subpoena          : a writ issued by court authority to compel the attendance of a witness at a judicial proceeding; disobedience may be punishable as a contempt of court
 	subside           : wear off or die down
 	substantial       : capable of being treated as fact
 	substantiate      : establish or strengthen as with new evidence or facts
@@ -1843,29 +1936,13 @@
 	tact              : (noun) consideration in dealing with others and avoiding giving offense
 	talisman          : charm to bring good luck and avert misfortune
 	tangential        : diverging from a previous course or line; erratic
-	tantamount        : (adjective) being essentially equal to something
-	tarnish           : (verb) make dirty or spotty, as by exposure to air; also used metaphorically
 	tarry             : leave slowly and hesitantly
-	tautology         : unnecessary repetition
 	tawdry            : tastelessly showy
-	taxonomy          : science of classification
 	teem              : be abuzz
 	telling           : (adjective) significant and revealing of another factor
-	telltale          : (adjective) revealing
 	temper            : a characteristic state of feeling
 	temperance        : (noun) the trait of avoiding excesses
 	tempered          : (adjective) moderated in effect
-	temporize         : draw out a discussion or process in order to gain time
-	tenacious         : stubbornly unyielding
-	tender            : (verb) offer up something formally
-	tenet             : belief, doctrine
-	tenuous           : thin, slim, delicate; weak
-	terrestrial       : earthly, commonplace
-	territory         : the geographical area under the jurisdiction of a state
-	testator          : a person who makes a will
-	theocracy         : government by priests representing a god
-	theory            : a well-substantiated explanation of some aspect of the world
-	thespian          : an actor or actress
 	thoroughgoing     : (adjective) very thorough; complete
 	thrall            : the state of being under the control of another person
 	thrifty           : (adjective) spending money wisely
@@ -1937,110 +2014,33 @@
 	unequivocal       : (adjective) admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion
 	unexceptionable   : completely acceptable; not open to reproach
 	unfaltering       : marked by firm determination or resolution; not shakable
-	unfeigned         : not false, genuine
 	ungainly          : lacking grace in movement or posture
-	unimpeachable     : beyond doubt or reproach
-	unmitigated       : not diminished or moderated in intensity or severity
-	unnerve           : (verb) to make nervous or upset
-	unprecedented     : (adjective) having never been done or known before; novel
 	unruly            : (adjective) (of persons) noisy and lacking in restraint or discipline; unwilling to submit to authority
 	unscrupulous      : (adjective) without scruples or principles
 	unseemly          : not in keeping with accepted standards of what is proper
-	untenable         : indefensible
-	untoward          : not favorable, troublesome, unruly
 	untrammeled       : (adjective) not confined or limited
 	unwarranted       : incapable of being justified or explained
 	unwonted          : out of the ordinary
 	upbraid           : express criticism towards
 	upshot            : a phenomenon that is caused by some previous phenomenon
-	urbane            : showing a high degree of refinement
-	usurp             : seize and take control without authority
-	usury             : a practice of lending money at exorbitant rates
 	utter             : without qualification
-	vacate            : leave behind empty; move out of
-	vacillate         :  (verb)  go back and forth, be indecisive
-	vacuous           : empty, void, lacking intelligence
 	vagary            : an unexpected and inexplicable change in something
-	vain              : unproductive of success
 	valedictory       : pertaining to a farewell
 	vanquish          : (verb) come out better in a competition, race, or conflict
 	vapid             : tasteless, dull
-	variance          : (noun) the quality of varying
 	variegated        : varied, marked with different colors
 	vassal            : a person holding a fief
 	vat               : a large open vessel for holding or storing liquids
 	vaunt             : to boast, drag
-	vehement          : (adjective) marked by extreme intensity of emotions or convictions
 	venal             : mercenary, corruptible
 	venality          : (noun) the condition of being susceptible to bribes or corruption
 	vendetta          : prolonged feud marked by bitter hostility
 	veneer            : (noun) covering consisting of a thin superficial layer that hides the underlying substance
-	venerable         : impressive by reason of age
-	venerate          : regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of
 	venial            : easily excused or forgiven
-	venture           : proceed somewhere despite the risk of possible dangers
 	veracious         : habitually speaking the truth
-	verbose           : using or containing too many words
-	veritable         : being truly so called; real or genuine
-	vertigo           : dizziness
-	vestige           : an indication that something has been present
-	vestment          : gown worn by the clergy
-	vex               : disturb, especially by minor irritations
-	vexation          : irritation, annoyance
-	viable            : capable of life or normal growth and development
-	vicarious         : (adjective) felt or undergone as if one were taking part in the experience or feelings of another
-	vie               : (verb) compete for something
-	vilify            : spread negative information about
-	vindicate         : (verb) to clear of accusation, blame, suspicion, or doubt with supporting arguments or proof
 	vintner           : someone who makes wine
-	virtuoso          : someone with master skills, expert musician
-	visage            : the human face
-	viscid            : having the sticky properties of an adhesive
-	viscous           : thick and sticky (said of fluids)
-	vitiate           : to impair the quality of, corrupt morally
-	vituperative      : using or containing harsh, abusive censure
-	vivisection       : dissection, surgery, or painful experiments performed on a living animal for the purpose of scientific research
-	vociferous        :  (adj.)  loud and clamorous
-	vogue             : prevailing fashion or practice
-	volatile          : a volatile substance; a substance that changes readily from solid or liquid to a vapor
-	volubility        : (noun) the quality of talking or writing easily and continuously
-	voluble           : marked by a ready flow of speech
-	voracious         : (adj.) craving or devouring large quantities of food, drink, or other things. she is a voracious reader.
-	vortex            : whirpool, center of turbulence
-	waffle            : pause or hold back in uncertainty or unwillingness
-	waive             : do without or cease to hold or adhere to
-	wander            : to move or cause to move in a sinuous or circular course
-	wanting           : (adjective) lacking
-	wanton            : occurring without motivation or provocation
-	warble            : sing or play with trills
-	warrant           : show to be reasonable or provide adequate ground for
-	warranted         : justified
-	wary              : marked by keen caution and watchful prudence
-	waver             : to fluctuate between choices
-	wax               : increase in phase
-	waylay            : wait in hiding to attack
-	weigh             : to be oppressive or burdensome
-	welt              : a raised mark on the skin 
-	welter            : a confused multitude of things
-	wheedle           : influence or urge by gentle urging, caressing, or flattering
-	whet              : make keen or more acute
-	whimsical         : determined by chance or impulse or whim rather than by necessity or reason
-	whittle           : cut small bits or pare shavings from
-	whorl             : a round shape formed by a series of concentric circles
-	willful           : habitually disposed to disobedience and opposition
-	winsome           : (adjective) charming in a childlike or naive way
-	wizened           : lean and wrinkled by shrinkage as from age or illness
-	wont              : an established custom
-	wraith            : a mental representation of some haunting experience
-	wrangle           : to quarrel noisily, angrily or disruptively
-	wreak             : cause to happen or to occur as a consequence
-	wretched          : (adj.) extremely pitiful or unfortunate (n: wretch)
-	wry               : humorously sarcastic or mocking
-	yeoman            : a free man who cultivates his own land
-	yield             : give or supply
-	zeal              : passion, excitement
-	zealot            : a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.
-	zenith            : the point above the observer directly opposite the nadir
-	zephyr            : a slight wind
 *	aesetic           : one who leads a life of self denial(n)
 *	amelioriate       : to improve or make better
+*	beneficient       : conferring benefits; kindly, doing good
+*	cacophany         : a harsh, inharmonious collection of sounds;dissonance
+*	obsequiuos        : servilely attentive; fawning(adj)

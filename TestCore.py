@@ -2,6 +2,8 @@
 ##J. Sanchez (jesussanchez85@gmail.com)
 
 ##Changes for V1.6 include
+##- Reorganize vocabulary to have 6 levels
+##Changes for V1.6 include
 ##- Reorganize old stats (state, view, average time)
 ##- New categorization of words to review faster (thinking)
 ##- Get Statistics (from old stats)
