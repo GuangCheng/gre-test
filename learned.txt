@@ -29,6 +29,11 @@
 0	careen            : pitching dangerously to one side
 0	carrion           : the dead and rotting body of an animal; unfit for human food
 0	caucus            : meet to select a candidate or promote a policy
+0	cavalier          : given to haughty disregard of others
+0	chagrin           : strong feelings of embarrassment
+0	chide             : censure severely or angrily
+0	cohere            : cause to form a united, orderly, and consistent whole
+0	cohort            : a group of people having approximately the same age
 0	tenet             : belief, doctrine
 0	waffle            : pause or hold back in uncertainty or unwillingness
 0	waive             : do without or cease to hold or adhere to
@@ -85,6 +90,16 @@
 1	canon             : an established set of principles; a basis or standard for judgment; a group of literary works
 1	cant              : insincere talk about religion or morals
 1	captious          : tending to find and call attention to faults
+1	chasten           : to correct by punishment or reproof; to restrain or subdue
+1	circuitous        : roundabout
+1	circumscribe      : (verb) restrict or confine
+1	circumspect       : heedful of potential consequences
+1	clad              : wearing or provided with clothing
+1	cloying           : too sugary; to sentimental or flattering(adj)
+1	cogent            : powerfully persuasive
+1	cogitate          : to think hard, ponder, meditate(v)
+1	cognate           : having the same ancestral language
+1	collusion         : (noun) agreement on a secret plot
 1	conscript         : a person compulsorily enrolled for military service
 1	crone             : an ugly evil-looking old woman
 1	debase            : corrupt morally or by intemperance or sensuality
@@ -105,6 +120,9 @@
 2	bouillon          : a clear seasoned broth
 2	capitulate        : surrender under agreed conditions
 2	caustic           : burning; stinging; causing corrosion
+2	clique            : a small, exclusive group
+2	commodious        : spacious, roomy(adj)
+2	compunction       : uneasiness caused by guilt
 2	derogative        : (adjective) expressed as worthless or in negative terms
 2	exacerbate        :  (v.)  infuriate, make worse
 2	tender            : (verb) offer up something formally
@@ -132,7 +150,11 @@
 3	bullion           : gold or silver in bars or ingots
 3	chaff             : material consisting of seed coverings and pieces of stem
 3	checkered         : marked by changeable fortune
+3	circumvent        : avoid or try to avoid fulfilling, answering, or performing
 3	cloister          : to confine; seclude
+3	coiffure          : the arrangement of the hair
+3	collation         : assembling in proper numerical or logical sequence
+3	commiserate       : to feel or express sympathy or compassion
 3	contrite          : feeling or expressing pain or sorrow for sins or offenses
 3	contrition        : (noun) the feeling of remorse or guilt that comes from doing something bad
 3	covert            : hidden; secret
@@ -164,9 +186,28 @@
 3	oratorio          : a musical composition for voices and orchestra
 3	parity            : functional equality
 3	pellucid          :  (adj.)  translucently clear
+3	pilfer            : make off with belongings of others
+3	pithy             :  (adj.)  brief, to the point
+3	poseur            : person who affects an attitude to impress others
+3	precept           : principle; law
+3	preclude          : (verb) keep from happening or arising; make impossible
+3	preempt           : to supersede; appropiate for oneself
+3	prehensile        : capable of grasping
+3	pristine          : primitive, pure, uncorrupted
+3	propitiate        : make peace with
+3	proscribe         : command against
+3	provincial        : (adjective) characteristic of the a limited perspective; not fashionable or sophisticated
+3	puissant          : powerful
+3	quagmire          : marsh, difficult situation
+3	restrained        : not showy or obtrusive
 3	sate              : fill to contentment
 3	stigma            : mark of disgrace or inferiority
 3	telltale          : (adjective) revealing
+3	troth             : a solemn pledge of fidelity
+3	underscore        : (verb) give extra weight to (a communication)
+3	unscrupulous      : (adjective) without scruples or principles
+3	upbraid           : express criticism towards
+3	vapid             : tasteless, dull
 3	vie               : (verb) compete for something
 3	viscid            : having the sticky properties of an adhesive
 3	vituperative      : using or containing harsh, abusive censure
@@ -266,6 +307,7 @@
 4	facetious         : cleverly amusing in tone
 4	faction           : a dissenting clique
 4	filibuster        : use of obstructive tactics in a legislature to block passage of a law
+4	glean             : (verb) collect information bit by bit
 4	gravity           : the force of attraction between all masses in the universe
 4	guile             : deceit or trickery
 4	guileless         : free of deceit
@@ -325,10 +367,45 @@
 4	perfidious        : tending to betray; especially having a treacherous character as attributed to the carthaginians by the romans
 4	perfidy           : (noun) an act of deliberate betrayal; a breach of a trust
 4	perfunctory       : done in a routine, mechanical way, without interest
+4	perquisite        : (noun) a right reserved exclusively by a particular person or group (especially a hereditary or official right)
+4	pervasive         : spreading or spread throughout
+4	physiognomy       : facial features
+4	pittance          : (noun) a small amount (of money)
+4	plead             : enter a defendant's answer
+4	pomp              : cheap or pretentious or vain display
+4	postulate         : maintain or assert
+4	precipitate       : bring about abruptly
+4	precipitous       : (adjective) done with very great haste and without due deliberation
+4	preemptive        : (adjective) done before someone else can do it
+4	preternatural     : supernatural; beyond the normal use of nature
+4	procedural        : of or relating to processes
+4	proceeding        : a sequence of steps by which legal judgments are invoked
+4	profuse           : (adjective) plentiful; pouring out in abundance
+4	profusion         : (noun) the property of being extremely abundant
+4	prolific          :  (adj.)  fruitful, present in large number
+4	promiscuous       : not selective of a single class or person
+4	propriety         : correct behavior
+4	provoke           : provide the needed stimulus for
+4	proxy             : a person authorized to act for another
+4	qualified         : meeting the proper standards and requirements and training for an office or position or task
+4	qualify           : (verb) to make less severe; to limit (a statement)
+4	querulous         : habitually complaining
+4	raiment           : clothing
+4	ramification      : implication, consequence
+4	rapt              : feeling great delight
+4	refractory        : stubbornly resistant to authority or control
+4	renegade          : someone who rebels and becomes an outlaw
+4	retiring          : not arrogant or presuming
+4	retract           : (verb) pull inward or towards a center; formally reject or disavow a formerly held belief, usually under pressure
+4	rile              : disturb, especially by minor irritations
+4	rudiment          : the elementary stage of any subject
 4	sardonic          : cynical, scornfully mocking
 4	sensuous          : relating to the senses
 4	serendipity       : (noun) the instance in which an accidental, fortunate discovery is made
+4	siege             : an action of an armed force that surrounds a fortified place
+4	sinecure          : an office that involves minimal duties
 4	solicitous        : full of anxiety and concern
+4	staccato          : marked by abrupt, clear-cut sounds
 4	stipend           : (noun) a regular allowance (of money)
 4	stipulate         : specify as a condition or requirement in a contract or agreement; make an express demand or provision in an agreement
 4	stratum           : people having the same social or economic status
@@ -336,6 +413,14 @@
 4	temporize         : draw out a discussion or process in order to gain time
 4	testator          : a person who makes a will
 4	thespian          : an actor or actress
+4	torpor            : a state of motor and mental inactivity
+4	travail           : work, especially arduous work
+4	trite             :  (adj.) silly, commonplace
+4	unaffected        : free of artificiality; sincere and genuine
+4	undertake         : enter upon an activity or enterprise
+4	underwrite        : (verb) to support financially
+4	undulating        : moving in waves
+4	venality          : (noun) the condition of being susceptible to bribes or corruption
 4	wary              : marked by keen caution and watchful prudence
 5	abdicate          : to give up a position, right, or power
 5	aberrant          : deviating from what is normal
@@ -1019,6 +1104,111 @@
 5	perish            : pass from physical life
 5	permeable         : allowing fluids or gases to pass or diffuse through
 5	permeate          : spread or diffuse through
+5	perpetrate        : perform an act, usually with a negative connotation
+5	perpetual         : continuing forever or indefinitely
+5	perpetuate        : (verb) cause to continue
+5	persist           : continue to exist
+5	pertinent         : (adjective) having precise or logical relevance to the matter at hand
+5	perturb           : to disturb greatly; make uneasy or anxious
+5	peruse            : (verb) to read very carefully
+5	petulant          : easily irritated or annoyed
+5	philanthropy      : charity; a desire or effort to promote goodness
+5	philology         : the humanistic study of language and literature
+5	philosophical     : relating to the investigation of existence and knowledge
+5	phoenix           : anything that is restored after suffering great destruction
+5	piety             : righteousness by virtue of being pious
+5	pillage           : steal goods; take as spoils
+5	pinnacle          : (noun) the highest point
+5	placate           :  (v.)  make (someone) less angry or hostile
+5	placid            : calm
+5	plastic           : able to be molded, altered, or bent
+5	plasticity        : the property of being physically malleable
+5	platonic          : spiritual; theoretical
+5	plausible         :  (adj.)  seeming reasonable or probable
+5	plenitude         : a full supply
+5	plethora          : excess; overabundance
+5	plummet           : drop sharply
+5	plus              : the arithmetic operation of summing
+5	plutocracy        : society ruled by the wealthy
+5	podium            : a platform raised above the surrounding level
+5	poignancy         : a quality that arouses emotions, especially pity or sorrow
+5	poignant          : (adjective) emotionally touching
+5	polemic           : a controversy, especially over a belief or dogma
+5	polemical         : of or involving dispute or controversy
+5	policy            : a plan of action adopted by an individual or social group
+5	ponderous         : (adj.) heavy; massive; awkward; dull: "a ponderous book is better than a sleeping pill."
+5	pontifical        : denoting or governed by or relating to a bishop or bishops
+5	porous            : full of pores or vessels or holes
+5	practice          : a customary way of operation or behavior
+5	practitioner      : someone who carries out a learned profession
+5	pragmatic         :  (adj.)  concerned with practical matters
+5	preamble          : a preliminary introduction to a statute or constitution (usually explaining its purpose)
+5	precarious        : not secure; beset with difficulties
+5	precedent         : (noun) an example that is used to justify similar occurrences at a later time
+5	precipice         : (n.) cliff with a vertical or nearly vertical face; a dangerous place from which one is likely to fall; metaphorically, a very risky circumstance
+5	precision         : the quality of being reproducible in amount or performance
+5	precocious        : (adjective) characterized by or characteristic of exceptionally early development or maturity (especially in mentalaptitude)
+5	precursor         : something that precedes and indicates the approach of something or someone
+5	predecessor       : one who precedes you in time
+5	predilection      : (noun) a strong liking
+5	premise           : a statement that is held to be true
+5	premonition       : forewarning; presentiment
+5	presage           : to foretell; indicate in advance
+5	prescience        : (noun) the power to foresee the future
+5	presumptuous      : excessively forward
+5	prevail           : (verb) prove superior
+5	primordial        : original; existing from the beginning
+5	probity           : complete and confirmed integrity; having strong moral principles
+5	problematic       : making great mental demands; hard to comprehend or solve or believe
+5	prodigal          :  (adj.)  wastefully extravagant
+5	prodigious        : (adjective) so great in size or force or extent as to elicit awe
+5	profligate        :  (adj.)  recklessly extravagant or wasteful in the use of resources
+5	profound          :  (adj.)  very great or intense; thoughtful
+5	prognosticate     : make a prediction about; tell in advance
+5	prohibitive       : tending to discourage (especially of prices)
+5	project           : a planned undertaking
+5	projection        : a prediction made by extrapolating from past observations
+5	proletarian       : a member of the working class
+5	proliferate       : grow rapidly
+5	propensity        : an inclination; a natural tendency toward; a liking for
+5	property          : a basic or essential attribute shared by members of a class
+5	provident         : providing for future need, frugal
+5	providential      :  (adj.)  lucky, occurring at a favorable time; opportune
+5	prudence          : wisdom, caution, or restraint
+5	prudent           :  (adj.)  acting with or showing care and thought
+5	pusillanimous     :  (adj.)  lacking courage, fearful
+5	putrefacation     : a smelly mass that is the docomposition of organic matterthe state of being putrified
+5	putrefy           : to decompose; to rot
+5	query             : question
+5	quorum            : number of memeber necessary to conduct a meeting
+5	quotidian         : (adjective) found in the ordinary course of events
+5	raconteur         : witty, skillful storyteller
+5	rarefied          : of high moral or intellectual value; elevated in nature or style
+5	rarefy            : to make thinner or sparser
+5	ratify            : approve and express assent, responsibility, or obligation
+5	rationale         : fundamental reason
+5	rationalism       : the doctrine that reason is the basis for regulating conduct
+5	recluse           : one who lives in solitude
+5	reconcile         : (verb) make (one thing) compatible with (another)
+5	redundant         :  (adj.)  redundant, superfluous
+5	reflect           : show an image of
+5	refute            : overthrow by argument, evidence, or proof
+5	reparation        : amends, compensation
+5	repeal            : cancel officially
+5	replete           : (adjective) completely stocked or furnished with something
+5	reproach          : express criticism towards
+5	reprobate         : a person without moral scruples
+5	reprobation       : severe disapproval
+5	repudiate         : refuse to acknowledge, ratify, or recognize as valid
+5	reservation       : (noun) an unstated doubt that prevents you from accepting something wholeheartedly
+5	resignation       : (noun) the acceptance of something unpleasant that can't be avoided
+5	resolution        : finding a solution to a problem
+5	resolve           : find the solution
+5	resonant          : characterized by a loud deep sound
+5	resource          : a new or reserve supply that can be drawn upon when needed
+5	reverent          : feeling or showing profound respect or veneration
+5	rhetoric          : using language effectively to please or persuade
+5	rider             : a traveler who actively sits and travels on an animal
 5	riposte           : a quick clever reply to an insult or criticism
 5	rococo            : excessively ornate
 5	rudimentary       : (adjective) being in the earliest stages of development; being or involving basic facts orprinciples
@@ -1046,6 +1236,8 @@
 5	seismic           : relating to earthquakes
 5	semblance         : an outward appearance that is deliberately misleading
 5	sensual           : relating to the senses, gratifying the physical (sexual) senses
+5	sentimental       : (adjective) effusively or insincerely emotional, especially in art, music, and literature
+5	sentinel          : a person employed to keep watch for some anticipated event
 5	serene            : (adjective) calm and peaceful
 5	servile           : submissive, obedient
 5	sextant           : navigation tool that determines latitude and longitude
@@ -1060,6 +1252,7 @@
 5	sob               : weep convulsively
 5	sobriety          : seriousness
 5	solvent           : able to meet financial obligations
+5	somatic           : relating to or affecting the body, corporeal
 5	sonorous          : full and loud and deep
 5	soporific         :  (adj.)  tending to induce drowsiness or sleep
 5	sordid            : filthy, contemptible and corrupt
@@ -1076,6 +1269,8 @@
 5	strident          : loud, harsh, unpleasantly noisy
 5	stupefy           : to dull the senses of, stun, astonish
 5	stupendous        : so great in size or force or extent as to elicit awe
+5	suavity           : the quality of being bland and gracious in manner
+5	sublime           : of high moral or intellectual value
 5	subpoena          : a writ issued by court authority to compel the attendance of a witness at a judicial proceeding; disobedience may be punishable as a contempt of court
 5	tantamount        : (adjective) being essentially equal to something
 5	tautology         : unnecessary repetition
@@ -1086,6 +1281,33 @@
 5	territory         : the geographical area under the jurisdiction of a state
 5	theocracy         : government by priests representing a god
 5	theory            : a well-substantiated explanation of some aspect of the world
+5	tirade            : a speech of violent denunciation
+5	tome              : book, usually large and academic
+5	torque            : a turning or twisting force
+5	tortuous          : full of twists and turns; not straightfoward; possibly deceitful
+5	tour              : a route all the way around a particular place or area
+5	tout              : advertize in strongly positive terms
+5	transgression     : the violation of a law or a duty or moral principle
+5	transient         : temporary, fleeting
+5	transitory        : temporary, lasting a brief time
+5	treacherous       : (adjective) dangerously unstable and unpredictable
+5	tremulous         : trembling, frugal, timid
+5	tribulation       : (noun) something, especially an event, that causes difficulty and suffering
+5	tribunal          : an assembly to conduct judicial business
+5	triumvirate       : a group of three people responsible for civil authority
+5	trivial           :  (adj.)  of little value or importance
+5	truncate          : (verb) reduce the length of something
+5	tumult            : (noun) a state of chaos, noise and confusion
+5	tumultuous        :  (adj.)  confused, or disorderly
+5	tutelage          : attention and management implying responsibility for safety
+5	tutelary          : serving as a guardian or protector
+5	ubiquitous        : omnipresent; present everywhere
+5	ulterior          : lying beyond what is openly revealed or avowed
+5	uncompromising    : (adjective) not making concessions
+5	unconscionable    : greatly exceeding bounds of reason or moderation
+5	unction           : excessive but superficial compliments with affected charm
+5	undermine         : (adjective) to weaken (usually paired with an abstract term)
+5	unequivocal       : (adjective) admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion
 5	unfeigned         : not false, genuine
 5	unimpeachable     : beyond doubt or reproach
 5	unmitigated       : not diminished or moderated in intensity or severity
@@ -1093,6 +1315,7 @@
 5	unprecedented     : (adjective) having never been done or known before; novel
 5	untenable         : indefensible
 5	untoward          : not favorable, troublesome, unruly
+5	unwarranted       : incapable of being justified or explained
 5	urbane            : showing a high degree of refinement
 5	usurp             : seize and take control without authority
 5	usury             : a practice of lending money at exorbitant rates
@@ -1105,6 +1328,7 @@
 5	venerable         : impressive by reason of age
 5	venerate          : regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of
 5	venture           : proceed somewhere despite the risk of possible dangers
+5	veracious         : habitually speaking the truth
 5	verbose           : using or containing too many words
 5	veritable         : being truly so called; real or genuine
 5	vertigo           : dizziness
@@ -1141,30 +1365,8 @@
 5	zealot            : a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.
 5	zenith            : the point above the observer directly opposite the nadir
 5	zephyr            : a slight wind
-	cavalier          : given to haughty disregard of others
-	chagrin           : strong feelings of embarrassment
-	chasten           : to correct by punishment or reproof; to restrain or subdue
-	chide             : censure severely or angrily
-	circuitous        : roundabout
-	circumscribe      : (verb) restrict or confine
-	circumspect       : heedful of potential consequences
-	circumvent        : avoid or try to avoid fulfilling, answering, or performing
-	clad              : wearing or provided with clothing
-	clique            : a small, exclusive group
-	cloying           : too sugary; to sentimental or flattering(adj)
-	cogent            : powerfully persuasive
-	cogitate          : to think hard, ponder, meditate(v)
-	cognate           : having the same ancestral language
-	cohere            : cause to form a united, orderly, and consistent whole
-	cohort            : a group of people having approximately the same age
-	coiffure          : the arrangement of the hair
-	collation         : assembling in proper numerical or logical sequence
-	collusion         : (noun) agreement on a secret plot
-	commiserate       : to feel or express sympathy or compassion
-	commodious        : spacious, roomy(adj)
 	compel            : force somebody to do something
 	compound          : (verb) make more intense, stronger, or more marked
-	compunction       : uneasiness caused by guilt
 	conceit           : an artistic device or effect
 	concoct           : to invent
 	concomitant       : an event or situation that happens at the same time
@@ -1357,7 +1559,6 @@
 	gibe              : laugh at with contempt and derision
 	gird              : prepare oneself for a military confrontation
 	gist              : the central meaning or theme of a speech or literary work
-	glean             : (verb) collect information bit by bit
 	glib              : fluent in an insincere way; offhand
 	glower            : look angry or sullen as if to signal disapproval
 	glut              : (verb) supply with an excess of
@@ -1579,142 +1780,38 @@
 	peremptory        : imperative; leaving no choice
 	pernicious        : (adjective) exceedingly harmful; working or spreading in a hidden and injurious way
 	peroration        : a flowery and highly rhetorical address
-	perpetrate        : perform an act, usually with a negative connotation
-	perpetual         : continuing forever or indefinitely
-	perpetuate        : (verb) cause to continue
-	perquisite        : (noun) a right reserved exclusively by a particular person or group (especially a hereditary or official right)
-	persist           : continue to exist
 	perspicuous       : transparently clear; easily understandable
 	pert              : characterized by a lightly exuberant quality
 	pertinacious      : stubbornly unyielding
-	pertinent         : (adjective) having precise or logical relevance to the matter at hand
-	perturb           : to disturb greatly; make uneasy or anxious
-	peruse            : (verb) to read very carefully
 	pervade           : spread or diffuse through
-	pervasive         : spreading or spread throughout
-	petulant          : easily irritated or annoyed
-	philanthropy      : charity; a desire or effort to promote goodness
-	philology         : the humanistic study of language and literature
-	philosophical     : relating to the investigation of existence and knowledge
 	phlegmatic        : showing little emotion
-	phoenix           : anything that is restored after suffering great destruction
-	physiognomy       : facial features
-	piety             : righteousness by virtue of being pious
-	pilfer            : make off with belongings of others
-	pillage           : steal goods; take as spoils
 	pine              : (verb) to yearn for
 	pinion            : bind the arms of
-	pinnacle          : (noun) the highest point
 	pious             : having or showing or expressing reverence for a deity
 	piquant           : pleasantly pungent; attractive
 	pique             : a feeling of irritation or resentment resulting from a slight, esp. to one&#39;s pride
-	pithy             :  (adj.)  brief, to the point
-	pittance          : (noun) a small amount (of money)
-	placate           :  (v.)  make (someone) less angry or hostile
-	placid            : calm
 	plaintive         : melancholy; mournful
-	plastic           : able to be molded, altered, or bent
-	plasticity        : the property of being physically malleable
 	platitude         : a trite or obvious remark
-	platonic          : spiritual; theoretical
-	plausible         :  (adj.)  seeming reasonable or probable
-	plead             : enter a defendant's answer
-	plenitude         : a full supply
-	plethora          : excess; overabundance
 	ploy              : (noun) a clever plan to turn a situation to one's advantage
 	plumb             : to examine deeply; determine the depth
-	plummet           : drop sharply
-	plus              : the arithmetic operation of summing
-	plutocracy        : society ruled by the wealthy
-	podium            : a platform raised above the surrounding level
-	poignancy         : a quality that arouses emotions, especially pity or sorrow
-	poignant          : (adjective) emotionally touching
-	polemic           : a controversy, especially over a belief or dogma
-	polemical         : of or involving dispute or controversy
-	policy            : a plan of action adopted by an individual or social group
 	polity            : a governmentally organized unit
-	pomp              : cheap or pretentious or vain display
-	ponderous         : (adj.) heavy; massive; awkward; dull: "a ponderous book is better than a sleeping pill."
-	pontifical        : denoting or governed by or relating to a bishop or bishops
-	porous            : full of pores or vessels or holes
-	poseur            : person who affects an attitude to impress others
 	posit             : (verb) assume as fact
-	postulate         : maintain or assert
 	powwow            : (noun) an informal meeting or discussion
-	practice          : a customary way of operation or behavior
-	practitioner      : someone who carries out a learned profession
-	pragmatic         :  (adj.)  concerned with practical matters
 	prate             : to talk idly; chatter
 	prattle           : meaningless, foolish talk
-	preamble          : a preliminary introduction to a statute or constitution (usually explaining its purpose)
-	precarious        : not secure; beset with difficulties
-	precedent         : (noun) an example that is used to justify similar occurrences at a later time
-	precept           : principle; law
-	precipice         : (n.) cliff with a vertical or nearly vertical face; a dangerous place from which one is likely to fall; metaphorically, a very risky circumstance
-	precipitate       : bring about abruptly
-	precipitous       : (adjective) done with very great haste and without due deliberation
-	precision         : the quality of being reproducible in amount or performance
-	preclude          : (verb) keep from happening or arising; make impossible
-	precocious        : (adjective) characterized by or characteristic of exceptionally early development or maturity (especially in mentalaptitude)
-	precursor         : something that precedes and indicates the approach of something or someone
-	predecessor       : one who precedes you in time
-	predilection      : (noun) a strong liking
-	preempt           : to supersede; appropiate for oneself
-	preemptive        : (adjective) done before someone else can do it
 	preen             : dress or groom with elaborate care
-	prehensile        : capable of grasping
-	premise           : a statement that is held to be true
-	premonition       : forewarning; presentiment
-	presage           : to foretell; indicate in advance
-	prescience        : (noun) the power to foresee the future
-	presumptuous      : excessively forward
-	preternatural     : supernatural; beyond the normal use of nature
-	prevail           : (verb) prove superior
 	prevaricate       :  (verb)  deceive; stretch the truth
-	primordial        : original; existing from the beginning
-	pristine          : primitive, pure, uncorrupted
-	probity           : complete and confirmed integrity; having strong moral principles
-	problematic       : making great mental demands; hard to comprehend or solve or believe
-	procedural        : of or relating to processes
-	proceeding        : a sequence of steps by which legal judgments are invoked
 	proceeds          : the income or profit arising from a transaction
 	proclivity        : a natural inclination
-	prodigal          :  (adj.)  wastefully extravagant
-	prodigious        : (adjective) so great in size or force or extent as to elicit awe
-	profligate        :  (adj.)  recklessly extravagant or wasteful in the use of resources
-	profound          :  (adj.)  very great or intense; thoughtful
-	profuse           : (adjective) plentiful; pouring out in abundance
-	profusion         : (noun) the property of being extremely abundant
-	prognosticate     : make a prediction about; tell in advance
-	prohibitive       : tending to discourage (especially of prices)
-	project           : a planned undertaking
-	projection        : a prediction made by extrapolating from past observations
-	proletarian       : a member of the working class
-	proliferate       : grow rapidly
-	prolific          :  (adj.)  fruitful, present in large number
-	promiscuous       : not selective of a single class or person
-	propensity        : an inclination; a natural tendency toward; a liking for
-	property          : a basic or essential attribute shared by members of a class
-	propitiate        : make peace with
 	propitious        : presenting favorable circumstances
 	proponent         : (noun) a person who pleads for a cause or propounds an idea
-	propriety         : correct behavior
 	prosaic           :  (adj.)  not challenging; dull and lacking excitement
-	proscribe         : command against
 	prospective       : of or concerned with or related to the future
 	provender         : food for domestic livestock
-	provident         : providing for future need, frugal
-	providential      :  (adj.)  lucky, occurring at a favorable time; opportune
-	provincial        : (adjective) characteristic of the a limited perspective; not fashionable or sophisticated
-	provoke           : provide the needed stimulus for
 	prowess           : a superior skill learned by study and practice 
-	proxy             : a person authorized to act for another
 	prude             : a person excessively concerned about propriety and decorum
-	prudence          : wisdom, caution, or restraint
-	prudent           :  (adj.)  acting with or showing care and thought
 	pucker            : to gather something into small wrinkles or folds
 	pugnacious        : (adjective) eager to fight or argue; verbally combative
-	puissant          : powerful
 	pulchritudinous   : (adj.) beautiful (n: pulchritude)
 	pummel            : strike, usually with the fist
 	punctilious       : careful in observing rules fo behavior
@@ -1723,44 +1820,25 @@
 	purport           : to profess, suppose, claim
 	purse             : a sum spoken of as the contents of a money container
 	purvey            : supply with provisions
-	pusillanimous     :  (adj.)  lacking courage, fearful
-	putrefacation     : a smelly mass that is the docomposition of organic matterthe state of being putrified
-	putrefy           : to decompose; to rot
 	quaff             : to swallow hurriedly or greedily or in one draught
-	quagmire          : marsh, difficult situation
 	quail             : to cower, lose heart
-	qualified         : meeting the proper standards and requirements and training for an office or position or task
-	qualify           : (verb) to make less severe; to limit (a statement)
 	qualm             : sudden feeling of faintness or nausea
 	quandary          : (noun) state of uncertainty or perplexity especially as requiring a choice between equally unfavorableoptions
-	querulous         : habitually complaining
-	query             : question
 	quibble           : evade the truth of a point or question by raising irrelevant objections
 	quiescence        : state of being at rest or without motion (n)
 	quiescent         : being quiet or still or inactive
 	quip              : make jokes
-	quorum            : number of memeber necessary to conduct a meeting
-	quotidian         : (adjective) found in the ordinary course of events
-	raconteur         : witty, skillful storyteller
 	raffish           : (adjective) marked by a carefree unconventionality or disreputableness
 	raft              : (noun) a large number of something
 	rail              : to scold with bitter or abusive language
-	raiment           : clothing
 	rakish            : marked by a carefree unconventionality or disreputableness
-	ramification      : implication, consequence
 	ramify            : have or develop complicating consequences
 	rampart           : an embankment built around a space for defensive purposes
 	rancor            : enmity; strong ill will (n)
 	range             : a variety of different things or activities
 	ranging           : wandering freely
 	rankle            : gnaw into; make resentful or angry
-	rapt              : feeling great delight
-	rarefied          : of high moral or intellectual value; elevated in nature or style
-	rarefy            : to make thinner or sparser
 	rash              : (adjective) marked by defiant disregard for danger or consequences; imprudently incurring risk
-	ratify            : approve and express assent, responsibility, or obligation
-	rationale         : fundamental reason
-	rationalism       : the doctrine that reason is the basis for regulating conduct
 	rave              : praise enthusiastically
 	ravel             : disentangle
 	ravenous          : (adjective) extremely hungry; devouring or craving food in great quantities
@@ -1769,18 +1847,12 @@
 	rebuke            : an act or expression of criticism and censure
 	rebus             : puzzle in which pictures or symbols represent words
 	recant            : formally reject or disavow a formerly held belief, usually under pressure
-	recluse           : one who lives in solitude
-	reconcile         : (verb) make (one thing) compatible with (another)
 	recondite         : hard to understand; characterized by profound scholarship
 	recourse          : something or someone turned to for assistance or security
 	recovering        : returning to health after illness or debility
 	redoubtable       : worthy of respect or honor
-	redundant         :  (adj.)  redundant, superfluous
 	refectory         : a communal dining-hall, usually in a monastery
-	reflect           : show an image of
-	refractory        : stubbornly resistant to authority or control
 	refulgent         : brightly shining, resplendent
-	refute            : overthrow by argument, evidence, or proof
 	regale            : to entertain
 	rejoinder         : a quick reply to a question or remark
 	relegate          : assign to a lower position; reduce in rank
@@ -1789,49 +1861,27 @@
 	remonstrate       : to object or protest
 	rend              : tear or be torn violently
 	render            : give an interpretation of
-	renegade          : someone who rebels and becomes an outlaw
 	renege            : to go back on one&#39;s word
-	reparation        : amends, compensation
 	repast            : the food served and eaten at one time
-	repeal            : cancel officially
 	repine            : fret, complain
-	replete           : (adjective) completely stocked or furnished with something
-	reproach          : express criticism towards
-	reprobate         : a person without moral scruples
-	reprobation       : severe disapproval
-	repudiate         : refuse to acknowledge, ratify, or recognize as valid
 	rescind           : cancel officially
-	reservation       : (noun) an unstated doubt that prevents you from accepting something wholeheartedly
-	resignation       : (noun) the acceptance of something unpleasant that can't be avoided
-	resolution        : finding a solution to a problem
-	resolve           : find the solution
-	resonant          : characterized by a loud deep sound
-	resource          : a new or reserve supply that can be drawn upon when needed
 	respite           : (noun) a pause from doing something (as work)
 	restive           : (adjective) restless
-	restrained        : not showy or obtrusive
 	resurgent         : (adjective) rising again as to new life and vigor
 	retainer          : a person working in the service of another
 	retentive         : good at remembering
 	reticent          :  (adj.)  secretive, quiet
 	retinue           : the group following and attending to some important person
-	retiring          : not arrogant or presuming
 	retort            : a quick reply to a question or remark
-	retract           : (verb) pull inward or towards a center; formally reject or disavow a formerly held belief, usually under pressure
 	retrench          : tighten one's belt; use resources carefully
 	revelry           : unrestrained merrymaking
-	reverent          : feeling or showing profound respect or veneration
 	reverie           : an abstracted state of absorption
 	revulsion         : intense aversion
-	rhetoric          : using language effectively to please or persuade
-	rider             : a traveler who actively sits and travels on an animal
-	rile              : disturb, especially by minor irritations
 	ripple            : stir up so as to form small waves
 	roil              : be agitated
 	roseate           : of something having a dusty purplish pink color
 	rout              : an overwhelming defeat
 	rubric            : protocol, title or heading
-	rudiment          : the elementary stage of any subject
 	rue               : regret
 	ruse              : trick, crafty stratagem
 	salacious         : lascivious, lustful
@@ -1848,13 +1898,9 @@
 	seethe            : be in an agitated emotional state
 	sententious       : abounding in or given to pompous or aphoristic moralizing
 	sentient          : aware, concious, able to perceive
-	sentimental       : (adjective) effusively or insincerely emotional, especially in art, music, and literature
-	sentinel          : a person employed to keep watch for some anticipated event
 	shard             : a broken piece of a brittle artifact
 	sherbet           : a frozen dessert made primarily of fruit juice and sugar
-	siege             : an action of an armed force that surrounds a fortified place
 	simper            : smile affectedly or derisively
-	sinecure          : an office that involves minimal duties
 	skittish          : unpredictably excitable, especially of horses
 	slapdash          : (adjective) carelessly and hastily put together
 	sleight           : adroitness in using the hands
@@ -1866,7 +1912,6 @@
 	snub              : (verb) refuse to acknowledge; reject outright and bluntly
 	sodden            : thoroughly soaked, saturated
 	soliloquy         : literary or dramatic speech by one character, not adressed to others
-	somatic           : relating to or affecting the body, corporeal
 	spangle           : adornment consisting of a small piece of shiny material
 	spat              : a quarrel about petty points
 	spate             : a large number or amount or extent
@@ -1876,7 +1921,6 @@
 	squalor           : filthy, wretched condition
 	squander          : (verb) spend thoughtlessly; waste time, money, or an opportunity
 	squeamish         : excessively fastidious and easily disgusted
-	staccato          : marked by abrupt, clear-cut sounds
 	staid             : characterized by dignity and propriety
 	stake             : a strong wooden or metal post driven into the ground
 	stanch            : to stop or check the flow of
@@ -1893,11 +1937,9 @@
 	stultify          : to impair or reduce to uselessness
 	stump             : cause to be perplexed or confounded
 	stygian           : dark and gloomy, hellish
-	suavity           : the quality of being bland and gracious in manner
 	subaltern         : inferior in rank or status
 	subjugate         : to dominate or enslave
 	sublimate         : direct energy or urges into useful activities
-	sublime           : of high moral or intellectual value
 	subside           : wear off or die down
 	substantial       : capable of being treated as fact
 	substantiate      : establish or strengthen as with new evidence or facts
@@ -1951,96 +1993,54 @@
 	tide              : the periodic rise and fall of the sea level
 	timbre            : voice tone color
 	timorous          : (adjective) timid by nature or revealing fear and nervousness
-	tirade            : a speech of violent denunciation
-	tirade (diatribe) : (n.) an angry speech: "his tirade had gone on long enough."
 	toady             : flatterer, yes-man
 	toil              : work hard
-	tome              : book, usually large and academic
-	torpor            : a state of motor and mental inactivity
-	torque            : a turning or twisting force
-	tortuous          : full of twists and turns; not straightfoward; possibly deceitful
-	tour              : a route all the way around a particular place or area
-	tout              : advertize in strongly positive terms
 	tract             : a system of body parts that serve some particular purpose
 	tractable         : easily managed (opposite: intractable)
 	traduce           : speak unfavorably about
-	transgression     : the violation of a law or a duty or moral principle
-	transient         : temporary, fleeting
-	transitory        : temporary, lasting a brief time
 	translucent       : partially transparent
 	trappings         : accessory wearing apparel
-	travail           : work, especially arduous work
-	treacherous       : (adjective) dangerously unstable and unpredictable
 	tread             : a step in walking or running
 	treatise          : article treating a subject systematically and thoroughly
-	tremulous         : trembling, frugal, timid
 	trenchant         : having keenness and forcefulness and penetration in thought
 	trepidation       : fear and anxiety
-	tribulation       : (noun) something, especially an event, that causes difficulty and suffering
-	tribunal          : an assembly to conduct judicial business
-	trite             :  (adj.) silly, commonplace
-	triumvirate       : a group of three people responsible for civil authority
-	trivial           :  (adj.)  of little value or importance
-	troth             : a solemn pledge of fidelity
 	truculence        : aggressiveness, ferocity
 	truculent         : fierce, savage, cruel
-	truncate          : (verb) reduce the length of something
 	tryst             : agreement between lovest to meet, rendez-vous
 	tumid             : swollen, distended
-	tumult            : (noun) a state of chaos, noise and confusion
-	tumultuous        :  (adj.)  confused, or disorderly
 	turbid            : muddy, opaque, in a state of great confusion
 	tureen            : large deep serving dish with a cover
 	turgid            : swollen, pompous
 	turpitude         : (n.) depravity; baseness: "mr. castor was fired for moral turpitude."
-	tutelage          : attention and management implying responsibility for safety
-	tutelary          : serving as a guardian or protector
-	ubiquitous        : omnipresent; present everywhere
-	ulterior          : lying beyond what is openly revealed or avowed
-	unaffected        : free of artificiality; sincere and genuine
 	unanimity         : everyone being of one mind
 	unassuming        : not arrogant
 	uncanny           : myterious, strange
-	uncompromising    : (adjective) not making concessions
-	unconscionable    : greatly exceeding bounds of reason or moderation
 	uncouth           : lacking refinement or cultivation or taste
-	unction           : excessive but superficial compliments with affected charm
-	undermine         : (adjective) to weaken (usually paired with an abstract term)
-	underscore        : (verb) give extra weight to (a communication)
-	undertake         : enter upon an activity or enterprise
 	undertaking       : any piece of work that is attempted
-	underwrite        : (verb) to support financially
-	undulating        : moving in waves
-	unequivocal       : (adjective) admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion
 	unexceptionable   : completely acceptable; not open to reproach
 	unfaltering       : marked by firm determination or resolution; not shakable
 	ungainly          : lacking grace in movement or posture
 	unruly            : (adjective) (of persons) noisy and lacking in restraint or discipline; unwilling to submit to authority
-	unscrupulous      : (adjective) without scruples or principles
 	unseemly          : not in keeping with accepted standards of what is proper
 	untrammeled       : (adjective) not confined or limited
-	unwarranted       : incapable of being justified or explained
 	unwonted          : out of the ordinary
-	upbraid           : express criticism towards
 	upshot            : a phenomenon that is caused by some previous phenomenon
 	utter             : without qualification
 	vagary            : an unexpected and inexplicable change in something
 	valedictory       : pertaining to a farewell
 	vanquish          : (verb) come out better in a competition, race, or conflict
-	vapid             : tasteless, dull
 	variegated        : varied, marked with different colors
 	vassal            : a person holding a fief
 	vat               : a large open vessel for holding or storing liquids
 	vaunt             : to boast, drag
 	venal             : mercenary, corruptible
-	venality          : (noun) the condition of being susceptible to bribes or corruption
 	vendetta          : prolonged feud marked by bitter hostility
 	veneer            : (noun) covering consisting of a thin superficial layer that hides the underlying substance
 	venial            : easily excused or forgiven
-	veracious         : habitually speaking the truth
 	vintner           : someone who makes wine
 *	aesetic           : one who leads a life of self denial(n)
 *	amelioriate       : to improve or make better
 *	beneficient       : conferring benefits; kindly, doing good
 *	cacophany         : a harsh, inharmonious collection of sounds;dissonance
 *	obsequiuos        : servilely attentive; fawning(adj)
+*	tirade (diatribe) : (n.) an angry speech: "his tirade had gone on long enough."
